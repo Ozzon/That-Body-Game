@@ -1,0 +1,741 @@
+DESIGN v11
+That Body Game
+You play attention inside a body.
+An arcade adventure across a life. Six organs you act on, three more you live alongside. Eight verbs. Four flow resources. A day full of events — work, school, sport, social, hobbies. Same vocabulary every day, completely different shapes.
+Built so the body feels like an adventure. Built so color and feeling come before numbers. Built so a good day in the game feels like a good day in life.
+1
+What we’re making
+A body breathes. A heart beats. A stomach digests. The body does most things on its own.
+Then a meeting starts. The heart spikes. Cortisol clouds appear at the heart. Three thoughts pop up in the brain at once.
+You play a small figure inside this body. Walking between organs, carrying breath, glucose, heartbeat. You pick up cortisol clouds and bring them to the liver. You swat thoughts. You release vagal pulses from the adrenals when the body needs to calm down.
+The day has events. The events change. Your job stays the same: help the body when it needs help.
+That’s the game. Overcooked, but inside a human body. An adventure across a life.
+It plays fast and busy like Overcooked. It looks soft and somatic like a meditation app. Same vocabulary in every event — only the demands change.
+A clarification Magdalena asked for: the "vocabulary" means the verbs and the resources — what you can do (tap, hold, pull, massage, pick up, carry, place, release) and what you handle (breath, glucose, heartbeat, cortisol, vagal pulse, adrenaline, endorphin, theta wave, thoughts, hunger). The "shapes" means the patterns of demand each event places on that vocabulary — what spawns where, what threatens what, what the goal is. A meeting is one shape: a target heart zone, periodic spikes, thoughts during pauses. A run is a different shape: sustained zone, glucose drain, bright thoughts after a wall. Same words, different sentences.
+And Magdalena’s deeper point: the body doesn’t speak in words. It speaks in sensations, rhythms, color, weight. So really the game’s "vocabulary" is somatic, not verbal. Cortisol clouds are a vocabulary item. The way the corridors slow in a depressed body is a vocabulary item. The visible feeling of a target zone being held is a vocabulary item. The player learns to read them the way the body reads them — before any UI label catches up. The word "meeting" is just the label the player’s mind gives a particular shape of somatic demand.
+2
+Who you play
+You play attention itself.
+Not "pay" attention — play attention. The player’s awareness, made small enough to step inside a body and act on its parts. Visible as a small figure moving between organs, but the figure’s job description is more important than its look. The figure is your awareness. Where it goes, your attention goes.
+When you carry breath to the heart, you’re directing breath toward the heart. Yes. But you’re also bringing your awareness there. This isn’t a metaphor. It’s how breathing actually works. In yoga and pranayama you guide breath inside the body by guiding attention. "Breathe into your right leg" sounds odd but it just means connecting awareness to that region. The body responds to where attention goes.
+The visual identity is still open
+Working names have included "chef" (Overcooked-borrowed), "ranger" (forest tender), "orb of light" (more abstract). Each captures something true about the character — someone who tends a system, who responds rather than commands, who moves toward where care is needed. None is final.
+What’s settled: the character represents your attention, doesn’t talk, doesn’t have a backstory, and gets affected by the body’s state. They struggle when carrying heavy things. They’re knocked around when the body shakes. They move slowly through a depressed body. They’re you, doing the work of attention.
+A design jam is on the calendar to find the final visual identity. The work above stays true regardless of what the figure ends up looking like. Magdalena’s adjective seeds for the jam: not necessarily "small" (small undersells the gravity of what attention does), but instead: smart, engaged, present, dedicated, brilliant, genius, versatile, adaptable, formless, multisensory, focused. Plus the working visual references: chef, ranger, orb of light, intelligent light form. The jam will narrow this and converge on a single character.
+What attention actually is in the game
+Magdalena’s good question: is attention a resource, an action, a layer of economy, a stat, a skill? Answer: none of those. Attention is the player. It’s the agency itself — the thing that does all the resources and actions and skills. You don’t spend attention from a meter. You direct it by moving the figure. Where the figure is, that’s where attention is. Every action in the game costs movement (because attention had to be brought there) and every resource exists because attention reached for it. The economy in the game is built around the fact that attention is finite: you can’t be everywhere at once.
+And does attention have a voice? Magdalena pushed on this. Yes — the figure doesn’t deliver lines of dialogue, but attention isn’t silent. Inner speech is part of how humans pay attention to themselves. In the game this shows up as the body’s soft voice: occasional thought balloons in the brain that aren’t threats but observations ("notice you’re holding your breath", "your shoulders are up", "this can wait"). The figure doesn’t produce these — the body does. Attention is the listener, not the speaker. Which is what makes it caring rather than commanding.
+A clarification on where attention lives in the body: it isn’t in the brain. The brain hosts thoughts and the awareness center (the brain’s middle zone), but the figure — the moving locus of attention — walks between all the organs. When the figure stands at the heart, attention is in the heart. When it stands at the lungs, attention is breathing. That is the design’s point: awareness isn’t a brain function, it’s a whole-body function the brain participates in. People who feel emotions as bodily sensations already know this; the game makes it the player’s default experience.
+Magdalena’s light image fits this. Attention behaves like intelligent light: it illuminates wherever it falls. It can’t shine on everything at once, but a wide soft beam is possible (the expanded awareness center) as well as a narrow sharp one (the target zone in a meeting). At an art level, the figure can carry that quality — not literally glowing, but somehow lit-from-within. Worth exploring in the design jam. And Magdalena’s meta-thought of "the attention of the attention" is exactly what meditation is in the game: the player attends to where their attention has been going, and from that meta-view, finds the persistent thought’s root.
+3
+The body
+A full human body. Visible inside: heart, brain, lungs, stomach, intestines, liver, kidneys with the adrenal glands on top. Plus the throat-neck-shoulders region with its own structures: thyroid, thymus, vocal cords, breathing pathways, neck muscles. Each part has its job.
+Not every organ has player interactions. Six have stations where the player acts. The others are part of the body — visible, working, contextual — but the player doesn’t interact with them directly. This keeps the verb vocabulary tight while showing a complete body.
+Anatomical reality matters
+The body is drawn accurately, and the anatomy described in this doc is real physiology — not lorem ipsum. Where the design simplifies for gameplay clarity, the text says so (e.g. the left/right adrenal split, the choice to make stomach the visible glucose source even though the liver also produces glucose). Food travels from the mouth down to the stomach, then through the small intestine where nutrients (including glucose) get absorbed into the blood, then through the large intestine. The kidneys filter blood. The liver isn’t just a filter; it produces glucose from stored glycogen when the body needs energy, especially under stress (gluconeogenesis).
+The adrenals are the small glands sitting right on top of the kidneys. Two of them, one on each side. They’re the body’s stress-hormone factory — producing cortisol when the brain signals stress, adrenaline when the body needs a fast burst, plus a few other hormones we don’t model. They’re tiny but they punch above their weight, which is why they get their own interaction stations even though they look small in the body.
+Some of these details show up in gameplay (the liver producing emergency glucose under cortisol pressure, the adrenals being the source of both calm and stress signals). Some are just visual truth (intestines visible in the digestive tract, kidneys behind the adrenals). The body looks like a body.
+The throat-neck-shoulders region
+The region between the head and the chest is small but dense. The throat carries breath in and out, food and water down, voice out. The thyroid sits at the front of the neck and regulates the body’s tempo — how fast everything runs at baseline. The thymus, behind the breastbone, is the immune system’s training ground. The neck and shoulders carry the weight of the head and tense up first when the body holds stress. It’s the part of the body people pay least attention to in everyday life and that gets tight first. We’re showing it as anatomical context, not as a sixth interaction organ — the verb vocabulary needs to stay tight. But it’s present, it animates with the body’s state, and it changes color when something there is off.
+In anxious or angry states, the shoulders raise and the neck visibly tightens. In tired states, the shoulders slump and the neck droops forward. In open or joyful states, the chest opens and the neck softens. A long-term design extension could give this region its own interactions (voice events, swallowing in stress, immune events tied to the thymus) but for v1 it stays as visible body, not interactive system.
+4
+What you carry
+Ten things in the world. Five roles. You learn them in one session.
+Flow — the daily rhythm
+Three resources, carried constantly across every event:
+Breath from the lungs. Pull the diaphragm to produce one. The most somatic interaction in the game — your own breath tends to sync with it. In the body, deep breathing actually means pulling the diaphragm low into the belly, lower than feels intuitive at first. This is the same somatic move as the lower Dan Tien in tai chi and qigong, the breathing center just below the navel. When the diaphragm drops, the lungs have room to fully expand. The player feels this in their own body if they breathe along.
+Glucose from the digestive tract — stomach breaks down food, intestines absorb the nutrients. Spawns continuously, faster after meals. The liver also produces glucose from stored glycogen, especially when cortisol is high (this is real — cortisol triggers gluconeogenesis as an emergency energy response). So stress doesn’t just cost you, it also unlocks emergency fuel from the liver.
+Heartbeat from the heart, but only when the heart is in its target zone. The reward for keeping the heart healthy. Carry it anywhere — different effect at every organ.
+Waste — the stress hormone
+Cortisol — dark gray clouds. Produced by the adrenal glands in response to stress signals from the brain. Visible at the sites where stress is registering (the heart during spikes, the brain during thought overload) but the adrenals are where the hormone actually comes from. Picked up wherever it appears, carried to the liver to filter. Massage the liver to accelerate filtering. Unfiltered cortisol degrades the body’s baseline.
+What you experience in life as "tension" — muscle tightness, restlessness, the knot in your chest — is what cortisol load looks like in the game. Cortisol clouds plus the visual changes of the body state (jittery in anxious, shaking in angry) together produce the felt experience.
+A clarification Magdalena pushed for: the brain doesn’t "produce" stress. The brain registers a situation as threatening and signals the adrenals, which then release cortisol. The cortisol clouds visible at the heart and brain in the game appear at the registration sites — not the source. The actual chemical comes from the adrenals. We show the clouds where the body feels them so that the player learns to look where it hurts.
+And to Magdalena’s sharper question: are stress signals the same signals the body releases after a workout? Anatomically, yes. The same adrenaline molecule is released during exercise, sex, fear, anger, and excitement. The brain’s interpretation determines whether it feels good or bad. That’s why a roller coaster and a job interview produce similar internal physiology but completely different felt experience. The game inherits this: the same adrenaline release reads as energy at the gym and dread in a meeting, and the player learns the difference by paying attention to context, not to the chemical.
+Signals — released from the adrenals
+You don’t carry these the same way. You store them at the adrenals and release them when needed. Max 3 of each.
+Vagal pulse sage green. Release on heart: -15 BPM instant. Release on brain: clears 3 thoughts at once. The body’s rescue.
+Adrenaline coral red. Release on heart: +20 BPM instant. The push button. (In real physiology, dopamine is a precursor to adrenaline in the body’s sympathetic chain — dopamine in the brain, norepinephrine and adrenaline from the adrenals. We model just the adrenaline release for gameplay clarity, but the brain’s mood when adrenaline is high reflects the dopamine layer.)
+A note on dopamine specifically, since Magdalena raised it: dopamine is the brain’s reward chemical — what makes the body want to do something again. It’s produced both in the brain and in the adrenals, built from the amino acid tyrosine (which comes from protein in food). In the game it’s not modeled as its own token because dopamine isn’t something you direct with attention — it arrives when an event ends well. Bright thoughts spawning after a workout, the warmth of a compliment received, the satisfaction of a clean meeting: that’s dopamine working. It’s why those events feel rewarding to play, not just to win. The system also explains why the same adrenaline release feels exciting at the gym and awful in a meeting — the dopamine context determines the felt quality.
+Related to this — Magdalena’s lovely image of the brain’s mood as weather: yes, that’s exactly how the brain works in the game. The brain has a mood at all times, set by what’s recently happened (cortisol load, sleep, food, social warmth, the persistent thought’s color). Sunny brain mood = bright thoughts spawn easily, awareness center expands faster, drift zones produce gentler thoughts. Stormy brain mood = heavier thoughts, slower expansion, more cortisol behind each one. The player can influence the weather but doesn’t fully control it. Sometimes the work is to walk through a stormy day with the right shelter.
+Reserves — banked across events
+Earned in one event, spent in another. Strategic depth.
+Endorphin from a clean workout. +20% harmony to any later event.
+Theta wave from clean meditation or yoga. Plant in the brain before a focus event — thoughts spawn 50% slower for the duration. Also has a deeper use: in meditation events, theta illuminates the root of persistent thoughts (see Section 12). Theta is a real brain wave during deep meditation. (On Magdalena’s question about "norm": the baseline thought-spawn rate is what the body produces when neither stressed nor freshly rested. Theta makes that 50% slower for the duration it’s active. And on her Tulsi image — the planted theta wave is, visually, a small luminous plant that grows in the awareness center, refreshing the air around it and slowing the thoughts that drift near. We’ll work the inner-plant feel into the art direction.)
+Sensations — felt in the body, not carried
+Two things the body produces that aren’t resources you ferry around. They’re felt directly at their source — like real bodily sensations — and you address them with direct action.
+Thoughts drift in the brain. Four kinds — next section.
+Hunger in the stomach. Comes in different forms — low blood sugar (need glucose now), empty stomach (need to eat soon), stress hunger (cravings during high cortisol), boredom (mental, not physical). Each form has its own visual signature. Address by placing glucose, or by other means depending on the form.
+A note Magdalena pushed for — what makes something a sensation versus a resource versus a state? Sensations are localized and felt at their source: thought in the brain, hunger in the stomach. You act on them where they appear (tap, transmute, place glucose). Resources are mobile: you pick them up and carry them. The mental model: if you have to walk it somewhere, it’s a resource; if you act on it where it appeared, it’s a sensation. Thought looks like it should be a resource (it’s discrete, visible, has weight) but functionally it’s a sensation — you handle it in the brain.
+And tiredness, since Magdalena asked: tiredness isn’t a sensation in this taxonomy. Tiredness is a body state — whole-body weather (see Section 8), not a localized thing. You don’t address tiredness; you let the body shift out of it through sleep, meditation, or a long walk. A sensation is something you act on now; a state is the climate you act inside of.
+5
+What you do
+Eight verbs. That’s the whole input vocabulary.
+Place is for tokens you carry. Release is for signals stored at the adrenals. Different visual feedback: placed tokens dissolve into the receiving organ, released signals ripple outward. (Magdalena’s sigh-question — does awareness ever rest? Yes. Release is the in-event verb; the rest verbs are the meditation event and the falling-asleep event. Attention isn’t supposed to be on duty 24 hours a day. It needs the kind of rest that only comes from intentional stillness or sleep. The game doesn’t reward chronic vigilance — quite the opposite. The most powerful events are the slow ones.)
+That’s everything. No combos to memorize. No special menu. Eight verbs, used in different combinations.
+6
+Where it happens
+Each organ has 3-5 distinct interaction points. Stations. Like the work stations in Overcooked — except instead of a stove, a chopping board, a serving counter, you have a pacing chamber, a heartbeat orbit, a diaphragm, a filtration zone.
+You don’t memorize them. You internalize them through play. After 20 minutes, you know exactly where to go for what.
+The heart — five stations
+The most active organ during stress events. You spend more time here than anywhere else.
+But the heart isn’t only stressed — that’s just where the player works hardest. The heart is also the felt sense of joy (it lifts during bright moments, opens during love, settles into a wide rhythm during meditation). The phrase "taking something to heart" isn’t metaphor — the body literally registers important information here, slows it down, and lets it settle in. In the game this shows as a subtle effect: when you carry a bright thought to the heart instead of the brain, it lingers longer. The body, as Magdalena put it, "doesn’t get stupid jokes — only truth." The heart is where truth gets felt.
+BPM badge. Floating above the heart. Live read of the rate. Pulses red when out of zone. Information only — you don’t interact with it directly.
+Pacing chamber. The heart itself. Tap above/below to nudge BPM ±3. Hold to nudge continuously. The bread-and-butter interaction.
+Heartbeat orbit. A ring around the heart. When the heart is in zone, heartbeats hover here. Walk through to collect them.
+Signal port. Side of the heart. Where you release a vagal pulse or adrenaline carried from the adrenals.
+Cortisol vents. Below the heart. Cortisol clouds spawn here under sustained spikes. Pick up, ferry to liver.
+The brain — four stations
+Where the harder gameplay decisions happen. Thoughts are messy and fast.
+Thought drift zones. The edges of the brain. Thoughts spawn here and drift toward the center. Tap small ones to swat. The most common brain action.
+Awareness center. The middle of the brain — a dynamic zone, not a fixed point. It starts small in the morning. Each bright thought activated here expands the center. If you sustain the expansion for 25 seconds, you earn a big joy bonus. New thoughts try to interrupt the expansion; you protect it by handling them quickly. Theta waves can also be planted here (slows thoughts 50% for focus events). The brain’s skill ceiling.
+Release edge. The brain’s outer rim. Drag heavy thoughts to the perimeter to release them out of the body. Good in the moment, but doesn’t address the root cause of recurring ones — see Section 12.
+Crown. Entry point at the top of the brain. Where you place breath, glucose, vagal pulse, or endorphin tokens carried in from elsewhere. The crown is the receiving point — it’s how anything reaches the brain from anywhere else in the body.
+The lungs — three stations
+Fewer stations, more rhythm. The most somatic organ.
+Diaphragm. Below the lungs — the actual breathing muscle. Pull down to produce one breath. Hold at the top for a deep breath. Two quick pulls = sigh wave. This isn’t a stylized gimmick — it’s the real physiological sigh that Stanford’s lab popularized (two quick inhales through the nose, one long exhale through the mouth). It’s the fastest known way to lower stress in real time, and the game mirrors it directly. Players who do the sigh wave in real life while pressing the buttons feel the in-game effect in their own bodies. That’s deliberate. Slow double pull = yawn.
+Breath emergence. Between the two lungs. Breath tokens form here after a pull. Pick up to carry to the heart or brain.
+Heartbeat receiver. Where you place a heartbeat token — the next two diaphragm pulls automatically produce deep breaths.
+The stomach — three stations
+The quietest organ during normal events. Critical during lunch and sick days.
+Digestion zone. The body of the stomach. Glucose tokens form here continuously when there’s food to digest. Walk through to pick up. Production rate depends on recent meals.
+Hunger — four forms. Different hunger types appear with different visual signatures. Low blood sugar (urgent flashing) — place glucose immediately. Empty stomach (steady ache animation) — needs the lunch event soon. Stress cravings (appears during high cortisol) — place glucose but it’s less effective; better to reduce cortisol first. Boredom hunger (drifts up to the brain) — not actually stomach hunger; address with a hobby event or a walk.
+Heartbeat receiver. Place heartbeat — the next glucose digests in 1s instead of 3s. The stomach’s only "fast" mode. (Magdalena asked what this means in the game: it’s the body’s real connection between heart rate and digestion. A faster heartbeat moves blood through the gut faster, which speeds up nutrient absorption. So if you need glucose now — mid-event, low reserves — you can borrow heartbeat from the heart to speed digestion at the stomach. Cost: the heart isn’t making the heartbeat for anything else during that second.)
+The liver — four stations
+The body’s clean-up crew and emergency glucose factory. During calm days, mostly idle. During stress or sickness, the busiest organ.
+Filtration chamber. The body of the liver. Place cortisol clouds (and bacteria, viruses, worry thoughts) here. They filter passively at 1 per 8s.
+Massage zone. Hover-and-hold 2-3 seconds. Accelerates filtering — 1 cloud per 3s instead of per 8s. Critical when load is heavy.
+Glucose burst. When cortisol load reaches 5+ clouds in the liver, the liver triggers gluconeogenesis — producing emergency glucose. A golden flash appears, and 3 glucose tokens spawn here for the ranger to collect. This is the body’s actual stress response: cortisol unlocks stored energy.
+Transmutation receiver. A specific spot for worry thoughts. 3 processed = 1 free vagal pulse appears at the adrenals.
+The adrenals — four stations
+The preparation hub. Where you bank what you’ll need next.
+Vagal pump. Vagal pump. The left adrenal in the game (in real anatomy, both adrenals produce both hormones — we split them across the two for visual clarity and player muscle memory). Hold for 3 seconds to produce one vagal pulse. Max 3 stored.
+Adrenaline pump. Adrenaline pump. The right adrenal in the game (same note — anatomical split is for player clarity, not real-body accuracy). Hold for 3 seconds to produce one adrenaline. Max 3 stored.
+Reserve bank. Below the adrenals. Endorphins (max 3) and theta waves (max 2) stored here between events. Visible badges show what’s banked.
+Pickup zone. Where you grab a stored signal (vagal, adrenaline, endorphin, theta) to carry it to wherever it’s needed.
+Why station design matters
+Stations give the body a geography. When the player’s heart races mid-meeting, their attention should already know: I need to go to the heart, tap up/down to manage BPM, watch for the cortisol vent below. The map of where things happen is half the gameplay.
+It also gives the visual designers something concrete to build. Each station needs to look distinct — not just the organ, but the spot within the organ where the action happens. The heart’s BPM badge looks different from its cortisol vents because they do different things.
+7
+How the brain works
+Thoughts deserve their own section. They’re how the brain talks to you.
+Four kinds. Each one handled differently.
+Small thoughts
+Light red bubbles. The most common kind. Tap to swat — they burst on contact. Costs about 0.3 seconds each. You’ll swat dozens in a stressful meeting.
+Heavy thoughts
+Dark clouds. Too dense to swat. You grab them and drag them to the brain’s edge to release. The ranger struggles visibly when carrying — moves 30% slower. These show up in stress events. In a depressed body, almost every thought is heavy.
+Bright thoughts
+Golden glowing orbs. Insights, good memories, moments of inspiration. A creative idea, gratitude, a kind word someone said yesterday, a sudden realization about a problem, the sunlight noticing itself, a song coming back to you, anticipation of something good. The body produces these too — not just bad ones.
+Don’t swat them — catch them. Carry them to the brain’s awareness center to ACTIVATE. Each activation gives +5 joy, expands the awareness center, and lingers as a positive effect.
+The temptation to reflexively swat is part of the design. Players learn to recognize the gold color before reaching to tap. Reading the brain before acting on it.
+Persistent thoughts — the ones that don’t go away
+One big dark thought that returns every 30 seconds, no matter what you do. Pushing it back delays it. Dragging it to the release edge during a busy event sends it away — for now. But it always comes back.
+Here’s why: the body has a gravity for heavy thoughts. Something in the system attracts them and produces cortisol around them. Fighting them in the middle of stressful events doesn’t solve the underlying gravity — it just manages the symptom. The same thought will return tomorrow. And here’s the deeper part: a persistent thought is rarely just a thought. It’s a beacon — a piece of information that the body is trying to keep visible. It spawns smaller thoughts around itself and quietly organizes the day’s perception around itself. Walk into a meeting with the same persistent worry as yesterday, and the meeting’s peaks will feel sharper, the corridors slower, the bright thoughts harder to catch. That’s not the meeting being harder — that’s the beacon coloring the body’s state. Persistent thoughts can be negative (worry, grief, regret) but they can also be positive obsessions (a creative project, a person you’re falling for, a question you can’t stop turning over). The mechanic is the same either way — both kinds organize the body around themselves and both can be illuminated and integrated through meditation. A negative beacon becomes insight. A positive one becomes a sustained creative thread. The fix isn’t to delete the beacon; it’s to see what it’s pointing to.
+Persistent thoughts can’t be cleared in a meeting. They have to be looked at in a different kind of event.
+The fix is meditation. In a meditation event (Section 10), the body is calm — low cortisol, heart at resting rate, breath slow. After sustained calm, theta waves start to flow naturally. Theta has a unique property: it illuminates the root of the persistent thought — the deeper structure that keeps generating it. With the root visible, you can dissolve it with breath and attention over several minutes.
+One successful meditation session can permanently clear one persistent thought — or transform it into a recurring bright thought. The same thought, now offering insight instead of weight.
+This is the only way certain things heal. The game is honest about that.
+8
+The body wakes up somewhere
+Not every day starts the same.
+Some days the body wakes up calm. Some energetic, joyful, inspired, open. Some depressed, anxious, angry, tired. Same body, same six organs, same eight verbs — completely different game. And the state isn’t locked at wake-up: it shifts through the day, both ways. A joyful morning can turn anxious by mid-afternoon. A tired body can become inspired after a long walk. The state is weather, not a label.
+Each state changes the visual feel, the audio, the rates, even how the ranger moves.
+Positive states — the body wakes up well
+Bodies don’t only wake up tired or anxious. Sometimes the body wakes up better than baseline. These states matter just as much in the design — they shape how a day unfolds, what you can carry, what events feel like, and they too can degrade through the day if mishandled.
+A note Magdalena raised: positive states aren’t a permanent gift either. A joyful body taken to a brutal meeting can drift to anxious by mid-morning. An inspired body without rest can crash into tired. Energy is real, and real energy is finite. The design rewards tending to a state as much as inheriting one. States move both directions through the day.
+Three things determine how the body wakes up:
+Yesterday. A clean day ending in high harmony → today is calm or energetic. A bad day → tired or anxious. Repeated bad days → depressed.
+Sleep specifically. The falling-asleep event’s quality affects how you wake up.
+Outside events. About 20% of days, something from the world sets the mood: a difficult message from a friend, an unexpected piece of good news, weather, season, the date on the calendar. Things that happen to the person you’re inside, not to the body itself. The game shows these to the player as short narrative beats during the wake-up event.
+You read the state by looking
+Color, animation, sound. The body shows you. No label. No percentage.
+Feel before numbers. The body should feel angry, tired, calm, or joyful before you read any UI.
+That’s the design rule. UI exists where it must (the BPM badge, the reserve counts at the adrenals). Everything else is communicated through how the body looks and sounds.
+Over time, the body shifts
+Body states aren’t fixed. A week of attentive play makes calm and energetic more common. A week of inattention makes depressed and tired more common. The body drifts toward what you’ve been tending toward.
+This is the meta-progression. Joy attracts joy. Stress attracts stress. The game is, in some ways, about learning to tend toward the centers worth tending toward.
+Paths between organs
+The corridors between organs aren’t always safe to walk. In calm states they’re empty transit lanes — you just walk. In other states, the body’s condition shows up in the paths themselves.
+Path mechanics turn movement into a resource decision. In a calm body, you go anywhere quickly. In an angry body, the same trip from heart to liver might take twice as long, and you might drop something on the way. The body’s state isn’t just visual — it’s physically how the game plays.
+9
+A meeting, beat by beat
+Before we get to the stressful one, here’s the gentlest event in the game. The first event of every day — waking up. 45 seconds. No time pressure. The tutorial-feeling event.
+Six beats. Pull the diaphragm. Place breath on the heart. Carry yesterday’s leftover cortisol to the liver. Clear the sleepy thought from the brain. Catch the first heartbeat. The day is ready.
+A player who walks around doing nothing still finishes — the heart climbs to 70 on its own. Engagement rewarded, detachment not punished.
+Now the stressful one
+Three minutes. A meeting. Target zone 75-95 BPM. Anxiety wants to spike the heart. The boss will ask a tough question at 1:43.
+0:00 — prep. You have 30 seconds before the meeting starts. You walk to the adrenals. Hold for 3 seconds. One vagal pulse stored. Walk toward the heart.
+0:30 — meeting begins. Heart immediately spikes to 88. Two thoughts spawn in the brain. You sprint there — tap, tap — both gone.
+0:45 — settle. Sprint to the lungs, pull the diaphragm. Pick up the breath. Sprint to the heart, place it. BPM drifts down into zone.
+1:15 — cleanup. A cortisol cloud has spawned at the heart from the earlier spike. Pick it up. Carry to liver. Place it. Massage once. Filtered.
+1:43 — BOSS QUESTION. Heart spikes hard. 80 to 96 in two seconds. Three thoughts spawn at once. Pure stress.
+1:50 — the save. You have that vagal pulse stored. Sprint to the heart. Release it. BPM crashes from 96 to 81. Back in zone.
+2:20 — sustain. Two more cortisol clouds spawned during the spike. Ferry both. Catch a heartbeat. Place it on the lungs.
+3:00 — done. Boss thanks the team. Heart drifts to 75. One residual thought lingers. Harmony: 82%.
+That’s a meeting. The whole game is built from moments like these.
+The crawl — narrating the outside
+At the bottom of the screen during events, a thin bar of live text narrates what’s happening on the outside. Like a news ticker on CNN, but for one person’s life:
+The internal chaos and the external story run in parallel. The player manages the body while the bar narrates what the body’s person is experiencing. The two work together: you see the boss question coming in the crawl half a second before the heart spikes. You read both at once.
+In quiet moments (downtime, falling asleep, walks) the crawl slows down or goes silent. In intense moments (the boss question, the cold shock, the argument peak) it surges with short urgent phrases. The pacing of the crawl is itself a design instrument.
+What the screen actually looks like
+Here’s a frame from a different event — mid-workout, all four flow resources active, the ranger carrying cortisol to the liver. (Note: in the figure the liver is on the left and the stomach on the right, anatomically correct from the medical viewing convention. Also note the ranger’s appearance is a placeholder pending the design jam.)
+Notice the density. The heart in zone with a heartbeat hovering. The ranger mid-carry. Cortisol load at the liver. Breath tokens ready at the lungs. The "What the body needs" panel ranking what to do next.
+All of this readable at a glance, after you’ve played a few minutes.
+10
+The other events
+A library of events covering what people aged 16 to 40 actually live through. Work, school, sport, social life, hobbies. The same vocabulary in every event — only the demands change.
+Five categories. Each category has multiple events, sharing a mechanical personality but distinct in their shape and feel. The figure below shows three representative events per category.
+Sport — the body in motion
+All four flow resources active. The body works hard and gets rewarded. Endorphin reserves are mostly earned here.
+Morning workout (4 min, high intensity). Heart in zone 130-160. Cortisol builds from exertion — ferry to liver. Reward: endorphin (+20% harmony on later events).
+Cold shower (90s, shock). Heart spikes to 130, then crashes toward 55. Two opposite problems back-to-back. Pre-release adrenaline to soften the spike. Reward: clarity (+20% harmony all day, costs sleep quality).
+Bouldering (8 min, focus + strength). Bursts of effort + rest cycles. Each climbing route is a mini-event with its own peak. Reward: flow (banks a focus boost).
+Running (15-30 min, sustained zone). Long event. Heart in mid-zone for extended time. After the wall (around minute 12), bright thoughts spawn. Reward: endorphin + a bright thought guaranteed.
+Yoga (8 min, breath as primary). Heart in low zone 55-70. Massage is the main verb. Reward: theta wave (banked for focus events).
+Work — the things adults do
+Whatever pays the bills. Office work, manual work, customer-facing work, gig work, parenting work. The mechanics scale to all of them: meetings and deadlines and focus and the unevenness of demands. The events below lean office because that’s where most of the player base is, but the system runs the same when the "meeting" is a difficult customer or a long shift on the line.
+Stressful meeting (3 min, target zone). The walkthrough event. Boss question at 1:43. Pre-store vagal pulse.
+Job interview (4 min, structured peak). Predictable big question at 3:00. Skilled players pre-position resources. Reward: composure.
+Deep work block (10-15 min, sustained focus). Plant theta wave first. Manage thoughts as they appear. Glucose to brain.
+1:1 with manager (3 min, asymmetric). Like a meeting but with social weight. Apply banked endorphin to soften.
+Deadline crunch (15+ min, sustained pressure). Cortisol baseline elevated for the whole event. Glucose drains fast. The endurance test.
+Productive flow morning (20 min, sustained ease). The good kind of work. Heart steady, breath even, glucose flows through brain at perfect rate. Cortisol stays low. Bright thoughts spawn naturally. Reward: a sense of competence carried into harder events later.
+Good news at work (60s, positive surprise). The opposite of difficult news. Heart jumps in joy rather than alarm. Bright thoughts cascade. Place them at the crown quickly — they expire.
+Helping a colleague (3-5 min, social-work hybrid). Heart in low zone, mild cortisol from focus, but the body gets a slow vagal pulse for the duration. Reward: warm memory token, usable next social event.
+Manual / hands-on work (variable, embodied). For trades, crafts, fieldwork, restaurant work, anything physical. All four flows active like sport but at lower intensity. Cortisol minimal when in rhythm. The body knows what to do without the brain steering.
+Social — people, vulnerability, drinks
+Where the body responds to other people. Sometimes elevation is the point (dates), sometimes it’s the problem (arguments).
+First date (3 min, reverse stress). Heart should stay UP at 75-90. Don’t vagal pulse here — the butterflies are the point.
+Friday night out (5+ min, stimulation). Heartbeat doubles, glucose drains fast, cortisol from social pressure. Multiple peaks across the night.
+Hangover morning (multi-day, sick variant). Wake up sick. Low glucose, high cortisol, heavy thoughts. Manage and rest.
+Argument with partner (2.5 min, anger). Cortisol doubles. Sigh wave at the boiling point de-escalates in fiction. Reward: perspective.
+Difficult news (2 min, inverted). Heart drops instead of spikes. Adrenaline on heart, normally a workout move, becomes the rescue.
+Family dinner (20 min, sustained social). Long event with occasional spikes from specific people. Manage glucose and slow burns.
+Hanging with friends (20 min+, just being together). No agenda. Heart at 65-75. Breath easy. Bright thoughts pass between you — the brain catches them softly. The most regenerative social event.
+Reunion with old friend (15 min, warm). Heart elevated by joy, not stress. Memory thoughts surface, mostly bright. Some bittersweet ones too — those can be transmuted at the heart into perspective.
+Compliment received (30s, small but real). Heart skips. A bright thought spawns directly at the crown. The body learns something landed.
+Wedding / celebration (60+ min, sustained joy). Heart elevated for a long stretch. Social pressure low because the script is shared. Endorphin spawns at music and dancing peaks. Manages glucose carefully.
+School — exams, presentations, late nights
+For the younger end of the demographic. The events that defined high school and university. Different from work events: more performative, more public, more about being judged in front of peers.
+Exam (10-20 min, sustained pressure). Long event. Thoughts spawn constantly. Glucose dips. Heart elevated baseline. Endurance test of focus.
+Class presentation (5 min, spotlight). Three question peaks during Q&A. Each clean peak earns a presence token. Three tokens = "command of the room" bonus.
+All-nighter study (multi-event, fatigue). Long focus session that compresses several work blocks. Glucose drains, thoughts multiply, caffeine helps but doubles cortisol.
+Standing up to a bully (90s, anger). Cortisol spike, adrenaline window. The choice: hold composure or unleash. Both have consequences.
+Crush moment (60s, vulnerable). Like a first date in miniature. Heart elevated and you don’t want to fix it. Bright thoughts spawn easily.
+Acing a test (2 min afterglow). After an exam goes well. Cortisol drains rapidly. Endorphin spawns. Bright thoughts about what’s next. The reward event for a hard one.
+Class going well (10 min, learning flow). Like deep work but with social warmth. Heart in low zone, brain sparkles. Best run when the body wakes up inspired.
+Group project breakthrough (2 min collaborative high). Several people in flow together. Heart elevates with positive momentum. Mirror-vagal pulses received from the group.
+Hobbies — music, walks, creativity, meditation
+The events where the body recovers, creates, or goes inward. Critical for managing what the harder events leave behind.
+Meditation (8 min, the deep work). The event for clearing persistent thoughts. Calm body → theta wave → illuminates the persistent thought’s root → dissolves it over several minutes. The slowest, most important event in the game.
+Music practice (10+ min, flow state). Sustained focus with rhythm. Heart in zone for extended time. Bright thoughts appear when in flow.
+Long walk in nature (5+ min, recovery). Passive, soft. Cortisol drains, breath slows, brain calms. Best placed between hard events.
+Creative session (20+ min, flow). Writing, drawing, making things. Like deep work but rewards bright thoughts heavily. Reward: one bright thought you can carry into tomorrow.
+Gaming session (variable, emotional swings). Heart elevates with focused stress, drops at moments of triumph. Manages the daily mood mostly through dopamine, but exhausts glucose if too long.
+Cooking (15 min, multitasking). Multiple low-stakes parallel tasks. Heart steady, breath steady, gentle satisfaction. (On Magdalena’s note that it’s odd to list cooking as a hobby and not a survival skill: she’s right. Cooking is fundamental life maintenance, not optional leisure. It’s listed under Hobbies because that’s its mechanical personality — flow, low stakes, gentle satisfaction — but the next pass moves it (or duplicates it) into Daily Life. A character who never cooks loses something baseline. The game shouldn’t pretend otherwise.)
+Quiet morning with coffee (10 min, ritual). The slow opening of a day. Massage works at every organ. Breath establishes its rhythm. The slowest event that isn’t meditation.
+Pet time (variable, regulating). Stroking a pet or being near one. Vagal pulse generates passively at the adrenals. The body remembers safety. Few games model this. We should.
+Daily life — the connective tissue
+Events that happen every day in some form. Quieter than the categories above.
+Waking up (45s). The first event. Read the body’s state, clean leftover cortisol.
+Lunch (2 min). Refills glucose production for the afternoon.
+Commute (downtime). Low stakes. Pump signals, top up reserves.
+Falling asleep (3 min). Ferry leftover thoughts, apply warm memories. Sets tomorrow’s starting body state.
+What each event actually uses
+A reference for designers: which resources are active in each event. The pattern: breath is in every event. The other flows rotate based on the event’s personality. This is what gives events their distinct feel without growing the vocabulary.
+Notice how few specials each event uses — usually 1 or 2. The economy stays simple per event, while the variety across events is huge. That’s the balance we want.
+11
+When the body gets sick
+Some days the body wakes up sick. You don’t choose this. The body has its own life — sometimes it picks up a stomach bug, catches a cold, gets the flu. Like real life.
+Infections introduce a new body state and new creatures inside the body. But they use the same vocabulary you already know.
+The sick body state
+A seventh body state joins the six from Section 7 — SICK. Pale yellow-green tint everywhere. Body posture droopy. Ranger moves slowly. All flow rates drop 20%. Cortisol baseline elevated. The body needs more sleep.
+Fever days are a variant — sick + angry overlay. Red on top of pale-green. The body shakes a little. Heart elevated by default. That’s when you know it’s serious.
+Two new creatures
+Bacteria and viruses. They appear inside specific organs during sick events. Both get handled like cortisol — pick up, carry to liver, place inside to filter out. New visuals, same disposal pattern. The liver during sick days is the busiest organ.
+Bacteria — wobbly green-yellow blobs with little tendrils. They sit where they spawn. They multiply every 30 seconds if you ignore them. One becomes two, two become four. Catch them while there are still few.
+Viruses — smaller, angular gray-blue particles. They move through the corridors between organs. If two viruses meet at the same organ, they replicate. You have to catch them quickly, before they reach the next room.
+Three sick events
+Stomach bug (1 day, mild). Bacteria at the stomach, 2-3 over the day. Glucose at 50%. Hunger pangs at 2× rate. The challenge: manage everything else with low fuel. Don’t let the bacteria multiply or your fuel drops further.
+Bad cold (3-4 days, medium). Bacteria at the lungs and stomach, peaking on day 2. All flow rates 80%. Sneezes cause cortisol spikes. Multi-day arc means work and life keep happening alongside. Sleep events become critical.
+Flu (5-7 days, hard). Viruses spreading through multiple organs. Fever variant kicks in. Heart baseline +15. Heavy thoughts spawn more often — sickness brings dark thoughts. The hardest event in the game.
+What makes infection events different
+Three things:
+They’re multi-day. A flu lasts 5-7 days of play. Each day is a different stage — onset, peak, recovery. Tracked across days.
+Regular life keeps happening. You still have meetings during a cold. Workouts during a stomach bug (gentler ones). The world doesn’t pause.
+Recovery is the goal, not victory. You don’t beat the flu. You manage symptoms and rest until it passes. Good care speeds recovery; ignoring symptoms slows it.
+Sometimes you didn’t cause the problem and can’t solve it. You just manage and rest until it passes.
+This is the persistent thought concept applied to physical illness. Some things you don’t fix in a day. You ride them out with care. Apply your banked endorphins and theta waves on the harder days. Sleep cleanly. Trust the body to recover when you give it room.
+12
+What makes it deep
+Beyond the basics, three systems give the game its depth. They’re not required to finish the game. They’re rewards for paying attention.
+Combos
+When two resources combine for something bigger. The game doesn’t announce these. Players discover them.
+Transmutation — heavy thoughts become resources
+A heavy thought doesn’t have to be discarded. You can carry it to the right organ and transform it into something useful.
+There’s a real decision here: discard fast (3 seconds) or transmute slow (6-8 seconds, with a slower carry). But you get a resource out of the second path.
+Heavy emotions carry raw energy. The mechanic teaches reappraisal without ever using the word.
+Anger isn’t just bad. It can become drive. Grief isn’t just heavy. It can become breath. This isn’t a metaphor we’re adding — it’s a real psychological move (cognitive reappraisal in the literature).
+The theta wave — meditation as deep work
+The simple transmutations above (anger → drive, etc.) happen during regular events. But persistent thoughts — the recurring heavy ones — need a different gameplay entirely. They have a gravity. Fighting them in a meeting doesn’t solve the gravity, only manages the symptom.
+Persistent thoughts get cleared through the meditation event. The mechanic:
+1. Calm the body. Heart at rest (60-70 BPM), breath slow, cortisol minimal. This takes the first 2-3 minutes of the meditation event.
+2. Wait for theta. Once the body is sustained-calm, theta waves start to flow naturally from the brain. Golden ripples appear.
+3. Illuminate the root. A theta wave carried into the awareness center reveals the persistent thought’s root structure — a deeper shape behind the surface thought.
+4. Dissolve over time. With breath and attention, you work on the root over several minutes. Slow, deliberate. No time pressure. The opposite of an arcade event.
+5. The thought transforms. A successful meditation permanently clears one persistent thought — or transforms it into a recurring bright thought. Same thought, now offering insight instead of weight.
+This is the slowest, most important event in the game. The thing the busy meetings can’t accomplish, meditation can. Heavy emotions need to be looked at in stillness, not in motion.
+Massage — the slow verb
+Hover on an organ for 2-3 seconds. It calms slowly. Smaller effect than tap or release, but costs nothing. The yoga verb. The meditation-app verb.
+In a calm body with time, you can massage everything. In an angry body with cortisol piling up, you don’t have time — you tap fast. The verb the player chooses says something about the body’s state.
+13
+A day
+A full day is about 30 minutes of play. Maybe 10 events. Here are two example days, one for each end of the demographic.
+A young adult Monday
+A student’s exam week day
+Then the journal
+After the falling-asleep event, the game generates a journal entry from the body owner’s perspective. AI-customized. After the young adult Monday above, it might read:
+And what you remember:
+The frantic vagal release at 1:50 of the meeting
+Choosing where to apply the banked endorphin
+The sigh wave at the peak of the argument — the exact moment the body shifted
+Ferrying the last three cortisol clouds in the final 30 seconds before bed
+The journal is what the body remembers. You remember what you did. They tell the same story from inside and outside.
+How the day is scored
+Not a single number. Four dimensions:
+Joy — bright thoughts activated, endorphins earned, peak moments handled well
+Care — cortisol cleared, persistent thoughts addressed, organs visited
+Composure — spikes managed, vagal pulses used wisely, arguments de-escalated
+Rest — sleep quality, glucose managed, leftover thoughts processed
+A constellation of four lights. Many paths to a great day. Bright joy with dim rest = today was happy but exhausting. Four lights in balance = the ideal.
+Tomorrow the body wakes up shaped by today.
+14
+Production plan
+The full game in six phases, about nine months total. Each phase has a goal, what we build, and what we learn from playtesting. We don’t move to the next phase until the current one’s questions are answered.
+Phase 1 — Prototype
+Weeks 1-4. The core question: does the ranger feel like attention? Graybox everything. No final art.
+What we build:
+Three organs (brain, heart, lungs with diaphragm) as simple shapes
+Ranger movement and pickup/carry/place mechanic
+Breath production and delivery
+Small thoughts spawning + tap to swat
+Wake-up event playable end-to-end
+What we test: internal playtest with the team. Three people play it. We ask: does walking the figure around feel like directing attention? Does the diaphragm-pull rhythm feel somatic? Do the thoughts feel like thoughts?
+What we know after: whether the core feel is right. If it is, we keep going. If it isn’t, we don’t add anything until we fix it.
+Phase 2 — Vertical slice
+Weeks 5-10. The core question: does one complete event with all systems feel right? One event built fully — the meeting from Section 8.
+What we build:
+Cortisol flow into graybox liver
+Adrenals with vagal pulse + release verb
+Heavy thoughts (drag mechanic)
+Two body states: calm and anxious
+Meeting event playable with the boss-question peak
+Basic audio layer
+What we test: external playtest. Five people who aren’t on the team. We ask: can they read the body without UI? Do they survive the boss question? Do they understand why their vagal pulse saved them?
+What we know after: whether the system holds together. If players can’t read the body, we revise visual language before adding anything else.
+Phase 3 — Horizontal expansion
+Weeks 11-18. The core question: does the same vocabulary make different shapes? All six organs working. Multiple events.
+What we build:
+Stomach + glucose + lunch event
+Liver mechanics + cortisol filtering + massage verb
+Adrenaline + workout event with endorphin output
+Yoga event with theta wave output
+First end-to-end full day with 5+ events
+All six baseline body states
+Sketched art style applied to first organs
+What we test: extended playtest. Players play a full day. We ask: does the day have shape? Does each event feel distinct? Are they internalizing the system or memorizing it?
+Phase 4 — Depth
+Weeks 19-26. The core question: does paying attention reward you with more? The advanced mechanics.
+What we build:
+Bright thoughts + the four-type thought system
+Transmutation paths (anger → drive, grief → breath, etc.)
+Persistent thoughts + the Sisyphus mechanic
+All five combos discoverable
+Path obstacles in different body states
+Multi-day arcs (persistent thought transformation)
+Journal generation with AI
+What we test: longer playtest. Players play a week of days. We ask: do they discover combos? Are they trying transmutation? Do journals feel personal?
+Phase 5 — Sickness and polish
+Weeks 27-32. The core question: does the game hold across the full content? All remaining content + visual and audio polish.
+What we build:
+Stomach bug event (1 day, mild infection)
+Bad cold event (3-4 day arc)
+Flu event (5-7 day arc with fever variant)
+Bacteria and virus creatures + sick body state
+Remaining event library (interview, cold shower, first date, public speaking, caffeine, difficult news, argument)
+Visual polish on all organs and the ranger
+Audio polish, music layers per body state
+Tutorial flow for new players
+Accessibility options (state labels, color modes)
+What we test: full external playtest with 20+ players. We measure: completion rates, harmony scores, time-to-internalize, what events resonate emotionally.
+Phase 6 — Launch prep
+Weeks 33-36. The core question: is it ready to ship?
+What we build:
+External QA pass
+Final balance based on playtest data
+Performance optimization
+Marketing materials (trailer, screenshots, store page)
+Press build
+Launch
+Implementation priorities, in order
+If we had to rank what matters most, in what order to build:
+Risks and what we do about them
+Three things could go wrong, each with a mitigation:
+Risk: the ranger doesn’t feel like attention. Mitigation: catch this in Phase 1. Don’t move forward until it’s right. Iterate on movement speed, sprite character, and how the body responds to ranger position.
+Risk: too busy or too slow. Mitigation: tune spawn rates in Phase 2 with external playtest. We have many knobs (heartbeat rate, thought spawn rate, cortisol generation) and we tune them empirically.
+Risk: the body doesn’t read without UI. Mitigation: invest heavily in animation, color, and audio language in Phase 2. If we can’t solve this, we may need to accept some UI — but only as a last resort.
+What we don’t build
+Saved for after launch, or for a sequel:
+Multiplayer. Two players in the same body. Compelling but distant.
+More body states beyond the seven. Focused, creative, nostalgic, spiritual — add via post-launch updates.
+Specific medical conditions. Chronic illness, mental health diagnoses — carefully consider whether to model these. Not in v1.
+Customization. Different ranger appearances, body skins. Post-launch.
+Open questions
+What we still need to decide. Most of these only resolve once we have something playable.
+How fast does heartbeat spawn? Currently 1 per 6 seconds while in zone. Faster creates more flow; slower makes it precious. Test in Phase 1.
+Should the persistent thought’s transformation be visible each push, or only across days? Probably both — a small flicker per push, a clear shift across days.
+Should the ranger have visible exhaustion? No stamina meter (decided), but maybe the figure droops slightly after a hard event — visual, not mechanical.
+Can the ranger carry two flow resources at once? Currently no. Two would enable better routes but adds visual clutter. Probably one for MVP, two as an unlock later.
+How is the journal’s tone calibrated? Should it match the player’s actions emotionally (a hard day = a tired journal) or stay reflective? Probably the former — the journal echoes the day.
+Does the day need a hard time limit? Events are sequenced but the player chooses pacing in downtime. Some events should probably have a real-time clock (workout window) — others not (focus block).
+How early do we introduce transmutation? Advanced mechanic. First week of play probably just teaches release-edge disposal. Transmutation revealed later through tooltip-free discovery.
+Should sickness be opt-in or surprise? The body wakes up sick — you don’t choose it. But maybe an accessibility option to disable sick events for players who don’t want them?
+Answer: surprise by default, but with one accessibility setting that reduces sickness frequency, and one toggle that turns it off entirely. Three reasons. First, sickness in real life is unscheduled, and the game’s honesty about life depends on letting bad days happen. Second, sickness is one of the most rewarding events to play well — the body is constrained and you have to find a different way to move through the day. Skill shines there. Third, accessibility: some players have chronic illness, anxiety, or eating disorders for whom forced sickness events are harmful. They get the toggle, no shame, no progression penalty. The default is to live; the toggle is to opt out of one specific category of difficulty without losing the rest of the game.
+Body state labels for accessibility? Feel-before-numbers is the rule. But some players need labels for clarity. Optional accessibility mode that surfaces state names. Off by default.
+What we have
+A complete design for an arcade game inside a human body.
+Heart, brain, lungs, stomach, liver, adrenals as interaction organs. Intestines, kidneys, throat-neck-shoulders region as anatomical context. Eight verbs. Four flow resources. Ten body states (six negative, three positive, plus sick), shifting both directions through the day. Four thought types including the persistent one only meditation can clear, framed as a beacon organizing the body around itself. Five combos. Five transmutation paths. An event library across five life categories — sport, work, social, school, hobbies — with positive events balancing the stress-heavy ones. Three infection events with multi-day arcs. A meditation event that does the slow work no other event can. An end-of-day journal that turns gameplay into story. A meta-progression where the body shifts over time toward what you’ve tended.
+Future directions (Magdalena’s flavor notes for later)
+Notes that don’t change the v1 mechanics but are worth keeping for the work that follows.
+Cosmic origin lore. Magdalena’s story seed: the organs begin to recognize the attention that’s been tending them, and they start to ask their own awareness questions of it. Awareness becomes a conversation between the figure and the body it’s inside. This is a narrative DLC, not v1, but it’s an extension the game’s structure could carry beautifully.
+Inner plant (Tulsi). The planted theta wave grows visually like a small luminous plant in the awareness center — refreshing the air, keeping heavy thoughts away. Worked into the art direction for the meditation event.
+NVC needs and emotions table. Magdalena has the source material; bringing it to the next design jam to inform the body-state vocabulary and the journal’s emotional language.
+Throat-region interactions. Voice events, swallowing in stress, thymus-based immune events. The anatomy is in place; the verbs aren’t built. A natural v2 extension.
+The pieces fit together. The carry mechanic provides the rhythm. The body states provide the variety. The thought system provides the meaning. The events provide the shape. The journal provides the memory.
+What we don’t know yet: how it feels to play. The MVP exists to answer that.
+Then we build the rest.
+The whole design, in one paragraph:
+You play attention itself, inside a body, across a single day. The body has organs that work continuously and a player figure that moves between them. Your job is to direct where attention goes: to the heart when it’s spiking, to the lungs when breath is shallow, to the stomach when glucose is low, to the brain when a thought is heavy. Each event of the day — a meeting, a workout, a difficult conversation, a meditation — shapes what the body needs and when. You succeed not by winning but by tending well. At the end of the day, a journal writes itself in the voice of the person whose body you just spent the day inside — describing in plain words what you felt from the inside. The game is what happens between "wake up" and "fall asleep," played as one continuous attention practice with arcade hands.Same vocabulary every day. Different shapes every day. Built so the body feels like a body.
+Now we build it.
+You can’t be everywhere at once. Attention can’t be everywhere at once. This shapes the whole game.
+Organ
+What it does
+Player interacts here
+Heart
+Beats, paces, circulates
+Yes — 5 stations
+Brain
+Thoughts, focus, awareness
+Yes — 4 stations
+Lungs
+Breathes via the diaphragm
+Yes — 3 stations
+Stomach
+Digests food
+Yes — 3 stations
+Intestines
+Absorbs nutrients into the blood
+No — anatomical context
+Liver
+Filters, makes glucose from stored sugar
+Yes — 3 stations
+Kidneys
+Filter blood, regulate water
+No — anatomical context
+Adrenals
+Produce cortisol, adrenaline, more
+Yes — 4 stations
+Verb
+What it is
+Used at
+Tap
+Quick press
+Heart, brain, stomach
+Hold
+Sustained press
+Heart, lungs, adrenals
+Pull
+Drag down on the diaphragm
+Lungs only
+Massage
+Hover-and-hold 2-3 seconds
+Any organ — the gentle way
+Pick up
+Take a resource
+Anywhere a resource appears
+Carry
+Walk with it in your hands
+Between organs
+Place
+Tap at destination with token held
+For breath, glucose, heartbeat, cortisol
+Release
+Tap at organ with signal stored
+For vagal pulse, adrenaline
+You place materials. You release hormones. That’s how the body actually works.
+Pull deep into the belly
+The diaphragm sits below the lungs. When it pulls down toward the belly, the lungs have more room to expand — that’s a real deep breath. In yoga and martial arts traditions this is the lower Dan Tien, the energy center below the navel. Belly breathing is more effective than chest breathing because it gives the lungs room. The deep breath in the game models this: the longer you hold the pull at the top, the further the diaphragm sinks, the bigger the breath token. Players who breathe along with their character will feel the difference immediately.
+The cortisol-glucose loop
+There’s a real gameplay choice: filter cortisol immediately (clean, no glucose), or let it accumulate to trigger a glucose burst (emergency energy at the cost of sustained stress). Most days you’ll filter cleanly. During a long event with no time to reach the liver — a deadline crunch, an all-nighter, the back half of a workout — the cortisol burst is the body’s built-in second wind. Real physiology, real strategic tension.
+The ranger doesn’t learn from instructions. They learn from where their attention goes.
+State
+What it feels like
+What changes
+Calm
+Warm, balanced, breath flows
+Default everything
+Energetic
+Bright, fast, eager
+Heartbeat 1.5×. Cortisol also 1.5×.
+Depressed
+Heavy, gray, rain falls inside
+Ranger 20% slower. Persistent thought returns.
+Anxious
+Jittery, pale, shimmering
+Thoughts spawn 2×. Base cortisol elevated.
+Angry
+Hot, shaking, ready to spark
+Body trembles — drop risk. Path obstacles.
+Tired
+Dim, slow, eyelids low
+Production 25% slower. More glucose needed.
+Joyful
+Bright, warm, expressive. Colors a touch saturated.
+Bright thoughts spawn 1.5×. Vagal pulse easier to produce. Social events flow.
+Inspired
+Quick, bright, ideas arriving. Brain shimmers with motion.
+Bright thoughts 2× spawn rate. Creative session and music practice rewards doubled.
+Open
+Soft, generous, heart visibly settled. Body posture relaxed.
+Social events smoother. Heavy thoughts arriving from other people land softer. Vagal pulse generates passively.
+State
+What the corridors do
+How you respond
+Calm
+Empty, smooth, walkable
+Move freely
+Anxious
+Wavy floor, slip risk
+Don’t sprint while carrying — you’ll drop it
+Angry
+Body shakes; blood cells rush through
+Dodge obstacles, or wait for a clear moment
+Depressed
+Heavy footing, ranger 20% slower
+Plan routes carefully — can’t outrun emergencies
+Sick
+Sticky paths, occasional pause
+Choose direct routes over scenic ones
+Carrying heavy thought
+Ranger 30% slower regardless of state
+Drop-and-pickup strategy if urgency hits
+"Sarah is asking about Q3 numbers..." "You blink. The room is quiet." "You hear yourself starting to answer..." "It’s going better than you thought..."
+Each event teaches the same vocabulary differently. That’s the whole game design philosophy. Eight verbs, four flow resources, infinite shapes.
+Event
+Flows
+Signals & reserves
+Negatives
+Wake-up
+Breath
+None
+Cortisol leftover (1)
+Morning workout
+Breath, glucose, heartbeat, cortisol
+Adrenaline (prep), endorphin (out)
+Heavy cortisol load
+Cold shower
+Breath
+Adrenaline (pre-release), clarity (out)
+Cortisol clouds
+Yoga
+Breath, heartbeat (low zone)
+Theta wave (output)
+Minimal
+Stressful meeting
+Breath, cortisol
+Vagal pulse at spikes
+Small thoughts
+Job interview
+Breath, cortisol
+Vagal + adrenaline, composure (out)
+Small thoughts
+Deep work block
+Glucose, breath, heartbeat
+Theta wave (pre-planted)
+Small thoughts
+First date
+Breath
+Vagal discouraged, warm memory (out)
+Small thoughts
+Friday night out
+Breath, 2× heartbeat, glucose
+Endorphin (out)
+2× cortisol, bright thoughts
+Hangover morning
+0.5× glucose, breath
+Theta, endorphin (help)
+Heavy thoughts, hunger
+Argument
+Breath, 2× cortisol
+Vagal pulse, perspective (out)
+Heavy thoughts
+Difficult news
+Breath
+Adrenaline (rescue UP), heavy memory (out)
+Heavy thoughts
+Exam
+Breath, glucose
+Theta wave (pre-planted), composure
+Small thoughts, hunger
+Class presentation
+Breath, heartbeat
+Vagal at peaks, presence (out)
+Small thoughts
+All-nighter
+Glucose, breath
+Theta (early), endorphin
+Thoughts multiply, cortisol
+Meditation
+Breath, calm heart
+Theta wave (output) — clears persistent thought root
+Persistent thought root
+Music practice
+Breath, heartbeat (steady zone)
+Bright thoughts (output)
+Minimal
+Long walk
+Breath
+Bright thoughts (output)
+Cortisol drains (no cost)
+Lunch
+Glucose production refills
+None
+None
+Falling asleep
+Breath only
+Vagal (final reserves)
+Small thoughts (leftover)
+Combo
+What you do
+What happens
+Deep rest
+Vagal pulse + breath on heart
+-25 BPM, diaphragm auto-cycles for 15s
+Workout burst
+Adrenaline + glucose on heart
+Heart auto-stays in zone for 10s
+Deep work
+Theta wave + glucose on brain
+Focus effect doubles
+Second wind
+Heartbeat + diaphragm pull
+Next breath worth 3×
+Sigh wave
+Two diaphragm pulls within 2s
+Calming wave, clears cortisol
+Heavy thought
+Carry to
+Becomes
+Anger
+Heart
+Drive — heart auto-zone for 8s
+Grief
+Lungs
+Deep breath — 3 free deep breath tokens
+Worry
+Liver
+Vagal ingredient — 3 worries = 1 free vagal pulse
+Persistent thought
+Awareness center, via meditation
+Insight — transformed via theta wave illumination, see below
+Time
+Event
+What you do
+07:00
+Wake up
+Read body state. Clean leftover cortisol from yesterday.
+07:15
+Morning workout
+All four flows. Bank an endorphin.
+08:30
+Commute (downtime)
+Pump 1-2 vagal pulses for the meeting.
+10:00
+Stressful meeting
+The one from Section 9. Use the vagal at 1:50.
+11:00
+Deep work block
+Plant your theta wave first. Manage thoughts.
+12:30
+Lunch
+Refill glucose. Quiet.
+15:30
+1:1 with manager
+Apply that banked endorphin.
+18:00
+Argument with partner
+Sigh wave at the peak. Earn perspective.
+22:30
+Falling asleep
+Ferry leftover thoughts. Apply warm memories.
+Time
+Event
+What you do
+08:00
+Wake up
+Tired body state. Persistent worry already at the brain.
+08:30
+Breakfast + commute
+Refill glucose, low-key downtime.
+10:00
+Exam
+20-minute sustained pressure. Plant theta first if you have one.
+12:30
+Lunch
+Refill glucose properly. The afternoon needs it.
+14:00
+Class presentation
+Three Q&A peaks. Composure under spotlight.
+17:00
+Long walk in nature
+Recovery. Cortisol drains, bright thoughts appear.
+19:00
+Friday night out
+Reward yourself. But manage glucose, this drains it fast.
+02:30
+Falling asleep (rough)
+Late. Heavy thoughts from the day. Tomorrow will be hangover.
+"Today was a lot. Got up before my alarm and squeezed in a quick run — felt strong, like my legs wanted it. Morning meeting was rough though; Sarah threw me a Q3 question I wasn’t prepared for, and for a second I just blanked. Took a breath, found my footing, got through it. Lunch helped. Felt much sharper in the afternoon — that 1:1 with Marcus went better than I expected. Then Maya and I got into it over dishes, of all things. I felt myself getting heated and somehow managed to just stop and breathe instead. She saw it. The tone shifted. We worked it out. Now I’m exhausted but it’s a good kind of tired."
+If a phase’s test fails, we revise the foundations before adding more. Building forward on a broken foundation is the most expensive mistake we can make.
+Priority
+What
+Why
+1
+Ranger movement + carry mechanic
+If this doesn’t feel right, nothing else matters.
+2
+Diaphragm pull + breath delivery
+The most somatic input. Sets the whole game’s tone.
+3
+Reading the body without UI
+The "feel before numbers" pillar. Validated visually before more is built.
+4
+Thought system (all four types)
+The brain is what makes this game more than an arcade.
+5
+Body states (variety per day)
+Same body, different game. The replay engine.
+6
+Event library (multiple personalities)
+Shows the system’s range. Justifies all the prior work.
+7
+Transmutation + persistent thoughts
+The depth. The meaning layer.
+8
+Multi-day arcs + journal
+The long-form payoff. Turns play into memory.
+9
+Sickness events
+Variety + emotional resonance. Built once foundation is solid.
+10
+Polish, audio, accessibility
+Shipping work. Important but not the design risk.
