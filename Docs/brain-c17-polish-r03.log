@@ -1,0 +1,13 @@
+00:02.532  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C17.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC17\\SM_Craft_C17_LotusPlinth.fbx'
+export finished in 0.0185 sec.
+Info: Saved as "Brain_Craft_C17.blend"
+C17_LOTUS_STEPS_READY
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

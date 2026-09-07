@@ -1,0 +1,30 @@
+{
+  "assets": [
+    "C16ThoughtStar",
+    "C16ThoughtCloud",
+    "C16ThoughtWisp",
+    "C16ThoughtKnot",
+    "C16EyeBright",
+    "C16EyeCloud",
+    "C16EyeWisp",
+    "C16FaceBright",
+    "C16FaceCloud",
+    "C16FaceWisp",
+    "C16FaceKnot",
+    "C16WispThread0",
+    "C16WispThread1",
+    "C16WispThread2"
+  ],
+  "material_errors": {
+    "Gold": [],
+    "Cloud": [],
+    "Wisp": [],
+    "Amber": [],
+    "Ink": [],
+    "Eye": [],
+    "Glint": [],
+    "Filament": [],
+    "Cheek": []
+  },
+  "art_accepted": false
+}

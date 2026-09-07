@@ -1,0 +1,43 @@
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c17_garden.py:22: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('C17_'+name);mat.use_nodes=True
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c17_garden.py:49: RuntimeWarning: invalid value encountered in divide
+  axis=pts[min(i+1,len(pts)-1)]-pts[max(i-1,0)];axis/=np.linalg.norm(axis)
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\__init__.py", line 622, in execute
+    return export_fbx_bin.save(self, context, **keywords)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3754, in save
+    ret = save_single(operator, context.scene, depsgraph, filepath, **kwargs_mod)
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3623, in save_single
+    fbx_objects_elements(root, scene_data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3417, in fbx_objects_elements
+    fbx_data_mesh_elements(objects, me_obj, scene_data, done_meshes)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 1437, in fbx_data_mesh_elements
+    raise RuntimeError("UV layer %s on %r has invalid UVs containing NaN values" % (uvlayer.name, me))
+RuntimeError: UV layer CraftUV on bpy.data.meshes['Living sap inlay'] has invalid UVs containing NaN values
+Traceback (most recent call last):
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c17_garden.py", line 153, in <module>
+    export(merge(lines,'Tree care glow channels'),'TreeChannels',['Interactive','TreeLight'])
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c17_garden.py", line 41, in export
+    bpy.ops.export_scene.fbx(filepath=str(OUT/(obj.name+'.fbx')),use_selection=True,object_types={'MESH'},apply_unit_scale=True,apply_scale_options='FBX_SCALE_NONE',axis_forward='-Y',axis_up='Z',mesh_smooth_type='FACE',use_mesh_modifiers=True,add_leaf_bones=False,colors_type='LINEAR')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Python: Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\__init__.py", line 622, in execute
+    return export_fbx_bin.save(self, context, **keywords)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3754, in save
+    ret = save_single(operator, context.scene, depsgraph, filepath, **kwargs_mod)
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3623, in save_single
+    fbx_objects_elements(root, scene_data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3417, in fbx_objects_elements
+    fbx_data_mesh_elements(objects, me_obj, scene_data, done_meshes)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 1437, in fbx_data_mesh_elements
+    raise RuntimeError("UV layer %s on %r has invalid UVs containing NaN values" % (uvlayer.name, me))
+RuntimeError: UV layer CraftUV on bpy.data.meshes['Living sap inlay'] has invalid UVs containing NaN values
+Location: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c17_garden.py:41
+

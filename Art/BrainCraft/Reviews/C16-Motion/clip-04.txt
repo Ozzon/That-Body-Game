@@ -1,0 +1,20 @@
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00240.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00241.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00242.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00243.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00244.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00245.png'
+duration 0.05010
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00246.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00247.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00248.png'
+duration 0.05000
+file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/BrainFilm/C16-Front/Frame00249.png'
+duration 0.05000

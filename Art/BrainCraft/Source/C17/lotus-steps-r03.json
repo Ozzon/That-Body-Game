@@ -1,0 +1,64 @@
+{
+  "profile_cm": [
+    [
+      370,
+      328
+    ],
+    [
+      360,
+      338
+    ],
+    [
+      303,
+      338
+    ],
+    [
+      295,
+      342
+    ],
+    [
+      290,
+      354
+    ],
+    [
+      234,
+      354
+    ],
+    [
+      226,
+      358
+    ],
+    [
+      220,
+      371
+    ],
+    [
+      174,
+      371
+    ],
+    [
+      166,
+      375
+    ],
+    [
+      160,
+      389
+    ],
+    [
+      0,
+      389
+    ],
+    [
+      0,
+      315
+    ],
+    [
+      370,
+      315
+    ]
+  ],
+  "max_tread_rise_cm": 18,
+  "outer_radius_cm": 370,
+  "previous_r02_roam_passed": false,
+  "reason": "Overlapping block steps stopped the native character at the lotus plinth."
+}

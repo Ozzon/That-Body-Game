@@ -1,0 +1,37 @@
+00:03.172  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\HeartBaseline\Heart_Baseline.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_Aorta.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_Foundation.fbx'
+export finished in 0.2661 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_PacingValve.fbx'
+export finished in 0.0147 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_PulseSeed.fbx'
+export finished in 0.0070 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_Vein.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_WallBackLeft.fbx'
+export finished in 0.0703 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_WallBackRight.fbx'
+export finished in 0.0706 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_WallFrontLeft.fbx'
+export finished in 0.0360 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartBaseline\\Export\\SM_Heart_WallFrontRight.fbx'
+export finished in 0.0413 sec.
+Info: Saved as "Heart_Baseline.blend"
+HEART_VERTEX_PALETTE_READY
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

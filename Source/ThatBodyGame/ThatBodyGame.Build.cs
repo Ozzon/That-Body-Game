@@ -5,5 +5,6 @@ public class ThatBodyGame : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new[] { "Core", "CoreUObject", "Engine", "InputCore", "ProceduralMeshComponent" });
+        PrivateDependencyModuleNames.AddRange(new[] { "RHI", "Json" });
     }
 }

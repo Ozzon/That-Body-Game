@@ -1,0 +1,241 @@
+Build.bat is already running, waiting for existing script to terminate...
+[2026.09.07-08.44.45:796][  0]LogInit: Display: Running engine for game: ThatBodyGame
+[2026.09.07-08.44.45:796][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.09.07-08.44.45:796][  0]LogTrace: Display: Control listening on port 1985
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-55116800"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.0-55116800+++UE5+Release-5.8"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9168] "
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i9-13900H"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/ThatBodyGame.uproject" -run=pythonscript -script="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Tools/import_heart.py" -unattended -nosplash -AllowCommandletRendering -abslog="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Docs/heart-import.log"""
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : loginid="9d78b2e646a087688c573c86894f3e4b"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.09.07-08.44.45:796][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading IOS ini files took 0.05 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading Android ini files took 0.05 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading Mac ini files took 0.06 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading Unix ini files took 0.06 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading Windows ini files took 0.06 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading VisionOS ini files took 0.07 seconds
+[2026.09.07-08.44.45:796][  0]LogConfig: Display: Loading Linux ini files took 0.08 seconds
+[2026.09.07-08.44.45:796][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.09.07-08.44.45:796][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.07-08.44.45:796][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.07-08.44.45:796][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.07-08.44.45:796][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.07-08.44.45:796][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.07-08.44.45:796][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.07-08.44.45:796][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=320MiB, MaxMemoryAvailable=69331MiB
+[2026.09.07-08.44.45:796][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.09.07-08.44.45:796][  0]LogHAL: Display: Platform has ~ 64 GB [68403924992 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.09.07-08.44.45:796][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.09.07-08.44.45:796][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.07-08.44.46:267][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.07-08.44.46:863][  0]LogRHI: Display: Timeout Detection and Recovery (TDR) summary: 
+
+	- TDR settings OK - Level: Recover, Delay: 2, DdiDelay: 5
+[2026.09.07-08.44.47:072][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D11"
+[2026.09.07-08.44.47:072][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D11"
+[2026.09.07-08.44.47:072][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM5"
+[2026.09.07-08.44.47:072][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM5"
+[2026.09.07-08.44.47:072][  0]LogCsvProfiler: Display: Metadata set : gpu="NVIDIA GeForce RTX 4090 Laptop GPU"
+[2026.09.07-08.44.47:072][  0]LogCsvProfiler: Display: Metadata set : gpudriver="595.79"
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/ThatBodyGame.uproject" -log="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 305b
+[2026.09.07-08.45.06:129][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.09.07-08.45.06:129][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.09.07-08.45.06:129][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.09.07-08.45.06:129][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.09.07-08.45.06:129][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.09.07-08.45.06:129][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.09.07-08.45.06:129][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.09.07-08.45.06:129][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.09.07-08.45.06:129][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.09.07-08.45.06:164][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.09.07-08.45.06:183][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.09.07-08.45.06:201][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.09.07-08.45.06:220][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.09.07-08.45.06:221][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.09.07-08.45.06:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.09.07-08.45.06:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.09.07-08.45.06:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.09.07-08.45.06:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.09.07-08.45.06:240][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.09.07-08.45.06:243][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.09.07-08.45.06:492][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1667 MiB)
+[2026.09.07-08.45.06:493][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.09.07-08.45.06:701][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.09.07-08.45.06:701][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.09.07-08.45.06:702][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.09.07-08.45.06:702][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.09.07-08.45.08:716][  0]LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+[2026.09.07-08.45.08:719][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.09.07-08.45.08:721][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.09.07-08.45.08:730][  0]LogDerivedDataCache: Display: C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.05ms. RandomReadSpeed=672.47MBs, RandomWriteSpeed=139.34MBs. Assigned SpeedClass 'Local'
+[2026.09.07-08.45.08:733][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.09.07-08.45.08:733][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.09.07-08.45.08:733][  0]LogShaderCompilers: Display: Using 17 local workers for shader compilation
+[2026.09.07-08.45.08:740][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.09.07-08.45.08:740][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.07-08.45.09:392][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.09.07-08.45.09:602][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.09.07-08.45.09:602][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.09.07-08.45.09:640][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.09.07-08.45.09:643][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.07-08.45.09:645][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.09.07-08.45.09:645][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.09.07-08.45.09:645][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.09.07-08.45.09:785][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.09.07-08.45.09:785][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.09.07-08.45.09:785][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.09.07-08.45.09:785][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.09.07-08.45.09:959][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.09.07-08.45.09:959][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.09.07-08.45.10:075][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.09.07-08.45.10:076][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.766 ms
+[2026.09.07-08.45.10:472][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.09.07-08.45.10:474][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.09.07-08.45.10:536][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultMaterial.DefaultMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 6453178b2ed80381b6cd29004401bb4f920d1158), compiling. 
+[2026.09.07-08.45.10:636][  0]LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/Main.Main in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 159ac9f507af20d4e4121831bf5350d50f9ea550), compiling. 
+[2026.09.07-08.45.10:641][  0]LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/Xray.Xray in PCD3D_SM5, Default, SM5, Editor (DDC key hash: a97ccd36a10e143ae4027bd9a10393d338f0886d), compiling. 
+[2026.09.07-08.45.10:877][  0]LogMaterial: Display: Missing cached shadermap for /SpeedTreeImporter/SpeedTree9/SpeedTreeMaster.SpeedTreeMaster in PCD3D_SM5, Default, SM5, Editor (DDC key hash: b888db790748ada046618848ce0618e681e0ede0), compiling. 
+[2026.09.07-08.45.10:887][  0]LogMaterial: Display: Missing cached shadermap for /SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster.SpeedTreeBillboardMaster in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 4d23e2bdfae1ba419eef588464c8728cb4da1393), compiling. 
+[2026.09.07-08.45.10:983][  0]LogMaterial: Display: Missing cached shadermap for /MeshModelingToolsetExp/Materials/LineSetOverlaidComponentMaterial.LineSetOverlaidComponentMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 9d3761111e0b8cda251dd9a65615648a8699ad2d), compiling. 
+[2026.09.07-08.45.11:071][  0]LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Internal/BrushBounds.BrushBounds in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 7f3791d120df89dbf6d28e1550f736591fb7bb98), compiling. 
+[2026.09.07-08.45.11:084][  0]LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Sprite/M_BrushSprite_01.M_BrushSprite_01 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 4f0c0126967ca095bc1fd01a19b696c4e4f41a81), compiling. 
+[2026.09.07-08.45.11:110][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.07-08.45.11:110][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.07-08.45.11:231][  0]LogMaterial: Display: Missing cached shadermap for /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: e6d996206e8e5daa420b1b8d76daf1b0236e5f83), compiling. 
+[2026.09.07-08.45.11:244][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowVertexMaterial.DataflowVertexMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 1278f578d862ec116e6794949d213762012ebd15), compiling. 
+[2026.09.07-08.45.11:254][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial.DataflowTwoSidedVertexMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 48ea8db6cd4a46c8929ef91b5167b6aea728c34c), compiling. 
+[2026.09.07-08.45.11:261][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial.SculptMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 31852097a4fed1ea65d01a1d97bb8fea343b890e), compiling. 
+[2026.09.07-08.45.11:353][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LayerVisMaterial.LayerVisMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 1dcc35f5e1c5387b689948c20a4f7f7dc1d0f7a9), compiling. 
+[2026.09.07-08.45.11:361][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_LayerVisMaterial_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 8c5cfba5fd274d5ffc69e8e56064a66f56e7870e), compiling. 
+[2026.09.07-08.45.11:371][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SelectBrushMaterial.SelectBrushMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 012a9713ab2023f4225e21891b18774895f02133), compiling. 
+[2026.09.07-08.45.11:378][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_SelectBrushMaterial_Selected_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: a06c065353eb1516df1a4abde6345b048f087ddd), compiling. 
+[2026.09.07-08.45.11:386][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SelectBrushMaterial_SelectedRegion.SelectBrushMaterial_SelectedRegion in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 17222364412387da10c9af2399f8b90122095a6a), compiling. 
+[2026.09.07-08.45.11:391][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_SelectBrushMaterial_SelectedRegion_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 522671b2f7f06edec6a2578932c0989460c20899), compiling. 
+[2026.09.07-08.45.11:401][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/MaskBrushMaterial.MaskBrushMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: ba3a174514e283b7e267d1c97e8bd4aa288667fb), compiling. 
+[2026.09.07-08.45.11:407][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_MaskBrushMaterial_MaskedRegion_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 01c7d36a5949aa4a8be8baaff3bfdb572c91556b), compiling. 
+[2026.09.07-08.45.11:414][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/ColorMaskBrushMaterial.ColorMaskBrushMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: df5a648c7f51cf570cd3083764bac2aab979c5e1), compiling. 
+[2026.09.07-08.45.11:419][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_ColorMaskBrushMaterial_MaskedRegion_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 9986bcdd0776f281d01c9b1cafc24ec2f6ed71fa), compiling. 
+[2026.09.07-08.45.11:425][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeDirtyMaterial.LandscapeDirtyMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: ed11e6fc518b0a60b86081d1e151e31ed2d6e084), compiling. 
+[2026.09.07-08.45.11:432][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_LandscapeDirtyMaterial_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: a4b3e060db75ab7b39fda992a6396878f6d94b4f), compiling. 
+[2026.09.07-08.45.11:449][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeLayerUsageMaterial.LandscapeLayerUsageMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 1def1ad975e979bae8d2a2720250edf330705ce4), compiling. 
+[2026.09.07-08.45.11:456][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_LandscapeLayerUsageMaterial_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: cd273a1ff55fbae76fedaa3fa89d885867cc60b0), compiling. 
+[2026.09.07-08.45.11:469][  0]LogToolsetRegistry: Display: Registering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.09.07-08.45.11:481][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 76178f6fadf844edc02a10e533707a243bd76d6b), compiling. Is special engine material.
+[2026.09.07-08.45.11:553][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/LevelColorationLitMaterial.LevelColorationLitMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 7b5b78e174dd47f202e3653c7b5a9309baffef05), compiling. Is special engine material.
+[2026.09.07-08.45.11:614][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/LevelColorationUnlitMaterial.LevelColorationUnlitMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 2e0dc72344210b1a3e11611b7fcdbbce3e26dbb9), compiling. Is special engine material.
+[2026.09.07-08.45.11:928][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/ShadedLevelColorationLitMaterial.ShadedLevelColorationLitMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: d5950ca85f452a6e9ab4a44949cbd5cdafecaf61), compiling. Is special engine material.
+[2026.09.07-08.45.11:978][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/ShadedLevelColorationUnlitMateri.ShadedLevelColorationUnlitMateri in PCD3D_SM5, Default, SM5, Editor (DDC key hash: d4bbba755e9d2500d78f69da7b7bf5e2a6ae3a83), compiling. Is special engine material.
+[2026.09.07-08.45.12:048][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/VertexColorMaterial.VertexColorMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: e7991f6da465ac58f56631b5f324572853f4dd59), compiling. 
+[2026.09.07-08.45.12:063][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/VertexColorViewMode_ColorOnly.VertexColorViewMode_ColorOnly in PCD3D_SM5, Default, SM5, Editor (DDC key hash: cdc2243c2fcb09a0550ee6f35f7ad22afea4da7b), compiling. 
+[2026.09.07-08.45.12:075][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/VertexColorViewMode_AlphaAsColor.VertexColorViewMode_AlphaAsColor in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 2c7a67e7f56110d171bccf3341ece59cc2cf6148), compiling. 
+[2026.09.07-08.45.12:082][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/VertexColorViewMode_RedOnly.VertexColorViewMode_RedOnly in PCD3D_SM5, Default, SM5, Editor (DDC key hash: c1b592e0950d84d6218d54743250369328851dd6), compiling. 
+[2026.09.07-08.45.12:090][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/VertexColorViewMode_GreenOnly.VertexColorViewMode_GreenOnly in PCD3D_SM5, Default, SM5, Editor (DDC key hash: a18fa453868f6a1312b969af76f48d36630ebf45), compiling. 
+[2026.09.07-08.45.12:098][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/VertexColorViewMode_BlueOnly.VertexColorViewMode_BlueOnly in PCD3D_SM5, Default, SM5, Editor (DDC key hash: cc82bb9bfe8d0b7f9280aa6d27c4bccd5836a8b0), compiling. 
+[2026.09.07-08.45.12:121][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/RemoveSurfaceMaterial.RemoveSurfaceMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: c18bfa47728b898403515033a387e435575a0bf3), compiling. 
+[2026.09.07-08.45.12:144][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/GizmoMaterial.GizmoMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: f2354a1ea503cd56297436b002f12cf472ce3f44), compiling. 
+[2026.09.07-08.45.12:171][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2026.09.07-08.45.12:190][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2026.09.07-08.45.12:198][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.15.dll
+[2026.09.07-08.45.12:211][  0]LogAssetRegistry: Display: No AssetDiscovery cache present at ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+[2026.09.07-08.45.12:212][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 0 .ref files found, 0 referenced binaries
+[2026.09.07-08.45.12:212][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.07-08.45.12:212][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 0 via .ref, 0 via migration fallback, 0 total
+[2026.09.07-08.45.12:212][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches from ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/CachedAssetRegistry.
+[2026.09.07-08.45.12:728][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.09.07-08.45.12:743][  0]LogMaterial: Display: Missing cached shadermap for /MeshModelingToolset/Materials/M_DynamicMeshComponentVtxColor.M_DynamicMeshComponentVtxColor in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 637ab248ff9f01a1c1997e1d68d671051b64f6cc), compiling. 
+[2026.09.07-08.45.12:850][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.09.07-08.45.13:276][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.09.07-08.45.13:305][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PhAT_UnselectedMaterial.PhAT_UnselectedMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: acfafabd55c0266440b7cd51504207822a54b577), compiling. 
+[2026.09.07-08.45.13:312][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PhAT_NoCollisionMaterial.PhAT_NoCollisionMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 84a67135927a1cf4b0714e5af993869231488f14), compiling. 
+[2026.09.07-08.45.13:500][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... started...
+[2026.09.07-08.45.13:637][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... took 136.098 ms
+[2026.09.07-08.45.13:637][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.09.07-08.45.13:641][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 4.949 ms (total: 141.048 ms)
+[2026.09.07-08.45.13:641][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.09.07-08.45.13:679][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 37.289 ms (total: 178.337 ms)
+[2026.09.07-08.45.13:679][  0]LogPythonScriptCommandlet: Display: Running Python script: C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Tools/import_heart.py
+[2026.09.07-08.45.13:717][  0]LogMaterial: Display: Missing cached shadermap for /Game/HeartBaseline/M_HeartAuthored.M_HeartAuthored in PCD3D_SM5, Default, SM5, Editor (DDC key hash: ca2dbbfafae599df13c528f4932faea967dc4a0e), compiling. 
+[2026.09.07-08.45.13:729][  0]LogMaterial: Display: Missing cached shadermap for /Game/HeartBaseline/M_HeartAuthored.M_HeartAuthored in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 2ba503f06eadbbb88a60b7a20c50645c87b2a776), compiling. 
+[2026.09.07-08.45.13:739][  0]LogMaterial: Display: Missing cached shadermap for /Game/HeartBaseline/M_HeartAuthored.M_HeartAuthored in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 4fce814c045279d55486d9bb5e9690a9b5cd4002), compiling. 
+[2026.09.07-08.45.13:746][  0]LogMaterial: Display: Missing cached shadermap for /Game/HeartBaseline/M_HeartAuthored.M_HeartAuthored in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 44c792e39e3680b35d8a78d48c8622fbbef06fe6), compiling. 
+[2026.09.07-08.45.13:754][  0]LogMaterial: Display: Missing cached shadermap for /Game/HeartBaseline/M_HeartAuthored.M_HeartAuthored in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 70e3b3d47f7f45e311909fce1b042cbf541d94a8), compiling. 
+[2026.09.07-08.45.13:763][  0]LogMaterial: Display: Missing cached shadermap for /Game/HeartBaseline/M_HeartAuthored.M_HeartAuthored in PCD3D_SM5, Default, SM5, Editor (DDC key hash: b6804195a159a24d07e19d91798630918224423e), compiling. 
+[2026.09.07-08.45.20:116][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.07-08.45.23:438][  0]LogStaticMesh: Display: Building static mesh SM_Heart_Foundation (Required Memory Estimate: 466.412491 MB)...
+[2026.09.07-08.45.25:305][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_Foundation) ...
+[2026.09.07-08.45.26:072][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_Foundation) ...
+[2026.09.07-08.45.26:759][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_Foundation) ...
+[2026.09.07-08.45.27:985][  0]LogStaticMesh: Display: Building static mesh SM_Heart_WallFrontRight (Required Memory Estimate: 89.95079 MB)...
+[2026.09.07-08.45.28:353][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallFrontRight) ...
+[2026.09.07-08.45.28:527][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallFrontRight) ...
+[2026.09.07-08.45.28:672][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallFrontRight) ...
+[2026.09.07-08.45.29:275][  0]LogStaticMesh: Display: Building static mesh SM_Heart_WallFrontLeft (Required Memory Estimate: 82.84478 MB)...
+[2026.09.07-08.45.29:642][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallFrontLeft) ...
+[2026.09.07-08.45.29:800][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallFrontLeft) ...
+[2026.09.07-08.45.29:930][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallFrontLeft) ...
+[2026.09.07-08.45.30:651][  0]LogStaticMesh: Display: Building static mesh SM_Heart_WallBackRight (Required Memory Estimate: 92.315564 MB)...
+[2026.09.07-08.45.31:044][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallBackRight) ...
+[2026.09.07-08.45.31:275][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallBackRight) ...
+[2026.09.07-08.45.31:439][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallBackRight) ...
+[2026.09.07-08.45.32:185][  0]LogStaticMesh: Display: Building static mesh SM_Heart_WallBackLeft (Required Memory Estimate: 95.280185 MB)...
+[2026.09.07-08.45.32:583][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallBackLeft) ...
+[2026.09.07-08.45.32:776][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallBackLeft) ...
+[2026.09.07-08.45.32:922][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_WallBackLeft) ...
+[2026.09.07-08.45.33:086][  0]LogFbx: Display: Triangulating static mesh SM_Heart_Aorta
+[2026.09.07-08.45.33:350][  0]LogStaticMesh: Display: Building static mesh SM_Heart_Aorta (Required Memory Estimate: 12.374148 MB)...
+[2026.09.07-08.45.33:570][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_Aorta) ...
+[2026.09.07-08.45.33:837][  0]LogFbx: Display: Triangulating static mesh SM_Heart_PacingValve
+[2026.09.07-08.45.34:030][  0]LogStaticMesh: Display: Building static mesh SM_Heart_PacingValve (Required Memory Estimate: 10.129311 MB)...
+[2026.09.07-08.45.34:131][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_PacingValve) ...
+[2026.09.07-08.45.34:315][  0]LogFbx: Display: Triangulating static mesh SM_Heart_PulseSeed
+[2026.09.07-08.45.34:503][  0]LogStaticMesh: Display: Building static mesh SM_Heart_PulseSeed (Required Memory Estimate: 8.949944 MB)...
+[2026.09.07-08.45.34:541][  0]LogStaticMesh: Display: SM_Heart_PulseSeed has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-08.45.34:541][  0]LogStaticMesh: Display: SM_Heart_PulseSeed has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-08.45.34:544][  0]FBXImport: Warning: SM_Heart_PulseSeed has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-08.45.34:544][  0]FBXImport: Warning: SM_Heart_PulseSeed has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-08.45.34:574][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/HeartBaseline/SM_Heart_PulseSeed) ...
+[2026.09.07-08.45.34:844][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.09.07-08.45.34:844][  0]LogInit: Display: 
+[2026.09.07-08.45.34:844][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.09.07-08.45.34:844][  0]LogInit: Display: -----------------------------------
+[2026.09.07-08.45.34:844][  0]LogInit: Display: LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+[2026.09.07-08.45.34:844][  0]LogInit: Display: FBXImport: Warning: SM_Heart_PulseSeed has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-08.45.34:844][  0]LogInit: Display: FBXImport: Warning: SM_Heart_PulseSeed has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-08.45.34:844][  0]LogInit: Display: 
+[2026.09.07-08.45.34:844][  0]LogInit: Display: Success - 0 error(s), 3 warning(s)
+[2026.09.07-08.45.34:844][  0]LogInit: Display: 
+
+Execution of commandlet took:  21.34 seconds, PeakPhysMemoryMB=3766 MB, PeakVirtMemoryMB=3773 MB
+[2026.09.07-08.45.34:850][  0]LogToolsetRegistry: Display: Unregistering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.09.07-08.45.35:069][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 0 .ref files found, 0 referenced binaries
+[2026.09.07-08.45.35:069][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.07-08.45.35:420][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread

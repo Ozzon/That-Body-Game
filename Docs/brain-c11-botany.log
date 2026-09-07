@@ -1,0 +1,69 @@
+00:02.000  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C11.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_TreeWood.fbx'
+export finished in 0.1227 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_TreeLeaves.fbx'
+export finished in 0.3056 sec.
+C11_BRANCHING_TREE Tree
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_SpringCherryWood.fbx'
+export finished in 0.1244 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_SpringCherryLeaves.fbx'
+export finished in 0.3149 sec.
+C11_BRANCHING_TREE SpringCherry
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_MemoryWillowWood.fbx'
+export finished in 0.1061 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_MemoryWillowLeaves.fbx'
+export finished in 0.1902 sec.
+C11_BRANCHING_TREE MemoryWillow
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ArrivalCherryWood.fbx'
+export finished in 0.1162 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ArrivalCherryLeaves.fbx'
+export finished in 0.1738 sec.
+C11_BRANCHING_TREE ArrivalCherry
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_PoolWillowWood.fbx'
+export finished in 0.1085 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_PoolWillowLeaves.fbx'
+export finished in 0.2078 sec.
+C11_BRANCHING_TREE PoolWillow
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass0.fbx'
+export finished in 0.1462 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass1.fbx'
+export finished in 0.0885 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass2.fbx'
+export finished in 0.0939 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass3.fbx'
+export finished in 0.1766 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenPocketLeaves.fbx'
+export finished in 0.0735 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenPocketFlowers.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_UnderstoryLeaves.fbx'
+export finished in 0.1679 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_UnderstoryFlowers.fbx'
+export finished in 0.0118 sec.
+Info: Saved as "Brain_Craft_C11.blend"
+C11_COMPOSED_BOTANY_READY ['TreeWood', 'TreeLeaves', 'SpringCherryWood', 'SpringCherryLeaves', 'MemoryWillowWood', 'MemoryWillowLeaves', 'ArrivalCherryWood', 'ArrivalCherryLeaves', 'PoolWillowWood', 'PoolWillowLeaves', 'GardenGrass0', 'GardenGrass1', 'GardenGrass2', 'GardenGrass3', 'GardenPocketLeaves', 'GardenPocketFlowers', 'UnderstoryLeaves', 'UnderstoryFlowers']
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

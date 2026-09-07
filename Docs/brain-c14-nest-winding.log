@@ -1,0 +1,19 @@
+00:02.984  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C14.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC14Mantle\\SM_Craft_Nest0.fbx'
+export finished in 0.3446 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC14Mantle\\SM_Craft_Nest1.fbx'
+export finished in 0.3340 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC14Mantle\\SM_Craft_Nest2.fbx'
+export finished in 0.3239 sec.
+Info: Saved as "Brain_Craft_C14.blend"
+C14_NEST_WINDING_VERIFIED
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

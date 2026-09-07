@@ -1,0 +1,10 @@
+00:04.969  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\HeartBaseline\Heart_Baseline.blend"
+01:04.766  render           | Saved: 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\HeartBaseline\Heart-source-review.png'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+Info: Saved as "Heart_Baseline.blend"
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

@@ -30,17 +30,18 @@ void ABodyWorld::Path(const TArray<FVector>& P,float Width,int Mat)
     for(int i=0;i<P.Num()-1;i++)for(int k=0;k<8;k++)
     {float t=k/8.f;FVector a=P[FMath::Max(0,i-1)],b=P[i],c=P[i+1],d=P[FMath::Min(P.Num()-1,i+2)];Curve.Add(.5f*((2*b)+(-a+c)*t+(2*a-5*b+4*c-d)*t*t+(-a+3*b-3*c+d)*t*t*t));}
     Curve.Add(P.Last());
+    for(FVector Q:Curve){WalkSamples.Add(Q+FVector(0,0,48));WalkWidths.Add(Width);}
     TArray<FVector> V,N,L,R;TArray<int32>I;TArray<FVector2D>UV;
     for(int i=0;i<Curve.Num();i++)
     {
         FVector T=(Curve[FMath::Min(i+1,Curve.Num()-1)]-Curve[FMath::Max(i-1,0)]).GetSafeNormal();
         FVector Side=FVector::CrossProduct(T,FVector::UpVector).GetSafeNormal()*Width*.5;
-        FVector A=Curve[i]+Side,B=Curve[i]-Side;A.Z=B.Z=49;
+        FVector A=Curve[i]+Side,B=Curve[i]-Side;A.Z=B.Z=Curve[i].Z+48;
         V.Append({A,B});N.Append({FVector::UpVector,FVector::UpVector});UV.Append({FVector2D(0,i),FVector2D(1,i)});L.Add(A);R.Add(B);
         if(i<Curve.Num()-1){int j=i*2;I.Append({j,j+1,j+2,j+1,j+3,j+2});}
     }
-    auto M=NewObject<UProceduralMeshComponent>(this);M->SetupAttachment(RootComponent);M->CreateMeshSection_LinearColor(0,V,I,N,UV,{}, {},false);M->SetMaterial(0,Mats[Mat]);M->RegisterComponent();
-    Tube(L,3,8);Tube(R,3,8);
+    auto M=NewObject<UProceduralMeshComponent>(this);M->SetupAttachment(RootComponent);M->CreateMeshSection_LinearColor(0,V,I,N,UV,{}, {},false);M->SetMaterial(0,Mats[16]);M->SetCastShadow(false);M->ComponentTags.Add(TEXT("LightBridge"));M->RegisterComponent();
+    // A soft luminous ribbon needs no separate bright rails.
 }
 
 ABodyWorld::ABodyWorld()
@@ -83,10 +84,22 @@ UProceduralMeshComponent* ABodyWorld::Blob(FVector P,FVector S,int Mat,float See
     M->SetMaterial(0,Mats.IsValidIndex(Mat)?Mats[Mat]:nullptr);if(S.GetMax()<40)M->SetCastShadow(false);M->RegisterComponent();return M;
 }
 
-UProceduralMeshComponent* ABodyWorld::Tube(const TArray<FVector>& P,float Radius,int Mat,bool Closed)
+UProceduralMeshComponent* ABodyWorld::Tube(const TArray<FVector>& Input,float Radius,int Mat,bool Closed)
 {
+    TArray<FVector> P=Input;
+    if(Input.Num()>=3&&Input.Num()<16)
+    {
+        P.Empty();
+        for(int i=0;i<(Closed?Input.Num():Input.Num()-1);i++)for(int k=0;k<10;k++)
+        {
+            auto At=[&](int n){return Input[Closed?(n+Input.Num())%Input.Num():FMath::Clamp(n,0,Input.Num()-1)];};
+            float t=k/10.f;FVector a=At(i-1),b=At(i),c=At(i+1),d=At(i+2);
+            P.Add(.5f*((2*b)+(-a+c)*t+(2*a-5*b+4*c-d)*t*t+(-a+3*b-3*c+d)*t*t*t));
+        }
+        if(!Closed)P.Add(Input.Last());
+    }
     TArray<FVector> V,N;TArray<int32> I;TArray<FVector2D> UV;
-    int Count=P.Num(),Sides=12;
+    int Count=P.Num(),Sides=20;
     if(Count<2)return nullptr;
     for(int a=0;a<Count;a++)
     {
@@ -100,30 +113,41 @@ UProceduralMeshComponent* ABodyWorld::Tube(const TArray<FVector>& P,float Radius
     }
     for(int a=0;a<(Closed?Count:Count-1);a++)for(int s=0;s<Sides;s++)
     {int j=a*Sides+s,k=a*Sides+(s+1)%Sides,l=((a+1)%Count)*Sides+s,m=((a+1)%Count)*Sides+(s+1)%Sides;I.Append({j,l,k,k,l,m});}
+    if(!Closed)
+    {
+        // Rounded sealed ends remove the raw cut-pipe appearance.
+        for(int end=0;end<2;end++)
+        {
+            int a=end?Count-1:0;FVector T=(end?P.Last()-P[Count-2]:P[0]-P[1]).GetSafeNormal();
+            int tip=V.Num();V.Add(P[a]+T*Radius*.55f);N.Add(T);UV.Add(FVector2D(.5,.5));
+            for(int s=0;s<Sides;s++){int j=a*Sides+s,k=a*Sides+(s+1)%Sides;if(end)I.Append({j,tip,k});else I.Append({j,k,tip});}
+        }
+    }
     auto M=NewObject<UProceduralMeshComponent>(this);M->SetupAttachment(RootComponent);
     M->CreateMeshSection_LinearColor(0,V,I,N,UV,{}, {},false);M->SetMaterial(0,Mats.IsValidIndex(Mat)?Mats[Mat]:nullptr);M->RegisterComponent();return M;
 }
 
 void ABodyWorld::Label(FString T,FVector P,float Size,FColor Color)
 {
+    if(Size<36)return;
     auto M=NewObject<UTextRenderComponent>(this);M->SetupAttachment(RootComponent);M->SetRelativeLocation(P);
     M->SetRelativeRotation(FRotator(58,180,0));M->SetText(FText::FromString(T));M->SetWorldSize(Size);M->SetTextRenderColor(Color);
-    M->SetHorizontalAlignment(EHTA_Center);M->SetVerticalAlignment(EVRTA_TextCenter);M->RegisterComponent();
+    M->SetHorizontalAlignment(EHTA_Center);M->SetVerticalAlignment(EVRTA_TextCenter);M->RegisterComponent();AtlasLabels.Add(M);
 }
 
 void ABodyWorld::MakeWorld()
 {
     // Palette: tissue, inner tissue, peach, coral, teal, lilac, cream, navy,
     // gold, blood, sky, sage, plum, blue, warm stone, emissive aqua.
-    const TCHAR* Names[]={TEXT("Tissue"),TEXT("Cavity"),TEXT("Peach"),TEXT("Coral"),TEXT("Teal"),TEXT("Lilac"),TEXT("Cream"),TEXT("Navy"),TEXT("Gold"),TEXT("Blood"),TEXT("Sky"),TEXT("Sage"),TEXT("Plum"),TEXT("Blue"),TEXT("Stone"),TEXT("Glow")};
+    const TCHAR* Names[]={TEXT("Tissue"),TEXT("Cavity"),TEXT("Peach"),TEXT("Coral"),TEXT("Teal"),TEXT("Lilac"),TEXT("Cream"),TEXT("Navy"),TEXT("Gold"),TEXT("Blood"),TEXT("Sky"),TEXT("Sage"),TEXT("Plum"),TEXT("Blue"),TEXT("Stone"),TEXT("Glow"),TEXT("LightBridge")};
     for(auto Name:Names)Mats.Add(LoadObject<UMaterialInterface>(nullptr,*FString::Printf(TEXT("/Game/Materials/M_%s.M_%s"),Name,Name)));
     Organs.SetNum(3);
     Organs[0].Name="LUNGS";Organs[0].Center=FVector(520,0,60);Organs[0].Station=FVector(-110,-500,60);Organs[0].Color=FLinearColor(.45,.9,.85);
     Organs[1].Name="HEART";Organs[1].Center=FVector(440,70,60);Organs[1].Station=FVector(80,130,60);Organs[1].Color=FLinearColor(1,.46,.39);
-    Organs[2].Name="BRAIN";Organs[2].Center=FVector(2040,0,60);Organs[2].Station=FVector(1690,0,60);Organs[2].Color=FLinearColor(.77,.63,1);
+    Organs[2].Name="BRAIN";Organs[2].Center=FVector(2040,0,224);Organs[2].Station=FVector(1690,0,230);Organs[2].Color=FLinearColor(.77,.63,1);
 
     auto Light=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,3000),FRotator(-52,-38,0));
-    Light->GetLightComponent()->SetIntensity(3.5);Light->SetLightColor(FLinearColor(1,.88,.74));
+    Light->GetLightComponent()->SetIntensity(Adventure?2.5:3.5);Light->SetLightColor(Adventure?FLinearColor(1,.96,.92):FLinearColor(1,.88,.74));
     auto Sky=GetWorld()->SpawnActor<ASkyLight>();Sky->GetLightComponent()->SetIntensity(.65);
     Sky->GetLightComponent()->SetLightColor(FLinearColor(.65,.76,1));Sky->GetLightComponent()->SetRealTimeCaptureEnabled(true);
     auto PP=GetWorld()->SpawnActor<APostProcessVolume>();PP->bUnbound=true;
@@ -135,6 +159,9 @@ void ABodyWorld::MakeWorld()
     PP->Settings.bOverride_AmbientOcclusionIntensity=true;PP->Settings.AmbientOcclusionIntensity=.7f;
     PP->Settings.bOverride_AmbientOcclusionRadius=true;PP->Settings.AmbientOcclusionRadius=80;
     PP->Settings.bOverride_ColorSaturation=true;PP->Settings.ColorSaturation=FVector4(1.08,1.08,1.08,1);
+
+    if(Adventure){MakeAdventure();return;}
+    if(HeartStudy){MakeHeartStudy();return;}
 
     Shape(FVector(300,0,-190),FVector(240,240,1),7,nullptr,2);
     // Continuous full-body silhouette. Head, neck, shoulders, arms, pelvis, legs.
@@ -176,40 +203,41 @@ void ABodyWorld::MakeWorld()
         Tube({FVector(-1450,Side*340,0),FVector(-1950,Side*470,0),FVector(-2550,Side*440,0),FVector(-2960,Side*400,0)},25,9);
         Tube({FVector(-1450,Side*420,-10),FVector(-1950,Side*560,-10),FVector(-2550,Side*530,-10),FVector(-2960,Side*500,-10)},20,13);
     }
-    for(int i=0;i<19;i++)Shape(FVector(-1420+i*140,0,-30),FVector(.75,1.6,.6),2);
+    // The spinal connection reads as a single soft structure, not repeated obstacles.
     // Gold-edged pale circulation paths form the walkable connections.
-    TArray<FVector> Main={FVector(-1480,0,5),FVector(-1000,-130,5),FVector(-500,-140,5),FVector(-100,-70,5),FVector(200,-170,5),FVector(700,-130,5),FVector(1250,0,5),FVector(1660,0,5),FVector(2050,0,5)};
-    Path(Main,250);
-    Path({FVector(-110,-80,5),FVector(-170,-350,5),FVector(-110,-500,5),FVector(180,-630,5),FVector(640,-700,5)},245);
-    Path({FVector(-120,-50,5),FVector(-80,260,5),FVector(-70,560,5),FVector(300,730,5),FVector(900,700,5)},245);
-    Path({FVector(1250,0,6),FVector(960,-390,6),FVector(700,-600,6)},220);
-    Path({FVector(1250,0,6),FVector(960,390,6),FVector(850,670,6)},220);
-    // Main red/blue channels retain their anatomical route alongside the footpath.
-    Tube({FVector(-1400,180,25),FVector(-600,180,25),FVector(200,340,50),FVector(820,210,50),FVector(1450,130,30),FVector(1960,160,30)},20,9);
-    Tube({FVector(-1400,-250,22),FVector(-600,-260,22),FVector(200,-330,40),FVector(820,-200,40),FVector(1450,-140,22),FVector(1960,-160,22)},19,13);
+    Path({FVector(-1480,0,5),FVector(-930,0,5),FVector(-460,0,5),FVector(90,100,5)},250);
+    Path({FVector(-180,0,5),FVector(-200,-330,5),FVector(-110,-500,5),FVector(170,-730,5),FVector(680,-770,5)},245);
+    Path({FVector(-180,0,5),FVector(-170,350,5),FVector(-30,660,5),FVector(300,810,5),FVector(900,780,5)},245);
+    Path({FVector(840,100,14),FVector(1200,0,14),FVector(1440,0,14),FVector(1660,0,182)},250);
+    Path({FVector(1240,0,6),FVector(1100,-430,6),FVector(850,-740,6)},220);
+    Path({FVector(1240,0,6),FVector(1100,430,6),FVector(850,740,6)},220);
     MakeAbdomen();MakeLungs();MakeHeart();MakeBrain();
+    // Broad membrane walls give play an interior horizon. The atlas opens the shell.
+    for(int side:{-1,1})
+    {
+        TArray<FVector> Membrane;
+        for(int i=0;i<=40;i++){float t=i/40.f;Membrane.Add(FVector(-700+t*2000,side*(1220-90*FMath::Sin(t*PI)),100+45*FMath::Sin(t*PI)));}
+        auto Wall=Tube(Membrane,100,0);InteriorShell.Add(Wall);
+        TArray<FVector> Back;
+        for(int i=0;i<=30;i++){float t=i/30.f;Back.Add(FVector(1200+160*FMath::Sin(t*PI),side*(1100-t*780),170+140*FMath::Sin(t*PI)));}
+        InteriorShell.Add(Tube(Back,85,0));
+    }
     // Neck: trachea with cartilage rings, esophagus, thyroid, thymus, shoulder muscle.
-    Tube({FVector(1800,-55,25),FVector(1550,-55,25),FVector(1250,-55,25),FVector(1050,-55,25)},42,10);
-    for(int i=0;i<8;i++)Tube(Ellipse(FVector(1260+i*55,-55,27),14,57),8,6,true);
-    Tube({FVector(1800,135,0),FVector(1450,140,0),FVector(1000,180,0),FVector(50,750,0),FVector(-400,650,0)},22,2);
+    Tube({FVector(1690,-175,10),FVector(1450,-175,10),FVector(1200,-175,10),FVector(1080,-175,10)},22,10);
     Blob(FVector(1380,-160,50),FVector(84,60,43),11);Blob(FVector(1380,60,50),FVector(84,60,43),11);
     Blob(FVector(1120,20,50),FVector(100,90,40),2);
     Label("THYROID",FVector(1440,200,95),27,FColor(188,214,189));
     Label("THYMUS",FVector(1180,210,95),24,FColor(225,177,150));
-    for(int side:{-1,1})for(int i=0;i<3;i++)Blob(FVector(1190-i*80,side*(700+i*130),10),FVector(90,180,65),0,float(i),.04);
+    for(int side:{-1,1})Blob(FVector(1100,side*1030,0),FVector(160,90,35),0,0,.02);
     // A low, partial rib cutaway frames the chest without covering interaction routes.
-    for(int s:{-1,1})for(int i=0;i<5;i++)
-    {float x=200+i*180;Tube({FVector(x,s*1010,10),FVector(x+30,s*1100,70),FVector(x+85,s*1130,120),FVector(x+115,s*1080,155)},26,2);}
-    for(int i=0;i<45;i++)FlowCells.Add(Shape(FlowPosition(i,0),FVector(.38,.38,.17),i%3==0?10:9));
-    for(int i=0;i<32;i++)WindMotes.Add(Shape(FVector(600,0,120),FVector(.52,.10,.10),15));
-    for(int i=0;i<24;i++)HeartCells.Add(Shape(FVector(460,100,120),FVector(.28,.32,.11),i%2?3:10));
-    for(int i=0;i<12;i++)BrightMotes.Add(Shape(FVector(2110,0,130),FVector(.08),8));
+    for(int i=0;i<14;i++)WindMotes.Add(Shape(FVector(600,0,120),FVector(.52,.10,.10),15));
+    for(int i=0;i<16;i++)HeartCells.Add(Shape(FVector(460,100,120),FVector(.28,.32,.11),i%2?3:10));
+    for(int i=0;i<6;i++)BrightMotes.Add(Shape(FVector(2110,0,130),FVector(.08),8));
     for(int i=0;i<3;i++)
     {
         auto P=Organs[i].Station;
         Shape(P-FVector(0,0,35),FVector(1.9,1.9,.15),7,nullptr,1)->ComponentTags.Add(TEXT("Interactive"));
         Tube(Ellipse(P-FVector(0,0,22),103,103),6,i==0?15:i==1?8:5,true)->ComponentTags.Add(TEXT("Interactive"));
-        for(int j=0;j<4;j++)Shape(P+FVector(FMath::Cos(j*PI/2)*120,FMath::Sin(j*PI/2)*120,-16),FVector(.13,.13,.17),8);
     }
     Label("DIAPHRAGM",FVector(-300,-590,110),37,FColor(157,233,222));
     Label("PACING CHAMBER",FVector(-100,210,110),30,FColor(251,195,167));
@@ -220,38 +248,37 @@ void ABodyWorld::MakeLungs()
 {
     for(int S:{-1,1})
     {
-        FVector C(600,S*710,-25);
-        Blob(C,FVector(660,365,72),0,2,.045);
+        FVector C(600,S*830,-25);
+        Blob(C,FVector(620,305,72),0,2,.02);
         // Open inner beds leave room to read the bronchi and walk through their branches.
-        Blob(C+FVector(0,0,38),FVector(586,308,25),S<0?4:11,2,.06);
+        Blob(C+FVector(0,0,38),FVector(554,249,25),4,2,.02);
         TArray<FVector> LungRim;
         for(int j=0;j<=92;j++)
         {
             float a=PI+.42f+(2*PI-.84f)*j/92;
-            float X=610*FMath::Cos(a),Y=FMath::Sin(a)*(325-85*FMath::Cos(a));
+            float X=578*FMath::Cos(a),Y=FMath::Sin(a)*(276-65*FMath::Cos(a));
             // Rounded apex, broad basal surface, and a cardiac notch on the left.
             if(S>0&&Y<0)Y+=60*FMath::Exp(-FMath::Square((X+100)/240));
             LungRim.Add(C+FVector(X,Y,84));
         }
-        auto Rim=Tube(LungRim,42,2);Organs[0].Animated.Add(Rim);
+        auto Rim=Tube(LungRim,34,2);Organs[0].Animated.Add(Rim);
         for(int L=0;L<(S<0?2:1);L++)
         {
             float X=340+L*380;
-            Tube({FVector(X-80,S*985,70),FVector(X+10,S*830,75),FVector(X+80,S*600,75),FVector(X+150,S*430,60)},14,0);
+            Tube({FVector(X-80,S*1050,48),FVector(X+20,S*830,48),FVector(X+140,S*610,48)},7,0);
         }
         // Airway tree. Porcelain-blue branches terminate in clustered alveoli.
-        Tube({FVector(1050,-55,80),FVector(900,S*280,110),FVector(710,S*500,100),FVector(420,S*650,100)},37,10);
-        for(int b=0;b<6;b++)
+        Tube({FVector(1060,S*340,42),FVector(950,S*580,50),FVector(710,S*790,62),FVector(320,S*820,62)},22,10);
+        for(int b=0;b<3;b++)
         {
-            FVector Q(160+b*166,S*(750+65*FMath::Sin(b*2.f)),105);
-            FVector K(470+b*70,S*(560+b*12),105);
-            Tube({K,(K+Q)*.5+FVector(35,0,12),Q},18,10);
-            for(int cluster=0;cluster<3;cluster++)
+            FVector Q(250+b*305,S*995,78);
+            FVector K(300+b*250,S*800,65);
+            Tube({K,(K+Q)*.5+FVector(35,0,12),Q},13,10);
+            for(int cluster=0;cluster<1;cluster++)
             {
-                FVector A=Q+FVector((cluster-1)*65,S*85,0);
-                Tube({Q,A},11,6);
-                for(int k=0;k<7;k++)
-                {float a=k*2*PI/6;FVector Pos=A+FVector(FMath::Cos(a)*37,FMath::Sin(a)*33,k==6?50:12);auto B=Blob(Pos,FVector(29,29,34),b%2?5:2,b,.04);Organs[0].Animated.Add(B);}
+                FVector A=Q;
+                for(int k=0;k<5;k++)
+                {float a=k*2*PI/4;FVector Pos=A+FVector(FMath::Cos(a)*32,FMath::Sin(a)*29,k==4?43:10);auto B=Blob(Pos,FVector(32,32,37),2,b,.025);Organs[0].Animated.Add(B);}
             }
         }
         Label(S<0?"RIGHT LUNG":"LEFT LUNG",FVector(280,S*1120,150),49,FColor(241,221,207));
@@ -281,8 +308,7 @@ void ABodyWorld::MakeHeart()
     for(int i=0;i<3;i++)Tube({C+FVector(430+i*35,10+i*40,235),C+FVector(490+i*40,10+i*40,325)},20,3);
     Tube({C+FVector(240,-170,55),C+FVector(300,-200,195),C+FVector(410,-340,160)},35,13);
     Tube({C+FVector(120,180,30),C+FVector(220,320,80),C+FVector(370,330,90)},27,9);
-    // Coronary vessels and a heartbeat orbit.
-    Tube({C+FVector(260,0,85),C+FVector(100,15,95),C+FVector(-40,35,90),C+FVector(-230,80,65)},9,8);
+    // A single heartbeat orbit is the organ's readable resource cue.
     Tube(Ellipse(C+FVector(0,0,50),392,346),5,8,true);
     Label("HEART",FVector(420,110,360),56,FColor(255,222,190));
     BpmLabel=NewObject<UTextRenderComponent>(this);BpmLabel->SetupAttachment(RootComponent);BpmLabel->SetRelativeLocation(FVector(270,100,295));
@@ -291,41 +317,31 @@ void ABodyWorld::MakeHeart()
 
 void ABodyWorld::MakeBrain()
 {
-    FVector C(2110,0,-18);
+    FVector C(2110,0,146);
     Blob(C,FVector(630,570,75),5,4,.08);
     Blob(C+FVector(0,0,39),FVector(565,505,22),12,0,.025);
     Tube(OpenRim(C+FVector(0,0,91),596,534,.35),51,2);
     // Two continuous folded hemispheres frame the exposed awareness center.
-    for(int s:{-1,1})for(int row=0;row<3;row++)
-    {
-        TArray<FVector> Fold;
-        for(int j=0;j<=120;j++)
-        {float t=j/120.f,x=1650+t*920;float y=295+row*53-135*FMath::Square(t*2-1)+27*FMath::Sin(t*PI*11+row*1.8f);Fold.Add(FVector(x,s*y,103+row*10+10*FMath::Sin(t*PI*7)));}
-        Tube(Fold,22+row*2,2);
-    }
     for(int s:{-1,1})for(int row=0;row<2;row++)
     {
         TArray<FVector> Fold;
-        for(int j=0;j<=64;j++){float t=j/64.f;Fold.Add(FVector(2480+row*62+38*FMath::Sin(t*PI*7),s*(50+t*300),100+row*6+12*FMath::Sin(t*PI*6)));}
+        for(int j=0;j<=120;j++)
+        {float t=j/120.f,x=1650+t*920;float y=295+row*53-135*FMath::Square(t*2-1)+27*FMath::Sin(t*PI*11+row*1.8f);Fold.Add(FVector(x,s*y,267+row*10+10*FMath::Sin(t*PI*7)));}
+        Tube(Fold,22+row*2,2);
+    }
+    for(int s:{-1,1})for(int row=0;row<1;row++)
+    {
+        TArray<FVector> Fold;
+        for(int j=0;j<=64;j++){float t=j/64.f;Fold.Add(FVector(2480+row*62+38*FMath::Sin(t*PI*7),s*(50+t*300),264+row*6+12*FMath::Sin(t*PI*6)));}
         Tube(Fold,25,2);
     }
-    // Four thought groves are connected by flowing neural paths.
+    // One awareness garden, with thoughts drifting around its uncluttered perimeter.
     for(int i=0;i<4;i++)
     {
         FVector Q=C+FVector((i<2?-1:1)*235,(i%2?-1:1)*235,58);
-        Shape(Q,FVector(2.5,2.5,.19),i==0?4:i==1?12:i==2?11:13,nullptr,1);
-        Tube(Ellipse(Q+FVector(0,0,17),132,132),9,5,true);
-        Path({C+FVector(0,0,65),(C+Q)*.5+FVector(0,0,35),Q},150);
-        Tube({C+FVector(0,0,86),(C+Q)*.5+FVector(0,0,55),Q+FVector(0,0,20)},4,15);
-        for(int k=0;k<4;k++)
-        {
-            float a=k*2*PI/4;FVector B=Q+FVector(FMath::Cos(a)*95,FMath::Sin(a)*95,35);
-            Tube({B,B+FVector(0,0,35)},7,8);
-            for(int j=0;j<3;j++)Blob(B+FVector((j-1)*18,0,40+j*8),FVector(24,25,29),i%2?5:11,j,.1);
-        }
-        auto T=Blob(Q+FVector(0,0,120),FVector(49,49,43),3,i,.13);T->ComponentTags.Add(TEXT("Interactive"));Thoughts.Add(T);
+        auto T=Blob(Q+FVector(0,0,120),FVector(49,49,43),3,i,.05);T->ComponentTags.Add(TEXT("Interactive"));Thoughts.Add(T);
     }
-    Path({FVector(1500,0,35),FVector(1880,0,40),FVector(2110,0,45)},230);
+    Path({FVector(1640,0,182),FVector(1880,0,182),FVector(2110,0,182)},230);
     Awareness=Shape(C+FVector(0,0,76),FVector(1.8,1.8,.2),8,nullptr,1);
     Awareness->ComponentTags.Add(TEXT("Interactive"));
     Tube(Ellipse(C+FVector(0,0,102),145,145),9,8,true);
@@ -333,8 +349,7 @@ void ABodyWorld::MakeBrain()
     Tube({C+FVector(0,0,80),C+FVector(0,0,145),C+FVector(12,0,215)},11,8);
     for(int s:{-1,1})Blob(C+FVector(0,s*32,175),FVector(22,52,14),11,s,.05);
     Blob(C+FVector(12,0,227),FVector(29,29,44),8,0,.06);
-    Label("BRAIN",FVector(2660,0,200),58,FColor(239,218,243));
-    Label("THOUGHT GARDEN",FVector(2480,0,150),27,FColor(212,197,223));
+    Label("BRAIN",FVector(2660,0,364),58,FColor(239,218,243));
 }
 
 void ABodyWorld::MakeAbdomen()

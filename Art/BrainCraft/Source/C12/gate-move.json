@@ -1,0 +1,66 @@
+{
+  "old": [
+    {
+      "name": "First light",
+      "p": [
+        -2130,
+        -2020,
+        140
+      ],
+      "yaw": 90,
+      "color": "Dawn"
+    },
+    {
+      "name": "Spring of ideas",
+      "p": [
+        -1040,
+        1760,
+        1100
+      ],
+      "yaw": 0,
+      "color": "Spring"
+    },
+    {
+      "name": "Memory grove",
+      "p": [
+        2050,
+        1700,
+        950
+      ],
+      "yaw": -25,
+      "color": "Memory"
+    }
+  ],
+  "new": [
+    {
+      "name": "First light",
+      "p": [
+        -2390,
+        -2260,
+        140.0
+      ],
+      "yaw": 90,
+      "color": "Dawn"
+    },
+    {
+      "name": "Spring of ideas",
+      "p": [
+        -1480,
+        2510,
+        1206.58
+      ],
+      "yaw": 0,
+      "color": "Spring"
+    },
+    {
+      "name": "Memory grove",
+      "p": [
+        2320,
+        1690,
+        950.0
+      ],
+      "yaw": -70,
+      "color": "Memory"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+00:01.906  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C17.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC17\\SM_Craft_C17_TreeWood.fbx'
+export finished in 0.3291 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC17\\SM_Craft_C17_RootBed.fbx'
+export finished in 0.0118 sec.
+Info: Saved as "Brain_Craft_C17.blend"
+C17_TREE_REPAIR_READY {"removed_voxel_tip_fragments": 76, "removed_vertices": 788, "TreeWood": {"vertices": 181736, "down_faces": 39086}, "RootBed": {"vertices": 4097, "down_faces": 0}, "empty_foliage_removed": ["SM_Craft_C17_BotanyClover2_3", "SM_Craft_C17_BotanyFern2_3", "SM_Craft_C17_BotanyFern3_3", "SM_Craft_C17_BotanyGrass2_3", "SM_Craft_C17_BotanyGrass3_3"]}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

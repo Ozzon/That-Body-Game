@@ -1,0 +1,37 @@
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_heart_blender.py:22: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_Foundation.fbx'
+export finished in 0.2873 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_WallFrontRight.fbx'
+export finished in 0.0556 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_WallFrontLeft.fbx'
+export finished in 0.0540 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_WallBackRight.fbx'
+export finished in 0.0698 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_WallBackLeft.fbx'
+export finished in 0.0729 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_Aorta.fbx'
+export finished in 0.0088 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_PacingValve.fbx'
+export finished in 0.0090 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\HeartModels\\C\\Export\\SM_Heart_PulseSeed.fbx'
+export finished in 0.0065 sec.
+Info: Saved as "Heart_Model_C.blend"
+HEART_AUTHORING_SAVED
+00:33.344  render           | Saved: 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\HeartModels\C\Heart-source-review.png'
+HEART_SOURCE_RENDERED
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

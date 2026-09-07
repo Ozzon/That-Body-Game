@@ -1,0 +1,312 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ThatBodyGameEditor Win64 Development "-Project=C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+  Executing up to 14 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game).
+UbaServer - Listening on 0.0.0.0:1345
+Building ThatBodyGameEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from ThatBodyGame unity file: BodyAdventure.cpp, BodyAdventureHUD.cpp, BodyAdventureReview.cpp, BodyGeometry.cpp, BodyHUD.cpp, BodyOcclusion.cpp, BodyPlay.cpp, BodySmoke.cpp, BrainCraft.cpp, BrainCraftExploration.cpp, BrainCraftReview.cpp, BrainGardenReview.cpp, HeartStudy.cpp, HeartStudyHUD.cpp, HeartStudySmoke.cpp, AttentionCape.cpp, BWBipedGait.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 5 action(s)
+  CPU 14 physical cores, 20 logical cores
+  Memory 63.71 GB physical, 35.55 GB/67.71 GB committed
+  UBA Storage capacity 40 GB
+[1/5] Compile [x64] BrainCraftReview.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(22,85): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+        auto Keys=[&](TSet<FKey> Want){for(FKey K:TestKeys)if(!Want.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Released,0,false));for(FKey K:Want)if(!TestKeys.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Pressed,1,false));TestKeys=Want;};
+                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(83,81): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    auto Keys=[&](TSet<FKey> Want){for(FKey K:TestKeys)if(!Want.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Released,0,false));for(FKey K:Want)if(!TestKeys.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Pressed,1,false));TestKeys=Want;};
+                                                                                ^
+[2/5] Compile [x64] BrainCraft.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(134,361): warning C4305: '=': truncation from 'double' to 'float'
+    GetCapsuleComponent()->InitCapsuleSize(34,92);GetCharacterMovement()->MaxWalkSpeed=560;GetCharacterMovement()->MaxStepHeight=45;GetCharacterMovement()->SetWalkableFloorAngle(48);GetCharacterMovement()->BrakingDecelerationWalking=1600;GetCharacterMovement()->MaxAcceleration=1600;GetCharacterMovement()->JumpZVelocity=410;GetCharacterMovement()->AirControl=.3;GetCharacterMovement()->bEnablePhysicsInteraction=false;GetCharacterMovement()->bOrientRotationToMovement=false;
+                                                                                                                                                                                                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(189,217): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto Key=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,5000),FRotator(-35,-38,0));Key->GetLightComponent()->SetIntensity(LightingBaseline?3.8f:C16Lighting?3.2f:2.7f);Key->SetLightColor(FLinearColor(1,.87,.69));auto Sun=Cast<UDirectionalLightComponent>(Key->GetLightComponent());Sun->LightSourceAngle=LightingBaseline?3.6f:5.5f;Sun->DynamicShadowDistanceMovableLight=18000;Sun->ContactShadowLengthInWS=true;Sun->ContactShadowLength=LightingBaseline?45.f:20.f;
+                                                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(189,213): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto Key=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,5000),FRotator(-35,-38,0));Key->GetLightComponent()->SetIntensity(LightingBaseline?3.8f:C16Lighting?3.2f:2.7f);Key->SetLightColor(FLinearColor(1,.87,.69));auto Sun=Cast<UDirectionalLightComponent>(Key->GetLightComponent());Sun->LightSourceAngle=LightingBaseline?3.6f:5.5f;Sun->DynamicShadowDistanceMovableLight=18000;Sun->ContactShadowLengthInWS=true;Sun->ContactShadowLength=LightingBaseline?45.f:20.f;
+                                                                                                                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(190,218): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto Fill=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,4800),FRotator(-28,145,0));Fill->GetLightComponent()->SetIntensity(LightingBaseline?.10f:C16Lighting?.68f:.28f);Fill->SetLightColor(FLinearColor(.55,.69,1));Fill->GetLightComponent()->SetCastShadows(false);
+                                                                                                                                                                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(190,214): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto Fill=GetWorld()->SpawnActor<ADirectionalLight>(FVector(0,0,4800),FRotator(-28,145,0));Fill->GetLightComponent()->SetIntensity(LightingBaseline?.10f:C16Lighting?.68f:.28f);Fill->SetLightColor(FLinearColor(.55,.69,1));Fill->GetLightComponent()->SetCastShadows(false);
+                                                                                                                                                                                                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(192,222): warning C4305: 'argument': truncation from 'double' to 'float'
+    SL->SourceType=ESkyLightSourceType::SLS_SpecifiedCubemap;SL->Cubemap=LoadObject<UTextureCube>(nullptr,TEXT("/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap"));SL->SetLightColor(FLinearColor(.64,.79,1));SL->SetIntensity(LightingBaseline?.60f:C16Lighting?1.35f:1.05f);if(!LightingBaseline)SL->SetLowerHemisphereColor(FLinearColor(.055,.072,.065));SL->RecaptureSky();UE_LOG(LogTemp,Display,TEXT("CRAFT_SKYLIGHT_CUBEMAP %s"),*GetNameSafe(SL->Cubemap));
+                                                                                                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(192,218): warning C4305: 'argument': truncation from 'double' to 'float'
+    SL->SourceType=ESkyLightSourceType::SLS_SpecifiedCubemap;SL->Cubemap=LoadObject<UTextureCube>(nullptr,TEXT("/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap"));SL->SetLightColor(FLinearColor(.64,.79,1));SL->SetIntensity(LightingBaseline?.60f:C16Lighting?1.35f:1.05f);if(!LightingBaseline)SL->SetLowerHemisphereColor(FLinearColor(.055,.072,.065));SL->RecaptureSky();UE_LOG(LogTemp,Display,TEXT("CRAFT_SKYLIGHT_CUBEMAP %s"),*GetNameSafe(SL->Cubemap));
+                                                                                                                                                                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(192,366): warning C4305: 'argument': truncation from 'double' to 'float'
+    SL->SourceType=ESkyLightSourceType::SLS_SpecifiedCubemap;SL->Cubemap=LoadObject<UTextureCube>(nullptr,TEXT("/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap"));SL->SetLightColor(FLinearColor(.64,.79,1));SL->SetIntensity(LightingBaseline?.60f:C16Lighting?1.35f:1.05f);if(!LightingBaseline)SL->SetLowerHemisphereColor(FLinearColor(.055,.072,.065));SL->RecaptureSky();UE_LOG(LogTemp,Display,TEXT("CRAFT_SKYLIGHT_CUBEMAP %s"),*GetNameSafe(SL->Cubemap));
+                                                                                                                                                                                                                                                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(192,361): warning C4305: 'argument': truncation from 'double' to 'float'
+    SL->SourceType=ESkyLightSourceType::SLS_SpecifiedCubemap;SL->Cubemap=LoadObject<UTextureCube>(nullptr,TEXT("/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap"));SL->SetLightColor(FLinearColor(.64,.79,1));SL->SetIntensity(LightingBaseline?.60f:C16Lighting?1.35f:1.05f);if(!LightingBaseline)SL->SetLowerHemisphereColor(FLinearColor(.055,.072,.065));SL->RecaptureSky();UE_LOG(LogTemp,Display,TEXT("CRAFT_SKYLIGHT_CUBEMAP %s"),*GetNameSafe(SL->Cubemap));
+                                                                                                                                                                                                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(192,356): warning C4305: 'argument': truncation from 'double' to 'float'
+    SL->SourceType=ESkyLightSourceType::SLS_SpecifiedCubemap;SL->Cubemap=LoadObject<UTextureCube>(nullptr,TEXT("/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap"));SL->SetLightColor(FLinearColor(.64,.79,1));SL->SetIntensity(LightingBaseline?.60f:C16Lighting?1.35f:1.05f);if(!LightingBaseline)SL->SetLowerHemisphereColor(FLinearColor(.055,.072,.065));SL->RecaptureSky();UE_LOG(LogTemp,Display,TEXT("CRAFT_SKYLIGHT_CUBEMAP %s"),*GetNameSafe(SL->Cubemap));
+                                                                                                                                                                                                                                                                                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,53): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,49): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,75): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,71): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,99): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,95): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,123): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(194,119): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor LightC[]={FLinearColor(1,.52,.10),FLinearColor(.13,.72,1),FLinearColor(.48,.17,1),FLinearColor(.20,.65,1)};
+                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(197,231): warning C4305: '=': truncation from 'double' to 'float'
+    S.bOverride_AutoExposureMethod=true;S.AutoExposureMethod=AEM_Manual;S.bOverride_AutoExposureApplyPhysicalCameraExposure=true;S.AutoExposureApplyPhysicalCameraExposure=false;S.bOverride_AutoExposureBias=true;S.AutoExposureBias=.1;
+                                                                                                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(198,54): warning C4305: '=': truncation from 'double' to 'float'
+    S.bOverride_BloomIntensity=true;S.BloomIntensity=.23;S.bOverride_VignetteIntensity=true;S.VignetteIntensity=.18;S.bOverride_MotionBlurAmount=true;S.MotionBlurAmount=0;S.bOverride_ColorSaturation=true;S.ColorSaturation=FVector4(1.03,1.03,1.03,1);
+                                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(198,113): warning C4305: '=': truncation from 'double' to 'float'
+    S.bOverride_BloomIntensity=true;S.BloomIntensity=.23;S.bOverride_VignetteIntensity=true;S.VignetteIntensity=.18;S.bOverride_MotionBlurAmount=true;S.MotionBlurAmount=0;S.bOverride_ColorSaturation=true;S.ColorSaturation=FVector4(1.03,1.03,1.03,1);
+                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(245,161): warning C4305: 'argument': truncation from 'double' to 'float'
+        {Hands->ReleaseComponent();T->ResolveTo(FVector(0,20,720));HeldThought=nullptr;Delivered++;TreeCharge=1;Burst(T->GetActorLocation(),true,26,220);Tone(0,.4);Message=Delivered==3?"Three bright thoughts. Now make room for the heavy ones.":"The tree remembers this little kindness.";MessageTime=5;UE_LOG(LogTemp,Display,TEXT("CRAFT_STAR_DELIVERED %d"),Delivered);return;}
+                                                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(247,164): warning C4305: 'argument': truncation from 'double' to 'float'
+        {Hands->ReleaseComponent();T->ResolveTo(ReleasePool+FVector(0,0,20));HeldThought=nullptr;Released++;Burst(ReleasePool+FVector(0,0,45),false,30,170);Tone(0,.4);Message="The water carries that weight onward.";MessageTime=6;UE_LOG(LogTemp,Display,TEXT("CRAFT_HEAVY_RELEASED by care input"));return;}
+                                                                                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(248,138): warning C4305: 'argument': truncation from 'double' to 'float'
+        Hands->ReleaseComponent();T->Held=false;T->Physics->SetCollisionResponseToChannel(ECC_Pawn,ECR_Block);HeldThought=nullptr;Tone(1,.08);return;
+                                                                                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(254,403): warning C4305: 'argument': truncation from 'double' to 'float'
+        HeldThought=T;T->Held=true;GripAge=0;PhysicalGrabs++;T->Physics->SetCollisionResponseToChannel(ECC_Pawn,ECR_Ignore);Hands->GrabComponentAtLocationWithRotation(T->Physics,NAME_None,T->GetActorLocation(),FRotator::ZeroRotator);Hands->SetLinearStiffness(LegacyGrip?(T->Kind==1?1000:2200):(T->Kind==1?4800:6500));Hands->SetLinearDamping(LegacyGrip?(T->Kind==1?180:120):(T->Kind==1?120:105));Tone(1,.1);Message=T->Kind==1?"It has weight. Bring it gently to the blue release pool.":"A bright thought. Bring it to the tree's front roots.";MessageTime=5;
+                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(268,283): warning C4305: '=': truncation from 'double' to 'float'
+        auto T=Thoughts[Target];if(T->Kind<2||T->Resolved||FVector::Dist2D(GetActorLocation(),T->GetActorLocation())>165)return;FVector D=(T->GetActorLocation()-GetActorLocation()).GetSafeNormal2D();T->Physics->AddImpulse((D*440+FVector(0,0,135))*T->Physics->GetMass());T->Reaction=.3;Burst(T->GetActorLocation(),T->Kind==3,12,170);Tone(1,.3);
+                                                                                                                                                                                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(268,340): warning C4305: 'argument': truncation from 'double' to 'float'
+        auto T=Thoughts[Target];if(T->Kind<2||T->Resolved||FVector::Dist2D(GetActorLocation(),T->GetActorLocation())>165)return;FVector D=(T->GetActorLocation()-GetActorLocation()).GetSafeNormal2D();T->Physics->AddImpulse((D*440+FVector(0,0,135))*T->Physics->GetMass());T->Reaction=.3;Burst(T->GetActorLocation(),T->Kind==3,12,170);Tone(1,.3);
+                                                                                                                                                                                                                                                                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(287,141): warning C4305: 'argument': truncation from 'double' to 'float'
+void AAttentionCharacter::Landed(const FHitResult& Hit){Super::Landed(Hit);LandAge=0;Burst(Hit.ImpactPoint+FVector(0,0,6),true,7,60);Tone(1,.05);}
+                                                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(318,279): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(AtLotus&&!Focused&&!HeldThought){Prompt="Hold E / X  Find a quiet moment";if(PC->IsInputKeyDown(EKeys::E)||PC->IsInputKeyDown(EKeys::Gamepad_FaceButton_Left)){Focus=FMath::Min(1.f,Focus+Dt/2.4f);if(Focus>=1){Focused=true;Burst(Lotus+FVector(0,0,180),false,32,200);Tone(2,.35);Message="The currents settle. There is room for each thought.";MessageTime=6;UE_LOG(LogTemp,Display,TEXT("CRAFT_FOCUS_COMPLETE"));}}else Focus=FMath::Max(0.f,Focus-Dt*.5f);}
+                                                                                                                                                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(328,177): warning C4305: 'argument': truncation from 'double' to 'float'
+        {auto T=HeldThought;Hands->ReleaseComponent();HeldThought=nullptr;T->ResolveTo(ReleasePool+FVector(0,0,20));Released++;Burst(T->GetActorLocation(),false,30,180);Tone(0,.35);Message="Heavy does not mean forever. The pool carries it onward.";MessageTime=6;UE_LOG(LogTemp,Display,TEXT("CRAFT_HEAVY_RELEASED"));}
+                                                                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(332,177): warning C4305: 'argument': truncation from 'double' to 'float'
+    {BridgeOpen=true;for(auto M:Shortcut){M->SetVisibility(true);M->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);}Burst(FVector(-1100,-1200,420),true,40,300);Tone(0,.6);Message="The roots find a way home. Walk the new crossing.";MessageTime=8;UE_LOG(LogTemp,Display,TEXT("CRAFT_SHORTCUT_OPEN"));}
+                                                                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(338,185): warning C4305: 'argument': truncation from 'double' to 'float'
+    FVector FocusP=(Overview?FVector(0,100,730):GetActorLocation()+FVector(0,0,100)+GetVelocity().GetClampedToMaxSize(800)*.12f)+Pan;CameraFocus=FMath::VInterpTo(CameraFocus,FocusP,Dt,5.2);FVector Offset=-FRotator(-CamPitch,CamYaw,0).Vector()*8000;Camera->SetWorldLocation(CameraFocus+Offset);Camera->SetWorldRotation((-Offset).Rotation());Camera->SetOrthoWidth(FMath::FInterpTo(Camera->OrthoWidth,(Overview?10800:2700)*Zoom,Dt,4));UpdateVisibility(Dt);
+                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(347,151): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(Grounded)ContactSteps.Update(GetWorld(),this,GetActorLocation(),Roots,GetActorForwardVector(),FVector::ZeroVector,GetActorLocation().Z-92,8,68,.97,45,800,12,Heavy,Dt);else ContactSteps.Reset();
+                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(368,174): warning C4305: 'argument': truncation from 'double' to 'float'
+            FVector Hip=Puppet->GetComponentTransform().TransformPosition(FVector(0,Side?17:-17,54));const auto Leg=BWGait::SolveLimb(Hip,Foot,34,34,GetActorForwardVector(),.985);Foot=Leg.Foot;
+                                                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(379,325): warning C4305: 'argument': truncation from 'double' to 'float'
+        if(HandPose[Side].IsNearlyZero())HandPose[Side]=Desired;HandPose[Side]=HeldThought&&!LegacyGrip?Desired:FMath::Lerp(HandPose[Side],Desired,1-FMath::Exp(-26*Dt));FVector Pole=GetActorRightVector()*Sign*.7-GetActorForwardVector()*.5-FVector(0,0,.25);const auto Arm=BWGait::SolveLimb(Shoulder,HandPose[Side],31,32,Pole,.975);FVector Wrist=Arm.Foot,Elbow=Arm.Knee;
+                                                                                                                                                                                                                                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,50): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,45): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,41): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,36): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,122): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                                                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,118): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                                                                                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,114): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                                                                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,96): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                                                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,199): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                                                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(413,195): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(28,30,340,100,FLinearColor(.035,.05,.075,.83));Text(TEXT("THE AWARENESS GARDEN"),48,46,1.05,FLinearColor(.97,.79,.43));Text(TEXT("A little care. A living world."),48,87,.75,FLinearColor(.72,.80,.75));
+                                                                                                                                                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(414,78): warning C4305: 'argument': truncation from 'double' to 'float'
+    float Y=Canvas->ClipY/S-132;Box(400,Y,1120,88,FLinearColor(.03,.045,.065,.84));Text(P->Task(),425,Y+16,.95,FLinearColor(.95,.90,.75));
+                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(414,73): warning C4305: 'argument': truncation from 'double' to 'float'
+    float Y=Canvas->ClipY/S-132;Box(400,Y,1120,88,FLinearColor(.03,.045,.065,.84));Text(P->Task(),425,Y+16,.95,FLinearColor(.95,.90,.75));
+                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(414,68): warning C4305: 'argument': truncation from 'double' to 'float'
+    float Y=Canvas->ClipY/S-132;Box(400,Y,1120,88,FLinearColor(.03,.045,.065,.84));Text(P->Task(),425,Y+16,.95,FLinearColor(.95,.90,.75));
+                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(414,64): warning C4305: 'argument': truncation from 'double' to 'float'
+    float Y=Canvas->ClipY/S-132;Box(400,Y,1120,88,FLinearColor(.03,.045,.065,.84));Text(P->Task(),425,Y+16,.95,FLinearColor(.95,.90,.75));
+                                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(414,129): warning C4305: 'argument': truncation from 'double' to 'float'
+    float Y=Canvas->ClipY/S-132;Box(400,Y,1120,88,FLinearColor(.03,.045,.065,.84));Text(P->Task(),425,Y+16,.95,FLinearColor(.95,.90,.75));
+                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(414,125): warning C4305: 'argument': truncation from 'double' to 'float'
+    float Y=Canvas->ClipY/S-132;Box(400,Y,1120,88,FLinearColor(.03,.045,.065,.84));Text(P->Task(),425,Y+16,.95,FLinearColor(.95,.90,.75));
+                                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(414,108): warning C4305: 'argument': truncation from 'double' to 'float'
+    float Y=Canvas->ClipY/S-132;Box(400,Y,1120,88,FLinearColor(.03,.045,.065,.84));Text(P->Task(),425,Y+16,.95,FLinearColor(.95,.90,.75));
+                                                                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(415,159): warning C4305: 'argument': truncation from 'double' to 'float'
+    Text(TEXT("WASD Move   SHIFT Hurry   E Care   SPACE Brush / hop   RMB Orbit   Wheel Zoom   MMB Pan   TAB Map   H Help"),425,Y+54,.66,FLinearColor(.64,.76,.78));
+                                                                                                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(415,155): warning C4305: 'argument': truncation from 'double' to 'float'
+    Text(TEXT("WASD Move   SHIFT Hurry   E Care   SPACE Brush / hop   RMB Orbit   Wheel Zoom   MMB Pan   TAB Map   H Help"),425,Y+54,.66,FLinearColor(.64,.76,.78));
+                                                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(415,151): warning C4305: 'argument': truncation from 'double' to 'float'
+    Text(TEXT("WASD Move   SHIFT Hurry   E Care   SPACE Brush / hop   RMB Orbit   Wheel Zoom   MMB Pan   TAB Map   H Help"),425,Y+54,.66,FLinearColor(.64,.76,.78));
+                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(415,134): warning C4305: 'argument': truncation from 'double' to 'float'
+    Text(TEXT("WASD Move   SHIFT Hurry   E Care   SPACE Brush / hop   RMB Orbit   Wheel Zoom   MMB Pan   TAB Map   H Help"),425,Y+54,.66,FLinearColor(.64,.76,.78));
+                                                                                                                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(416,87): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(!P->Prompt.IsEmpty())Text(P->Prompt,800,Canvas->ClipY/S*.64,1.0,FLinearColor(1,.88,.50));
+                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,71): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,67): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,63): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,58): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,125): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,121): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,117): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(417,101): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->MessageTime>0){Box(540,140,840,48,FLinearColor(.035,.05,.07,.72));Text(P->Message,560,155,.8,FLinearColor(.88,.91,.82));}
+                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(418,91): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Focus>0&&!P->Focused){Box(805,Canvas->ClipY/S*.69,310,6,FLinearColor(.12,.12,.2,.8));Box(805,Canvas->ClipY/S*.69,310*P->Focus,6,FLinearColor(.65,.48,1,1));}
+                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(418,88): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Focus>0&&!P->Focused){Box(805,Canvas->ClipY/S*.69,310,6,FLinearColor(.12,.12,.2,.8));Box(805,Canvas->ClipY/S*.69,310*P->Focus,6,FLinearColor(.65,.48,1,1));}
+                                                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(418,84): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Focus>0&&!P->Focused){Box(805,Canvas->ClipY/S*.69,310,6,FLinearColor(.12,.12,.2,.8));Box(805,Canvas->ClipY/S*.69,310*P->Focus,6,FLinearColor(.65,.48,1,1));}
+                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(418,80): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Focus>0&&!P->Focused){Box(805,Canvas->ClipY/S*.69,310,6,FLinearColor(.12,.12,.2,.8));Box(805,Canvas->ClipY/S*.69,310*P->Focus,6,FLinearColor(.65,.48,1,1));}
+                                                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(418,156): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Focus>0&&!P->Focused){Box(805,Canvas->ClipY/S*.69,310,6,FLinearColor(.12,.12,.2,.8));Box(805,Canvas->ClipY/S*.69,310*P->Focus,6,FLinearColor(.65,.48,1,1));}
+                                                                                                                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(418,152): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Focus>0&&!P->Focused){Box(805,Canvas->ClipY/S*.69,310,6,FLinearColor(.12,.12,.2,.8));Box(805,Canvas->ClipY/S*.69,310*P->Focus,6,FLinearColor(.65,.48,1,1));}
+                                                                                                                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,65): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,60): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,50): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,139): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,135): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,115): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,653): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,649): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,646): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(419,629): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Help){Box(520,260,880,380,FLinearColor(.025,.035,.055,.96));Text(TEXT("A morning in the brain"),555,292,1.35,FLinearColor(1,.82,.45));const TCHAR* Lines[]={TEXT("Carry three bright stars to the tree. E picks up and places."),TEXT("Hold E by the lotus to calm the neural currents."),TEXT("Drag the heavy cloud to the blue pool beside the lotus."),TEXT("SPACE brushes away the light wisp; the amber knot needs three pushes."),TEXT("Care opens a root crossing. Follow it home to finish the morning."),TEXT("HOME resets the camera. F8 hides the interface. R starts again.")};for(int i=0;i<6;i++)Text(Lines[i],555,355+i*41,.83,FLinearColor(.8,.86,.84));}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,64): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,60): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,56): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,52): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,128): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                                                                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,124): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                                                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,193): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                                                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,189): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                                                                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,186): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                                                                                                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraft.cpp(420,170): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(P->Paused){Box(660,400,600,150,FLinearColor(.03,.04,.06,.9));Text(TEXT("A quiet moment"),825,440,1.5,FLinearColor(1,.87,.6));Text(TEXT("ESC to continue"),845,495,.9,FLinearColor(.8,.85,.85));}
+                                                                                                                                                                         ^
+[3/5] Link [x64] UnrealEditor-ThatBodyGame.lib
+[4/5] Link [x64] UnrealEditor-ThatBodyGame.dll
+[5/5] WriteMetadata ThatBodyGameEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 5.82 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 6.83 seconds
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 5.9kb

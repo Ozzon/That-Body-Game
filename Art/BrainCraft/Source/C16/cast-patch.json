@@ -1,0 +1,160 @@
+{
+  "assets": [
+    {
+      "key": "C16ThoughtStar",
+      "materials": [
+        "C16_Gold"
+      ],
+      "vertices": 15122,
+      "spawn": false
+    },
+    {
+      "key": "C16ThoughtCloud",
+      "materials": [
+        "C16_Cloud"
+      ],
+      "vertices": 32306,
+      "spawn": false
+    },
+    {
+      "key": "C16ThoughtWisp",
+      "materials": [
+        "C16_Wisp"
+      ],
+      "vertices": 32304,
+      "spawn": false
+    },
+    {
+      "key": "C16ThoughtKnot",
+      "materials": [
+        "C16_Amber"
+      ],
+      "vertices": 11482,
+      "spawn": false
+    },
+    {
+      "key": "C16EyeBright",
+      "materials": [
+        "C16_Ink",
+        "C16_Glint"
+      ],
+      "vertices": 3688,
+      "spawn": false
+    },
+    {
+      "key": "C16EyeCloud",
+      "materials": [
+        "C16_Ink",
+        "C16_Eye",
+        "C16_Glint"
+      ],
+      "vertices": 2766,
+      "spawn": false
+    },
+    {
+      "key": "C16EyeWisp",
+      "materials": [
+        "C16_Ink",
+        "C16_Eye",
+        "C16_Glint"
+      ],
+      "vertices": 2766,
+      "spawn": false
+    },
+    {
+      "key": "C16FaceBright",
+      "materials": [
+        "C16_Ink",
+        "C16_Cheek"
+      ],
+      "vertices": 2316,
+      "spawn": false
+    },
+    {
+      "key": "C16FaceCloud",
+      "materials": [
+        "C16_Ink"
+      ],
+      "vertices": 472,
+      "spawn": false
+    },
+    {
+      "key": "C16FaceWisp",
+      "materials": [
+        "C16_Ink"
+      ],
+      "vertices": 922,
+      "spawn": false
+    },
+    {
+      "key": "C16FaceKnot",
+      "materials": [
+        "C16_Glint"
+      ],
+      "vertices": 6,
+      "spawn": false
+    },
+    {
+      "key": "C16WispThread0",
+      "materials": [
+        "C16_Filament"
+      ],
+      "vertices": 1913,
+      "spawn": false
+    },
+    {
+      "key": "C16WispThread1",
+      "materials": [
+        "C16_Filament"
+      ],
+      "vertices": 1913,
+      "spawn": false
+    },
+    {
+      "key": "C16WispThread2",
+      "materials": [
+        "C16_Filament"
+      ],
+      "vertices": 1913,
+      "spawn": false
+    }
+  ],
+  "eye_anchors": {
+    "Bright": [
+      [
+        24.179092407226562,
+        -13,
+        3
+      ],
+      [
+        24.179092407226562,
+        13,
+        3
+      ]
+    ],
+    "Cloud": [
+      [
+        38.114410400390625,
+        -19,
+        1
+      ],
+      [
+        39.625457763671875,
+        19,
+        1
+      ]
+    ],
+    "Wisp": [
+      [
+        16.826095581054688,
+        -9,
+        1
+      ],
+      [
+        17.985153198242188,
+        9,
+        1
+      ]
+    ]
+  }
+}

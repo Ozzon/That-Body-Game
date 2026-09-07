@@ -1,0 +1,21 @@
+{
+  "terrain": [
+    "Terrain1_2",
+    "Terrain1_3",
+    "Terrain1_4",
+    "Terrain2_2",
+    "Terrain2_3",
+    "Terrain3_1",
+    "Terrain3_2",
+    "Terrain4_0",
+    "Terrain4_1",
+    "Terrain4_2",
+    "Terrain5_1",
+    "Terrain5_2"
+  ],
+  "stream_length_cm": 1993.432463726081,
+  "maximum_water_rise_cm": -0.2436101254214691,
+  "maximum_terrain_cut_cm": 79.00835373483937,
+  "crossing_decks_preserved": true,
+  "art_accepted": false
+}

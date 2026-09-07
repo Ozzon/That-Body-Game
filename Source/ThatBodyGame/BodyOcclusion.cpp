@@ -12,19 +12,27 @@ void ABodyPawn::UpdateOcclusion(float Dt)
     FVector Eye=Target-Camera->GetForwardVector()*6000;
     auto ShouldFade=[&](UPrimitiveComponent* C)
     {
-        if(C->ComponentHasTag(TEXT("Interactive"))||C->IsAttachedTo(Visual))return false;
+        if(Body->Photo)return false;
+        if(C->ComponentHasTag(TEXT("Interactive"))||C->ComponentHasTag(TEXT("LightBridge"))||C->ComponentHasTag(TEXT("Ground"))||C->IsAttachedTo(Visual))return false;
         if(C->Bounds.Origin.Z+C->Bounds.BoxExtent.Z<Target.Z-65)return false;
         if(C->Bounds.SphereRadius>4000)return false;
         FBox Bounds=C->Bounds.GetBox().ExpandBy(FVector(22,22,12));
         // Stop just short of the character so ground beneath their feet cannot fade.
         FVector End=Target-Camera->GetForwardVector()*35;
-        return FMath::LineBoxIntersection(Bounds,Eye,End,End-Eye);
+        if(!FMath::LineBoxIntersection(Bounds,Eye,End,End-Eye))return false;
+        if(Body->HeartStudy||Body->Adventure)
+        {
+            FHitResult Hit;FCollisionQueryParams Params(SCENE_QUERY_STAT(HeartVisibility),true);
+            return C->LineTraceComponent(Hit,Eye,End,Params);
+        }
+        return true;
     };
     FadeClock+=Dt;
     if(FadeClock>.12f)
     {
         FadeClock=0;
         TArray<UStaticMeshComponent*> Statics;Body->GetComponents(Statics);
+        if(Body->HeartStudy||Body->Adventure)Statics.Append(Body->StudyMeshes);
         for(auto C:Statics)if(ShouldFade(C)&&!FadingStatic.Contains(C))FadingStatic.Add(C,C->CreateDynamicMaterialInstance(0));
         TArray<UProceduralMeshComponent*> Procs;Body->GetComponents(Procs);
         for(auto C:Procs)if(ShouldFade(C)&&!FadingProcedural.Contains(C))FadingProcedural.Add(C,C->CreateDynamicMaterialInstance(0));

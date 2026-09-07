@@ -1,0 +1,12 @@
+{
+  "material_errors": {
+    "Bark": [],
+    "Leaf": [],
+    "Glow": [],
+    "Stone": [],
+    "Moss": []
+  },
+  "models": 1,
+  "materials_only": false,
+  "art_accepted": false
+}

@@ -1,0 +1,82 @@
+{
+  "Cloud": {
+    "vertices": 14988,
+    "triangles": 29972,
+    "signed_volume_cm3": 998437.9681037106,
+    "bounds_cm": [
+      [
+        -58.035213470458984,
+        -77.10999298095703,
+        -56.75640869140625
+      ],
+      [
+        56.863624572753906,
+        79.52046203613281,
+        60.79067611694336
+      ]
+    ],
+    "face_vertices_behind_body": 0,
+    "face_samples": 912,
+    "minimum_face_clearance_cm": 2.2998390197753906
+  },
+  "Wisp": {
+    "vertices": 20864,
+    "triangles": 41712,
+    "signed_volume_cm3": 90908.40556538156,
+    "bounds_cm": [
+      [
+        -26.278427124023438,
+        -34.1841926574707,
+        -36.50107192993164
+      ],
+      [
+        26.76017189025879,
+        37.81332015991211,
+        35.27382278442383
+      ]
+    ],
+    "face_vertices_behind_body": 0,
+    "face_samples": 912,
+    "minimum_face_clearance_cm": 0.5232887268066406
+  },
+  "Star": {
+    "vertices": 5880,
+    "triangles": 11520,
+    "signed_volume_cm3": 201116.82711796314,
+    "bounds_cm": [
+      [
+        -25.0,
+        -55.53000259399414,
+        -48.48909378051758
+      ],
+      [
+        25.0,
+        55.53000259399414,
+        58.0
+      ]
+    ],
+    "face_vertices_behind_body": 0,
+    "face_samples": 1913,
+    "minimum_face_clearance_cm": -0.39839744567871094
+  },
+  "Knot": {
+    "vertices": 4480,
+    "triangles": 8956,
+    "signed_volume_cm3": 268271.11980587844,
+    "bounds_cm": [
+      [
+        -20.999874114990234,
+        -53.436859130859375,
+        -55.751312255859375
+      ],
+      [
+        20.999874114990234,
+        58.0,
+        51.160606384277344
+      ]
+    ],
+    "face_vertices_behind_body": 0,
+    "face_samples": 142,
+    "minimum_face_clearance_cm": 1.106760025024414
+  }
+}

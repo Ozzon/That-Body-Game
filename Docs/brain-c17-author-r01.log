@@ -1,0 +1,32 @@
+00:02.250  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C15.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC17\\SM_Craft_C17_TreeWood.fbx'
+export finished in 0.3535 sec.
+C17_CONTINUOUS_TREE_READY 182524
+00:10.406  bpy.rna          | ERROR Python script error in EXPORT_SCENE_OT_fbx.execute
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC17\\SM_Craft_C17_TreeTwigs.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC17\\SM_Craft_C17_TreeLeaves.fbx'
+export finished in 0.0417 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC17\\SM_Craft_C17_TreeChannels.fbx'
+Error: Python: Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\__init__.py", line 622, in execute
+    return export_fbx_bin.save(self, context, **keywords)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3754, in save
+    ret = save_single(operator, context.scene, depsgraph, filepath, **kwargs_mod)
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3623, in save_single
+    fbx_objects_elements(root, scene_data)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_fbx\export_fbx_bin.py", line 3417, in fbx_objects_elements
+    fbx_data_mesh_elements(objects, me_obj, scene_data, done_meshes)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^... truncatedBlender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

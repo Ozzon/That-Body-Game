@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c15_garden.py", line 68, in <module>
+    z=max(float(sample(p)),level[i]-8)
+                ~~~~~~^^^
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c15_garden.py", line 12, in sample
+    def sample(p):p=np.asarray(p);return map_coordinates(H,[(p[...,0]-xs[0])/step,(p[...,1]-ys[0])/step],order=1,mode='nearest')
+                                         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Intermediate\BlenderDeps\scipy\ndimage\_interpolation.py", line 454, in map_coordinates
+    raise RuntimeError('input and output rank must be > 0')
+RuntimeError: input and output rank must be > 0

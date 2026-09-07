@@ -1,0 +1,13 @@
+{
+  "keys": [
+    "Cortex11",
+    "Cortex-11",
+    "Cortex-1-1",
+    "Cortex1-1"
+  ],
+  "fold_lines": 68,
+  "positive_cross_section_radii": true,
+  "angular_slices_preserved": true,
+  "max_cross_section_angle_delta": -0.012192895360510159,
+  "art_accepted": false
+}

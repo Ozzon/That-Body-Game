@@ -1,0 +1,1173 @@
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildCookRun -project="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/ThatBodyGame.uproject" -noP4 -platform=Win64 -clientconfig=Development -build -cook -stage -pak -archive -archivedirectory="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Builds/BrainGarden-C05" -utf8output
+Initializing script modules...
+Total script module initialization time: 0.27 s.
+Using C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Setting up ProjectParams for C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject
+********** BUILD COMMAND STARTED **********
+Running: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="ThatBodyGameEditor Win64 Development -Project=\"C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject\"" -Target="ThatBodyGame Win64 Development -Project=\"C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject\"  -remoteini=\"C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\"  " -log="C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\UBA-ThatBodyGameEditor-Win64-Development.txt"
+Log file: C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\UBA-ThatBodyGameEditor-Win64-Development.txt
+Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+  Executing up to 14 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game).
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for ThatBodyGame (command line arguments changed)
+Invalidating makefile for ThatBodyGameEditor (DefaultEngine.ini modified)
+UHT compiled-in object format Default
+Building ThatBodyGame and ThatBodyGameEditor...
+===== Toolchain Information =====
+ThatBodyGame Win64 Development:
+  Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+    Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+  Using Visual Studio 14.44.35228 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from ThatBodyGame unity file: BodyAdventure.cpp, BodyAdventureHUD.cpp, BodyAdventureReview.cpp, BodyGeometry.cpp, BodyHUD.cpp, BodyOcclusion.cpp, BodyPlay.cpp, BodySmoke.cpp, BrainGardenReview.cpp, HeartStudy.cpp, HeartStudyHUD.cpp, HeartStudySmoke.cpp
+ThatBodyGameEditor Win64 Development:
+  Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+    Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+  Using Visual Studio 14.44.35228 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from ThatBodyGame unity file: BodyAdventure.cpp, BodyAdventureHUD.cpp, BodyAdventureReview.cpp, BodyGeometry.cpp, BodyHUD.cpp, BodyOcclusion.cpp, BodyPlay.cpp, BodySmoke.cpp, BrainGardenReview.cpp, HeartStudy.cpp, HeartStudyHUD.cpp, HeartStudySmoke.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 20 action(s)
+  CPU 14 physical cores, 20 logical cores
+  Memory 63.71 GB physical, 42.24 GB/67.71 GB committed
+  UBA Storage capacity 40 GB
+** For ThatBodyGameEditor-Win64-Development **
+[1/20] Compile [x64] BodyAdventureHUD.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,38): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,34): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,30): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,57): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,53): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,49): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,75): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,71): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,67): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,91): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,114): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,109): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,105): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,100): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(11,51): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.024,.042,.06,.99));
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(11,47): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.024,.042,.06,.99));
+                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(11,42): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.024,.042,.06,.99));
+                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(11,37): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.024,.042,.06,.99));
+                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(15,143): warning C4305: 'argument': truncation from 'double' to 'float'
+        for(int i=1;i<10;i++){int Parent=i<4?0:i<6?3:i==9?6:4;Line(Nodes[Parent].X,Nodes[Parent].Y,Nodes[i].X,Nodes[i].Y,FLinearColor(.19,.36,.32),3);}
+                                                                                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(15,139): warning C4305: 'argument': truncation from 'double' to 'float'
+        for(int i=1;i<10;i++){int Parent=i<4?0:i<6?3:i==9?6:4;Line(Nodes[Parent].X,Nodes[Parent].Y,Nodes[i].X,Nodes[i].Y,FLinearColor(.19,.36,.32),3);}
+                                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(15,135): warning C4305: 'argument': truncation from 'double' to 'float'
+        for(int i=1;i<10;i++){int Parent=i<4?0:i<6?3:i==9?6:4;Line(Nodes[Parent].X,Nodes[Parent].Y,Nodes[i].X,Nodes[i].Y,FLinearColor(.19,.36,.32),3);}
+                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(18,56): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(1020,270,710,555,FLinearColor(.05,.077,.09,.96));Text("YOU ARE HERE",1060,312,13,Gold);Text("The Awareness Garden",1060,358,30,Cream);
+                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(18,52): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(1020,270,710,555,FLinearColor(.05,.077,.09,.96));Text("YOU ARE HERE",1060,312,13,Gold);Text("The Awareness Garden",1060,358,30,Cream);
+                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(18,47): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(1020,270,710,555,FLinearColor(.05,.077,.09,.96));Text("YOU ARE HERE",1060,312,13,Gold);Text("The Awareness Garden",1060,358,30,Cream);
+                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(18,43): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(1020,270,710,555,FLinearColor(.05,.077,.09,.96));Text("YOU ARE HERE",1060,312,13,Gold);Text("The Awareness Garden",1060,358,30,Cream);
+                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(55,51): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(55,47): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(55,42): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(55,37): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                    ^
+[2/20] Compile [x64] BodyAdventure.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,51): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,47): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,78): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,74): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,103): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,100): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,96): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,127): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,123): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,153): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,149): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,145): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,178): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,174): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,201): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(19,197): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(49,174): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto H=NewObject<UPointLightComponent>(this);H->SetupAttachment(RootComponent);H->SetRelativeLocation(Positions[1]+FVector(0,0,250));H->SetLightColor(FLinearColor(1,.53,.21));H->SetIntensity(6000);H->SetAttenuationRadius(1100);H->SetSourceRadius(90);H->SetCastShadows(false);H->RegisterComponent();
+                                                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(49,170): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto H=NewObject<UPointLightComponent>(this);H->SetupAttachment(RootComponent);H->SetRelativeLocation(Positions[1]+FVector(0,0,250));H->SetLightColor(FLinearColor(1,.53,.21));H->SetIntensity(6000);H->SetAttenuationRadius(1100);H->SetSourceRadius(90);H->SetCastShadows(false);H->RegisterComponent();
+                                                                                                                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(55,51): warning C4305: 'argument': truncation from 'double' to 'float'
+        Blob(FVector(0,0,0),FVector(92,74,56),5,i,.04,Root);Shape(FVector(-62,8,-20),FVector(.70,.6,.5),5,Root);Shape(FVector(61,0,-6),FVector(.8,.7,.7),5,Root);
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(58,61): warning C4305: 'argument': truncation from 'double' to 'float'
+            Blob(FVector(-84,Side*22,9),FVector(8,9,13),7,0,.01,Root);
+                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(59,63): warning C4305: 'argument': truncation from 'double' to 'float'
+            Blob(FVector(-91,Side*22-2,13),FVector(2,3,4),6,0,.01,Root);
+                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(60,65): warning C4305: 'argument': truncation from 'double' to 'float'
+            Blob(FVector(-28,Side*72,-26),FVector(22,15,13),5,i,.035,Root);
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(64,53): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector::ZeroVector,FVector(95,76,58),12,4,.045,Cloud);Shape(FVector(58,10,0),FVector(.8,.7,.7),12,Cloud);
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(98,142): warning C4305: 'argument': truncation from 'double' to 'float'
+        if(ReleaseTime>1.5f){int i=P->Nearest;ReleaseTime=-20;Organs[i].Cared=true;BPM=FMath::Clamp(BPM+(i==5?-15:10),60.f,115.f);PlayTone(2,.35);Notify(i==5?"A soft calm pulse reaches the heart.":"A little energy stirs through the body.",5);}
+                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(108,100): warning C4305: 'argument': truncation from 'double' to 'float'
+        if(Carry==0&&(GardenStarMask&(1u<<Index))){GardenStarMask&=~(1u<<Index);Carry=5;PlayTone(2,.3);Notify("A bright little thought. Carry it to the tree's front roots.",6);UE_LOG(LogTemp,Display,TEXT("GARDEN_STAR_PICKUP %d"),Index);}
+                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(119,65): warning C4305: 'argument': truncation from 'double' to 'float'
+        else if(Carry==0){BPM=FMath::Max(72.f,BPM-4);PlayTone(1,.3);Notify("A gentle pacing tap. A deep breath will help.");}
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(126,50): warning C4305: 'argument': truncation from 'double' to 'float'
+            Carry=0;GardenDelivered++;PlayTone(2,.45);Organs[2].Cared=true;
+                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(131,103): warning C4305: 'argument': truncation from 'double' to 'float'
+        if(Carry>0&&Carry!=4){if(Carry==2)HeartDelivered=true;Carry=0;Organs[2].Cared=true;PlayTone(2,.4);Notify("The garden brightens. Walk to each thought and tap SPACE.",7);}
+                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(134,67): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(I==3){if(Carry==0){Carry=3;Organs[3].Cared=true;PlayTone(2,.3);Notify("Warm energy. Carry it to the heart or the awareness garden.",6);}else if(Carry==2){Carry=3;Organs[3].Cared=true;PlayTone(2);Notify("The digestion hearth brightens. A little energy is ready.");}return;}
+                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(135,77): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(I==4){if(Carry==4||Carry==0){Carry=0;Organs[4].Cared=true;PlayTone(2,.4);Notify("The recovery pool clears. A little weight lifts.",6);}else Notify("This pool receives the heavy cloud from the heart.");return;}
+                                                                            ^
+[3/20] Link [x64] UnrealEditor-ThatBodyGame.lib
+** For ThatBodyGame-Win64-Development **
+[4/20] Compile [x64] BodyHUD.cpp
+[5/20] Compile [x64] BodyAdventureHUD.cpp
+[6/20] Compile [x64] BodyAdventureReview.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureReview.cpp(89,156): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    for(FKey Key:{EKeys::W,EKeys::A,EKeys::S,EKeys::D,EKeys::E,EKeys::SpaceBar}){bool Down=Want.Contains(Key),Was=SmokeKeys.Contains(Key);if(Down!=Was)PC->InputKey(FInputKeyParams(Key,Down?IE_Pressed:IE_Released,Down?1.0:0.0));}SmokeKeys=Want;
+                                                                                                                                                           ^
+[7/20] Compile [x64] BodyOcclusion.cpp
+** For ThatBodyGameEditor-Win64-Development **
+[8/20] Link [x64] UnrealEditor-ThatBodyGame.dll
+** For ThatBodyGame-Win64-Development **
+[9/20] Compile [x64] BodyGeometry.cpp
+** For ThatBodyGameEditor-Win64-Development **
+[10/20] WriteMetadata ThatBodyGameEditor.target [NoUba]
+** For ThatBodyGame-Win64-Development **
+[11/20] Compile [x64] HeartStudyHUD.cpp
+[12/20] Compile [x64] BodySmoke.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodySmoke.cpp(67,26): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+        if(Down!=Was)PC->InputKey(FInputKeyParams(Key,Down?IE_Pressed:IE_Released,Down?1.0:0.0));
+                         ^
+[13/20] Compile [x64] BrainGardenReview.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainGardenReview.cpp(52,80): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    {bool Down=Want.Contains(Key),Was=SmokeKeys.Contains(Key);if(Down!=Was)PC->InputKey(FInputKeyParams(Key,Down?IE_Pressed:IE_Released,Down?1.0:0.0));}
+                                                                               ^
+[14/20] Compile [x64] HeartStudy.cpp
+[15/20] Compile [x64] HeartStudySmoke.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudySmoke.cpp(27,80): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    {bool Down=Want.Contains(Key),Was=SmokeKeys.Contains(Key);if(Down!=Was)PC->InputKey(FInputKeyParams(Key,Down?IE_Pressed:IE_Released,Down?1.0:0.0));}
+                                                                               ^
+[16/20] Compile [x64] BodyAdventure.cpp
+[17/20] Compile [x64] Module.ThatBodyGame.gen.cpp
+[18/20] Compile [x64] BodyPlay.cpp
+[19/20] Link [x64] ThatBodyGame.exe
+[20/20] WriteMetadata ThatBodyGame.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 37.47 seconds
+Output binary: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Binaries\Win64\ThatBodyGame.exe
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 41.16 seconds
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 12.8kb
+Took 41,54s to run dotnet.exe, ExitCode=0
+No build products were made
+Build command time: 41.58 s
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+Running UnrealEditor Cook for project C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject
+Commandlet log file is C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.09.07-12.52.17.txt
+Running: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.09.07-12.52.17.txt" -stdout -CrashForUAT -unattended -NoLogTimes
+LogInit: Display: Running engine for game: ThatBodyGame
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 1985
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-55116800"
+LogCsvProfiler: Display: Metadata set : engineversion="5.8.0-55116800+++UE5+Release-5.8"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.0"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9168] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i9-13900H"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : compacttset="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.09.07-12.52.17.txt" -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="9d78b2e646a087688c573c86894f3e4b"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogAssetRegistry: Display: FindShardedCacheFiles: 0 via .ref, 0 via migration fallback, 0 total
+LogAssetRegistry: Display: No AssetDiscovery cache present at ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogConfig: Display: Loading IOS ini files took 0.06 seconds
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/ThatBodyGame.uproject" -log="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+LogConfig: Display: Loading VisionOS ini files took 0.07 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogConfig: Display: Loading Windows ini files took 0.07 seconds
+LogConfig: Display: Loading Linux ini files took 0.08 seconds
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+Log file: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Logs\AutoSDKInfo.txt
+LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=322MiB, MaxMemoryAvailable=69331MiB
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+LogHAL: Display: Platform has ~ 64 GB [68403924992 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 310b
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+LogCsvProfiler: Display: Metadata set : gpu=""
+LogCsvProfiler: Display: Metadata set : gpudriver=""
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1667 MiB)
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+LogDerivedDataCache: Display: C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.07ms. RandomReadSpeed=795.01MBs, RandomWriteSpeed=87.71MBs. Assigned SpeedClass 'Local'
+LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+LogShaderCompilers: Display: No distributed shader compiler controller found
+LogShaderCompilers: Display: Using 17 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches from ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/CachedAssetRegistry.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.644 ms
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogToolsetRegistry: Display: Registering Toolset ToolsetRegistry.AgentSkillToolset
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCsvProfiler: Display: Metadata set : raytracing="0"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogCook: Display: ---- Pre Content Initialisation: End ----
+LogCook: Display: ---- Post Content Initialisation: Start ----
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogZenStore: Display: Establishing oplog 'ThatBodyGame.8e2cb761/EditorDomain'
+LogZenStore: Display: Zen project 'ThatBodyGame.8e2cb761' created
+LogZenStore: Display: Zen oplog 'ThatBodyGame.8e2cb761/EditorDomain' created
+LogCook: Display: Waiting for Asset Registry
+LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.019s
+LogAssetRegistry: Display: Asset registry cache written as 118.8 MiB to ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/CachedAssetRegistry/CachedAssetRegistry_*.ref
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogCook: Display: INCREMENTAL COOK DEPENDENCIES: Enabled. Incremental Cook Dependencies are enabled in Editor.ini:[CookSettings]:LegacyIterative=false.
+LogZenStore: Display: Establishing oplog 'ThatBodyGame.8e2cb761/Windows'
+LogZenStore: Display: Zen project 'ThatBodyGame.8e2cb761' already exists
+LogStorageServerPlatformFile: Display: Found 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using connection settings from ue.projectstore: HostAddrs='[::1]+192.168.50.126' and HostPort='8558'
+LogStorageServerPlatformFile: Display: Found 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using password authentication from ue.projectstore
+LogStorageServerPlatformFile: Display: Using settings from ue.projectstore: ServerProject='ThatBodyGame.8e2cb761' and ServerPlatform='Windows'
+LogStorageServerConnection: Display: Creating zen store connection to [::1]:8558 ("::1").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/ThatBodyGame.8e2cb761/oplog/Windows: oplog Windows not found in project ThatBodyGame.8e2cb761
+LogStorageServerConnection: Display: Creating zen store connection to 192.168.50.126:8558 ("192.168.50.126").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/ThatBodyGame.8e2cb761/oplog/Windows: oplog Windows not found in project ThatBodyGame.8e2cb761
+LogStorageServerConnection: Display: Creating zen store connection to hostname://MSI:8558 ("192.168.50.126").
+LogStorageServerConnection: Display: Storage server returned HTTP 404 for /prj/ThatBodyGame.8e2cb761/oplog/Windows: oplog Windows not found in project ThatBodyGame.8e2cb761
+LogStorageServerPlatformFile: Display: Failed to initialize connection to any of [ [::1], 192.168.50.126, hostname://MSI ]
+LogCook: Display: CalculateGlobalDependenciesHash(Windows):
+LogCook: Display: 	FGuid CookIncrementalVersion = ffa12fdc-c822-1fe2-7757-627a12f1d3a7
+LogCook: Display: 	[Editor]:CookSettings.ProjectCookIncrementalVersion = 00000000-0000-0000-0000-000000000000
+LogCook: Display: 	[Engine]:Core.System.CanStripEditorOnlyExportsAndImports = True
+LogCook: Display: 	[Engine]:Core.System.CanSkipEditorReferencedPackagesWhenCooking = False
+LogCook: Display: 	CanUseUnversionedPropertySerialization = True
+LogCook: Display: 	[Editor]:CookSettings.AutomaticOptionalInclusionAssetType = /Script/Niagara.NiagaraScript, /Script/Niagara.NiagaraEmitter, /Script/Niagara.NiagaraSystem, /Script/NiagaraEditor.NiagaraParameterDefinitions, /Script/Niagara.NiagaraEffectType, /Script/Niagara.NiagaraValidationRuleSet, /Script/OptimusCore.OptimusDeformer
+LogCook: Display: 	IsCookFlagSet(ECookInitializationFlags::Unversioned) = True
+LogCook: Display: 	FCoreRedirects::AppendHashOfGlobalRedirects = 02c9fd35aac3c00095df0219fc925d7070b41f449d3b97578d818a4016ee6805
+LogCook: Display: 	GlobalDependenciesHash(Windows) = 2de5b37f143f8e25d634acd39f60ca4c07ed1761ed763f60105e89ce30e27192
+LogCook: Display: FULL COOK: Incremental Cooks are disabled by default in Editor.ini:[CookSettings]:CookIncrementalDefaultIncremental=false, and commandline did not specify -forcerecook=false. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+LogZenStore: Display: Deleting oplog 'ThatBodyGame.8e2cb761/Windows' if it exists
+LogZenStoreWriter: Display: Deleting C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/...
+LogZenStore: Display: Zen oplog 'ThatBodyGame.8e2cb761/Windows' created
+LogCook: Display: Sandbox cleanup took 0.018 seconds for platforms Windows
+LogCook: Display: Compiling global changed shaders for platform 'Windows'
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 345 (34500.00%)
+LogShaderLibrary: Display: Total Shaders: 3943, Unique Shaders: 3929 (99.64%)
+LogShaderLibrary: Display: Total Shader Size: 11.54mb, Unique Shaders Size: 11.54mb (99.96%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 309
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     3, 3, 3, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1760 shaders (44.80%), compressed size: 6.64 MB (3.86 KB avg per shader), uncompressed size: 31.28 MB (18.20 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 2052 shaders (52.23%), compressed size: 4.83 MB (2.41 KB avg per shader), uncompressed size: 19.46 MB (9.71 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 115 shaders (2.93%), compressed size: 0.07 MB (0.61 KB avg per shader), uncompressed size: 0.15 MB (1.31 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.00 MB (0.49 KB avg per shader), uncompressed size: 0.00 MB (1.55 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: ---- Post Content Initialisation: End ----
+LogCook: Display: Cooked packages 0 Packages Remain 471 Total 471
+LogCook: Display: Cook Diagnostics: OpenFileHandles=273, VirtualMemory=1715MiB, VirtualMemoryAvailable=27098MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogMaterial: Display: Missing cached shadermap for /SpeedTreeImporter/SpeedTree9/SpeedTreeMaster.SpeedTreeMaster in PCD3D_SM5, Default, SM5, Game (DDC key hash: ccb53715d74e97f89c7d48d1d5d72f251bb47f1f), compiling.
+LogMaterial: Display: Missing cached shadermap for /SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster.SpeedTreeBillboardMaster in PCD3D_SM5, Default, SM5, Game (DDC key hash: c18f207506346042be926a249942b33ff91adc41), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend.MI_ClearCoat_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: ac08c657c69f45e09ae1c85d2d22467a053c34f4), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_ClearCoat.M_ClearCoat in PCD3D_SM5, Default, SM5, Game (DDC key hash: a2aa70d65a7a140a75e16411670f55c24b742fbc), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Mask.MI_ClearCoat_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: bd1bacbafd4845fe727f7d95e500bc4810fb7d43), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Blend_DS.MI_Default_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: de36497b9a7d0fbc70f6311f03fef03ba9901cd7), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask_DS.MI_Default_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: c1c721100709a6c11654a7153307a6f51a42fa48), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Opaque_DS.MI_Default_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: d46ebb3ae156ca60b488a4e49b83506dfab17e25), compiling.
+LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Internal/BrushBounds.BrushBounds in PCD3D_SM5, Default, SM5, Game (DDC key hash: e58f59f929d8460241b0f99c99e5361702ef3228), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Default.M_Default in PCD3D_SM5, Default, SM5, Game (DDC key hash: feead5a5315ab062fe75df6d67d9c24800629386), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend_DS.MI_ClearCoat_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 7c2b4c6a0298852c7b546487ccf7316f691b1055), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Mask_DS.MI_ClearCoat_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: e3714d8a72746d87ca06daac861f595ac67d684e), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS.MI_ClearCoat_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 4a5105d42777c2cf48529ab46586d17673eff637), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Blend.MI_Default_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: 7e46c234359cbe8233b8e1e4ba6fcf20e958ff51), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Transmission_DS.MI_Transmission_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 7afe5a822fcde7b6f9c2fb0a611af49b804afa07), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask.MI_Default_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: 6dda3c021bb2e1e83c6059a5cc652c9e05b19fd8), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Transmission.M_Transmission in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2ba6d2d55a5f431a502b58a62d3cf122c839a336), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Blend_DS.MI_Sheen_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 910814593f269891c73e2cf141cdf7c2e42c82f9), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Mask_DS.MI_Sheen_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 9043604fb0b1cd056c35fb491e91b4b1336fd6c2), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Opaque_DS.MI_Sheen_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: abbfb985cd73038d8a352ecd89b478feb1e1c8f9), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Blend.MI_Sheen_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: 6f117d87bbedce11a20da9300272e440f01a77fa), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Mask.MI_Sheen_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: ed9d17055793406e7e9feb00d4fb73cbb390973e), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Sheen.M_Sheen in PCD3D_SM5, Default, SM5, Game (DDC key hash: 6f9348b74085f4c4bed14e8efe77d138e020fcbd), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask.MI_SpecularGlossiness_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2d03d54d961db29e9cbbb6b20ccc0ba5a6e0f940), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_SpecularGlossiness.M_SpecularGlossiness in PCD3D_SM5, Default, SM5, Game (DDC key hash: cb3a6ea0a6233e2801035b7c470f88e5065f39f5), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Blend.MI_SpecularGlossiness_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0eacc27f2f7eae9cc9a42f348ffaec4e914683c0), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS.MI_SpecularGlossiness_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 332abc9fecf17aa6fa07e8cc3494bde2d26abdbb), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS.MI_SpecularGlossiness_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 45466243c549e4ae533c41205368130dc01cee6b), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS.MI_SpecularGlossiness_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 4fdc414010d5489d235f40c1171ee352e048d24f), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.Widget3DPassThrough_Translucent_OneSided in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2578e9cb34efce39684c1051e49bd8b3cf48b361), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.Widget3DPassThrough_Opaque_OneSided in PCD3D_SM5, Default, SM5, Game (DDC key hash: 5ef80de9448d4817dabcaaf10d7795d7ec0948ea), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided.Widget3DPassThrough_Masked_OneSided in PCD3D_SM5, Default, SM5, Game (DDC key hash: 761a505a57effe91a83f9d36868f72b792459e3c), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeLayerUsageMaterial.LandscapeLayerUsageMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: f5bbfcc0d20c3e5a97c49e283ebb7d08aacb3d64), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowSelection.DataflowSelection in PCD3D_SM5, Default, SM5, Game (DDC key hash: 47d7333f43971c854226aadb72407049aefef39c), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Game (DDC key hash: b14f0c219238b82ffef6b327931dc9e27d315b70), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Game (DDC key hash: 136672611a6f5e0d1812c7154be8b736cdbadc20), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Game (DDC key hash: f7c6122c8714239f3d3cb81c8e9c6247f62351d8), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Game (DDC key hash: bb77b779850369e6903e8f8f722077eed0eb4f9a), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/HeartModels/M_HeartAuthored.M_HeartAuthored in PCD3D_SM5, Default, SM5, Game (DDC key hash: be1eb8eb902bc28f9fa7c1dc8bf45e9f49a5104f), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/BodyAdventure/M_Organ.M_Organ in PCD3D_SM5, Default, SM5, Game (DDC key hash: e2823251b7980091f9f0884ed04cd8d032ea3c75), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/Materials/M_Toon.M_Toon in PCD3D_SM5, Default, SM5, Game (DDC key hash: e79bd39005fb0b00eb663ed9e2aa9fd3f4263e37), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend_DS.MI_Unlit_Blend_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0083b66ace8726dce614f18bfabfafc4ebbc979e), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask_DS.MI_Unlit_Mask_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: d677c59c02a4cd2624356eb1ca06ddd464136ee9), compiling.
+LogCook: Display: Cooked packages 156 Packages Remain 480 Total 636
+LogStaticMesh: Display: Waiting for static meshes to be ready 5/6 (/Game/BodyAdventure/Models/SM_Adventure_BodyRim) ...
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Opaque_DS.MI_Unlit_Opaque_DS in PCD3D_SM5, Default, SM5, Game (DDC key hash: 1568d9899f338e19260af35115ac4381188c2354), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend.MI_Unlit_Blend in PCD3D_SM5, Default, SM5, Game (DDC key hash: 26c17bb61804800edda4794c30b8c28e00c03b6d), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask.MI_Unlit_Mask in PCD3D_SM5, Default, SM5, Game (DDC key hash: 70068f5018d5b0cfb402e05d8435905b9f73d096), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/M_Unlit.M_Unlit in PCD3D_SM5, Default, SM5, Game (DDC key hash: f9dd991608b84013ee5058a8200e70c98a85e280), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Translucent.Widget3DPassThrough_Translucent in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2e5c58343232738c6175bcfc45fe7e8f2121a9bf), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Opaque.Widget3DPassThrough_Opaque in PCD3D_SM5, Default, SM5, Game (DDC key hash: d127e18de0960e15287ddb0d7682d5f704aa466e), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/Widget3DPassThrough_Masked.Widget3DPassThrough_Masked in PCD3D_SM5, Default, SM5, Game (DDC key hash: 1995bb629dde707dfcc9a34160c9eef266e976df), compiling.
+LogMaterial: Display: Missing cached shadermap for /InterchangeAssets/gltf/Substrate/M_GLTF.M_GLTF in PCD3D_SM5, Default, SM5, Game (DDC key hash: 80f16a90de349c8f4e54e0877fa1e204a10e45a1), compiling.
+LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Sprite/M_BrushSprite_01.M_BrushSprite_01 in PCD3D_SM5, Default, SM5, Game (DDC key hash: c4f7f052f736084cf0387f52dd37cf245252bd0d), compiling.
+LogMaterial: Display: Missing cached shadermap for /MeshModelingToolsetExp/Materials/PointSetOverlaidComponentMaterial.PointSetOverlaidComponentMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8cd5ce9f4828bdc14b7de6485c35d95a984c1174), compiling.
+LogMaterial: Display: Missing cached shadermap for /MeshModelingToolsetExp/Materials/LineSetOverlaidComponentMaterial.LineSetOverlaidComponentMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: cd0d96aef55e9f06b72fbc28e7c2219a95dbb81f), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/MaskBrushMaterial_MaskedRegion.MaskBrushMaterial_MaskedRegion in PCD3D_SM5, Default, SM5, Game (DDC key hash: 48d4fe501d947c28eb68b6efb442ce2984dca539), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/SnapGrid/SnapGridMaterial.SnapGridMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: afb7b6319bab95e9eb0cc73aad978a89ac95de70), compiling.
+LogMaterial: Display: Missing cached shadermap for /Paper2D/OpaqueUnlitSpriteMaterial.OpaqueUnlitSpriteMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 1e54e56d430238291c3cc11e27043506e4fb2d6b), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SelectBrushMaterial_SelectedRegion.SelectBrushMaterial_SelectedRegion in PCD3D_SM5, Default, SM5, Game (DDC key hash: 88bcef85a83feac9389be54fb71e1cbc7d1e5a21), compiling.
+LogCook: Display: Cooked packages 310 Packages Remain 326 Total 636
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultMaterial.DefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 08d4010a2b67062bc4f7fcb4dddb1e1f076a1392), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultDeferredDecalMaterial.DefaultDeferredDecalMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: a159a65c8014df96467e816cedf5f232fe693126), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultPostProcessMaterial.DefaultPostProcessMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 73d45b368b227cdecd9d54782436ea4e6cd08a22), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP.M_VolumeRenderSphereTracePP in PCD3D_SM5, Default, SM5, Game (DDC key hash: e3dd2c5317616c6adf733f589ce9d8919e551cb8), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PreviewShadowIndicatorMaterial.PreviewShadowIndicatorMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: a7a532ed054f9443ff3ed9af537ef20947acb2ad), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultTextMaterialOpaque.DefaultTextMaterialOpaque in PCD3D_SM5, Default, SM5, Game (DDC key hash: 45becdf75e139d567f86d04cd6db9702fd586283), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8adeacdf20a3e37e02d13e62bbad2c9221f13134), compiling. Is special engine material.
+LogShaderCompilers: Display: FShaderCompileThreadRunnable::ReadAvailableResults() took too long (0.527 seconds, threshold is 0.300 s), will parallelize next time.
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.15.dll
+LogMaterial: Display: Missing cached shadermap for /Game/Materials/M_LightBridge.M_LightBridge in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2a64664c743639e77709e7434910c68df44f40cd), compiling.
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairDebugMaterial.HairDebugMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: b05783962c26a04f389543224c347bcc80e4f7c7), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/TransformGizmoMaterial.TransformGizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: b574127fa1b6f89fdbec9fab2d32ac979b3ff297), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale in PCD3D_SM5, Default, SM5, Game (DDC key hash: dcb5485e122567a018d261d4e39af1ed14e2e4aa), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor in PCD3D_SM5, Default, SM5, Game (DDC key hash: d3f450f96bc2aad8553abbdaa96d5774b267b882), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/M_Dataflow_CheckerBoard.M_Dataflow_CheckerBoard in PCD3D_SM5, Default, SM5, Game (DDC key hash: 136d499775ff24bf38a9c4ec60a44f9eeac1d3bc), compiling.
+LogMaterial: Display: Missing cached shadermap for /Paper2D/DefaultSpriteMaterial.DefaultSpriteMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: cb628c9592f9831669b6d2de6988a6c0c9476b2b), compiling.
+LogMaterial: Display: Missing cached shadermap for /ControlRig/M_Manip.M_Manip in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8ee6c5dbdcc8bfd293df4a4a6a694440bfb577e8), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/PhAT_JointLimitMaterial.PhAT_JointLimitMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: f27748a33b335c732a8880981cfd1e68ba11bdd1), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LayerVisMaterial.LayerVisMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 93a0f942df8383ec60154890b917f7774714d7ad), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SelectBrushMaterial.SelectBrushMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 83d44c03ca350aaf8ed705ec07bc4d8b2ef997c9), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/ColorMaskBrushMaterial.ColorMaskBrushMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: a0474b1b23386b2c9056268a2d3c6a5bfb313dcf), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeDirtyMaterial.LandscapeDirtyMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8a42166db4de169d3f3fa71269fc805a0c74c8e3), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/EmissiveMeshMaterial.EmissiveMeshMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0b286659e8937bea5acd0c921046b66233f4c6d7), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/M_InvalidLightmapSettings.M_InvalidLightmapSettings in PCD3D_SM5, Default, SM5, Game (DDC key hash: 347e2afb14f38fc46ee25001c0dd303815874bbc), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/FlattenMaterial.FlattenMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 5b16a55a5609d087fd8d2f944d3f242689e99910), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/FlattenMaterial_VT.FlattenMaterial_VT in PCD3D_SM5, Default, SM5, Game (DDC key hash: 120b38f0f1ecd678802d3e67a687feeea4ea6454), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT.FlattenMaterial_WS_Normal_VT in PCD3D_SM5, Default, SM5, Game (DDC key hash: 96394b0b08885bbb882ab6c6d1d8f3902229eead), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/HeartModels/M_Heartbeat.M_Heartbeat in PCD3D_SM5, Default, SM5, Game (DDC key hash: 09dc28c59cf9f8bf8102903d34051e003f7783c4), compiling.
+LogMaterial: Display: Missing cached shadermap for /Game/BodyAdventure/M_LightPath.M_LightPath in PCD3D_SM5, Default, SM5, Game (DDC key hash: be645c2cfe51eddc5e4ef3718ed9881603482053), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/DefaultLightFunctionMaterial.DefaultLightFunctionMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3ea25b309e73452d158fdf730d14a755c9ce19d2), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/WidgetVertexColorMaterial.WidgetVertexColorMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: fad08f2c02a18aa861a7cc04df648d258918d5af), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Camera/CineMat.CineMat in PCD3D_SM5, Default, SM5, Game (DDC key hash: aceddd2915c65c74f4e4ec2d0dbe8d136daada68), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SplineEditorMeshMat.SplineEditorMeshMat in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2e9ba02a5f728197f4b2f8c8d7ed81134074e40d), compiling.
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairDefaultMaterial.HairDefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: f38bc6f19063d6afe42cdce95b873595afaa6379), compiling.
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairCardsDefaultMaterial.HairCardsDefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: ca5220fdad768137d2da8497ec47d2395625b92f), compiling.
+LogMaterial: Display: Missing cached shadermap for /HairStrands/Materials/HairMeshesDefaultMaterial.HairMeshesDefaultMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: e3ec637a66aea2094d903f84341be18bcb6c11df), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.TranslucentTransformGizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 1f31874ba458027533da4c452bec273a730aab18), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent.M_SimpleUnlitTranslucent in PCD3D_SM5, Default, SM5, Game (DDC key hash: 3ce40c66698a3a2da1a33fcc0137ec572ffab24b), compiling.
+LogMaterial: Display: Missing cached shadermap for /ControlRig/Controls/ControlRigXRayMaterial.ControlRigXRayMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 1d9aeaadbc4efc654a93b2331287b883fda39dd0), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/Main.Main in PCD3D_SM5, Default, SM5, Game (DDC key hash: 47a3af86f3045cd8ab65d5e3de3c3c8e65fc9a90), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/VREditor/TransformGizmo/Xray.Xray in PCD3D_SM5, Default, SM5, Game (DDC key hash: 2a56329534412627755c0a4781cdeee90b54e52f), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: c060ea2f0e11cd5ac6d2af2b880974ff34c8ad83), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowVertexMaterial.DataflowVertexMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 4a36c019c16c950bc6fd2c4f25e84f99ec0587ee), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial.DataflowTwoSidedVertexMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 232ba9c443b559c50ee9492da5550777dc922859), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial.SculptMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 27c3ae6daf445ea27b9061a3252fb7f98a47719a), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/NaniteHiddenSectionMaterial.NaniteHiddenSectionMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: dd3c437083c176c038d68e2935cf032b31a868f2), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/RemoveSurfaceMaterial.RemoveSurfaceMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 56a187c84fd2a19113e6d202d9dbe1c409938432), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/DebugMeshMaterial.DebugMeshMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 579c3250f8d533da5da2374ea5ab20630d5fb0f1), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/GizmoMaterial.GizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: f19a81db200da171845c12018984bb18932b2275), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PhAT_UnselectedMaterial.PhAT_UnselectedMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0d8f2caea61bb40482d789c657b206b0df1c0f79), compiling.
+LogMaterial: Display: Missing cached shadermap for /Engine/EditorMaterials/PhAT_NoCollisionMaterial.PhAT_NoCollisionMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: ec0082c6d93cc60bb291750239e8e9dd61212553), compiling.
+LogCook: Display: Cooked packages 434 Packages Remain 202 Total 636
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/DebugEditorMaterial.DebugEditorMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8dbfaac7322cda07c409843af1ff54a94a22bcc8), compiling.
+LogMaterial: Display: Missing cached shadermap for /ControlRig/Controls/ControlRigGizmoMaterial.ControlRigGizmoMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: 8d6fdd088e9301258c572ce2581df011c9568bcc), compiling.
+LogCook: Display: Cooked packages 636 Packages Remain 0 Total 636
+LogCook: Display: Cook Diagnostics: OpenFileHandles=4992, VirtualMemory=3766MiB, VirtualMemoryAvailable=24135MiB
+LogCook: Display: ---- Finalisation: Start ----
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 1 959, among them cache hits 321 (16.39%), DDC hits 1 543 (78.76%), Duplicates 71 (3.62%)
+LogShaderCompilers: Display: Tracking 1 567 distinct input hashes that result in 848 distinct outputs (54.12%)
+LogShaderCompilers: Display: RAM used: 2,62 MiB of 3,20 GiB budget. Usage: 0.08%
+LogShaderCompilers: Display: === Shader Compilation stats ===
+LogShaderCompilers: Display: Shaders Compiled: 24
+LogShaderCompilers: Display: Jobs assigned 24, completed 24 (100%)
+LogShaderCompilers: Display: Average time worker was idle: 1.03 s
+LogShaderCompilers: Display: Time job spent in pending queue: average 0.28 s, longest 1.88 s
+LogShaderCompilers: Display: Job execution time: average 4.04 s, max 6.84 s
+LogShaderCompilers: Display: Job life time (pending + execution): average 4.32 s, max 6.91
+LogShaderCompilers: Display: Shader code size: total 66,453 KiB, numShaders 24, average 2,769 KiB, min 528 B, max 10,906 KiB
+LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.63 s
+LogShaderCompilers: Display: Jobs were issued in 24 batches (only local compilation was used), average 1.00 jobs/batch
+LogShaderCompilers: Display: Average processing rate: 2.78 jobs/sec
+LogShaderCompilers: Display: Total thread time: 72,973 s
+LogShaderCompilers: Display: Total thread preprocess time: 45,328 s
+LogShaderCompilers: Display: Percentage time preprocessing: 62.12%
+LogShaderCompilers: Display: Effective parallelization: 8.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.528606
+LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    8 times, average 3.66 sec, max 5.17 sec, min 1.21 sec)
+LogShaderCompilers: Display:                             TShadowDepthVSPerspectiveCorrect (compiled    2 times, average 3.42 sec, max 4.78 sec, min 2.05 sec)
+LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    2 times, average 3.12 sec, max 4.75 sec, min 1.50 sec)
+LogShaderCompilers: Display:                             TShadowDepthPSPerspectiveCorrect (compiled    7 times, average 3.12 sec, max 4.85 sec, min 2.13 sec)
+LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 2.18 sec, max 4.59 sec, min 0.92 sec)
+LogShaderCompilers: Display: Top 5 shader types by total compile time:
+LogShaderCompilers: Display:                                                  FHitProxyPS - 40.11% of total time (compiled    8 times, average 3.66 sec, max 5.17 sec, min 1.21 sec)
+LogShaderCompilers: Display:                             TShadowDepthPSPerspectiveCorrect - 29.89% of total time (compiled    7 times, average 3.12 sec, max 4.85 sec, min 2.13 sec)
+LogShaderCompilers: Display:                             TShadowDepthVSPerspectiveCorrect - 9.37% of total time (compiled    2 times, average 3.42 sec, max 4.78 sec, min 2.05 sec)
+LogShaderCompilers: Display:                                                  FHitProxyVS - 8.98% of total time (compiled    3 times, average 2.18 sec, max 4.59 sec, min 0.92 sec)
+LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 8.56% of total time (compiled    2 times, average 3.12 sec, max 4.75 sec, min 1.50 sec)
+LogShaderCompilers: Display: === Material stats ===
+LogShaderCompilers: Display: Materials Cooked:        139
+LogShaderCompilers: Display: Materials Translated:    109
+LogShaderCompilers: Display: Material Total Translate Time: 0.33 s
+LogShaderCompilers: Display: Material Translation Only: 0.24 s (71%)
+LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+LogShaderCompilers: Display: ================================================
+LogCook: Display: CookArtifact 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/ThatBodyGame/Metadata/ValidationCookArtifact.json' saved.
+LogAssetRegistryGenerator: Display: Saving asset registry v24.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/ThatBodyGame/Metadata/DevelopmentAssetRegistry.bin num assets 638, size is 499.16kb, XxHash64[LE] = 0x35063E674E8F31F0, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 631, size is 187.40kb
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'ThatBodyGame' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 112, Unique Shadermaps: 110 (98.21%)
+LogShaderLibrary: Display: Total Shaders: 1542, Unique Shaders: 912 (59.14%)
+LogShaderLibrary: Display: Total Shader Size: 3.26mb, Unique Shaders Size: 1.94mb (59.41%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 8
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 361
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     24, 23, 19, 18, 16, 16, 15, 15, 14, 10
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Vertex: 400 shaders (43.86%), compressed size: 1.00 MB (2.55 KB avg per shader), uncompressed size: 3.04 MB (7.77 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 463 shaders (50.77%), compressed size: 0.84 MB (1.86 KB avg per shader), uncompressed size: 2.95 MB (6.53 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 49 shaders (5.37%), compressed size: 0.10 MB (2.06 KB avg per shader), uncompressed size: 0.36 MB (7.47 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-ThatBodyGame-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "UAF" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "UAFAnimGraph" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogZenStoreWriter: Display: Flushing...
+LogZenStoreWriter: Display: Saving Zen filesystem manifest 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/ThatBodyGame/Metadata/zenfs.manifest'
+LogZenStoreWriter: Display: Output:	48859 Public runtime script objects
+LogCook: Display: Cook by the book total time in tick 10.792699s total time 16.615784
+LogCook: Display: Peak Used virtual 3852 MiB Peak Used physical 3729 MiB
+LogCook: Display: Packages Cooked: 629, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 7, Total Packages: 636
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 0.018s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.004s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.000s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.001s (1)
+LogCookStats: Display:     TickMainCookLoop: 10.793s (2)
+LogCookStats: Display:       PumpPollables: 0.004s (6)
+LogCookStats: Display:       PumpRequests: 0.015s (20)
+LogCookStats: Display:       LoadPackageForCooking: 2.174s (3721)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (636)
+LogCookStats: Display:       SavingPackages: 6.445s (299)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 1.128s (20422)
+LogCookStats: Display:         PrepareSave: 0.232s (19896)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 0.238s (635)
+LogCookStats: Display:           PrepareSave: 0.237s (882)
+LogCookStats: Display:         SaveCookedPackage: 4.811s (636)
+LogCookStats: Display:           GEditorSavePackage: 4.549s (636)
+LogCookStats: Display:             VerifyCanCookPackage: 0.005s (629)
+LogCookStats: Display:           TargetDomainDependencies: 0.150s (636)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.016s (636)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (4)
+LogCookStats: Display:       WaitForAsync: 1.911s (77259)
+LogCookStats: Display:     CookByTheBookFinished: 0.413s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.034s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.002s (1)
+LogCookStats: Display:       ChunkGeneration: 0.010s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.000s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       CookArtifacts.UpdateOplogPackages: 0.003s (1)
+LogCookStats: Display:       PruneShaderLibrary: 0.000s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.012s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.007s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.031s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.002s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.001s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.001s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.274s (1)
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=0
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000000
+LogCookStats: Display: Validation
+LogCookStats: Display:     Stats=[]
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=0.000074
+LogCookStats: Display:     AsyncCompileTimeSec=96.937373
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.272555
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=2118
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.339726
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=0.846516
+LogCookStats: Display: Cook.Profile.Params
+LogCookStats: Display:     CookProject=ThatBodyGame
+LogCookStats: Display:     CookCultures=
+LogCookStats: Display:     CookLabel=
+LogCookStats: Display:     TargetPlatforms=Windows
+LogCookStats: Display:     IsCookAll=false
+LogCookStats: Display:     IsCookOnTheFly=false
+LogCookStats: Display:     IsIncrementalCook=false
+LogCookStats: Display:     IsIterativeCook=false
+LogCookStats: Display:     IsFastCook=false
+LogCookStats: Display:     IsUnversioned=true
+LogCookStats: Display: CookOnTheFlyServer.Package.Load
+LogCookStats: Display:     NumRequestedLoads=3354
+LogCookStats: Display:     NumPackagesLoaded=3451
+LogCookStats: Display:     NumInlineLoads=97
+LogCookStats: Display: CookOnTheFlyServer.Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display: CookOnTheFlyServer.QueueSize
+LogCookStats: Display:     PeakRequest=635
+LogCookStats: Display:     PeakLoad=122
+LogCookStats: Display:     PeakSave=161
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     LoadPackageTimeSec=2.342808
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesSaved=636
+LogCookStats: Display:     SavePackageTimeSec=4.507297
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.005488
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=-nan(ind)
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display:
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=23.487305
+LogCookStats: Display:  0. 0.StartupWallTimeSec=6.724048
+LogCookStats: Display:  0. 1.CookProcessingTime=16.763256
+LogCookStats: Display:  0. 1. 1.StartCookByTheBookTimeSec=5.413177
+LogCookStats: Display:  0. 1. 1. 0.BlockOnAssetRegistryTimeSec=4.277210
+LogCookStats: Display:  0. 1. 1. 1.GameCookModificationDelegateTimeSec=0.000078
+LogCookStats: Display:  0. 1. 2.TickCookOnTheSideTimeSec=0.135021
+LogCookStats: Display:  0. 1. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=2.175384
+LogCookStats: Display:  0. 1. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=4.811492
+LogCookStats: Display:  0. 1. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=0.469982
+LogCookStats: Display:  0. 1. 3.TickLoopGCTimeSec=0.138727
+LogCookStats: Display:  0. 1. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000999
+LogCookStats: Display:  0. 1. 6.TickLoopProcessDeferredCommandsTimeSec=0.000005
+LogCookStats: Display:  0. 1. 7.TickLoopTickCommandletStatsTimeSec=0.000001
+LogCookStats: Display:  0. 1. 8.TickLoopFlushRenderingCommandsTimeSec=0.003073
+LogCookStats: Display:  0. 1. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 1. 10.ValidationTimeSec=0.000299
+LogCookStats: Display:
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         = Installed
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =      true
+LogCookStats: Display: TotalGetHits    =      2739
+LogCookStats: Display: TotalGetMisses  =      3283
+LogCookStats: Display: TotalGets       =      6022
+LogCookStats: Display: TotalGetHitPct  =  0.454832
+LogCookStats: Display: GetMissPct      =  0.545168
+LogCookStats: Display: TotalPutHits    =      3283
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =      3283
+LogCookStats: Display: TotalPutHitPct  =  1.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =       846
+LogCookStats: Display: LocalGetMisses  =      3281
+LogCookStats: Display: LocalGetTotal   =      4127
+LogCookStats: Display: LocalGetHitPct  =  0.204992
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =       846
+LogCookStats: Display: ZenLocalGetTotal=      4127
+LogCookStats: Display: ZenLocalGetHitPct=  0.204992
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: ZenRemoteReadSpeed=  0.000000
+LogCookStats: Display: ZenRemoteWriteSpeed=  0.000000
+LogCookStats: Display: ZenRemoteLatency=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  2.711969
+LogCookStats: Display: LocalReadSpeed  = 97.810537
+LogCookStats: Display: LocalWriteSpeed =  1.154532
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display:
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: BulkDataList                                   26.05                   0.00          3103          0.00
+LogCookStats: Display: Shader                                          5.81                   0.00            24          4.06
+LogCookStats: Display: MaterialShader                                  3.71                   0.22           109          0.03
+LogCookStats: Display: MaterialTranslation                             0.25                   0.00            46          0.00
+LogCookStats: Display: NavCollision                                    0.12                   0.00             1         37.26
+LogCookStats: Display: StaticMesh                                      0.12                   0.00             0         50.77
+LogCookStats: Display: BodySetup                                       0.11                   0.00             0         65.36
+LogCookStats: Display: Texture                                         0.08                   0.00             0          8.82
+LogCookStats: Display: STREAMEDAUDIO                                   0.08                   0.00             0          0.14
+LogCookStats: Display: CardRepresentation                              0.06                   0.00             0          0.05
+LogCookStats: Display: GlobalShader                                    0.05                   0.05             0         11.81
+LogCookStats: Display: Audio                                           0.00                   0.00             0          0.13
+LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.05
+LogCookStats: Display:
+LogCookStats: Display: Accumulated DDC Resource Stats Per Asset Type
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: AnimationSequence                               0.00                   0.00             0          0.00
+LogCookStats: Display: Audio                                           0.00                   0.00             0          0.13
+LogCookStats: Display: CardRepresentation                              0.06                   0.00             0          0.05
+LogCookStats: Display: DistanceField                                   0.00                   0.00             0          0.00
+LogCookStats: Display: MaterialShader                                  3.71                   0.22           109          0.03
+LogCookStats: Display: MaterialTranslation                             0.25                   0.00            46          0.00
+LogCookStats: Display: NiagaraScript                                   0.00                   0.00             0          0.00
+LogCookStats: Display: SkeletalMesh                                    0.00                   0.00             0          0.00
+LogCookStats: Display: StaticMesh                                      0.12                   0.00             0         50.77
+LogCookStats: Display: Texture                                         0.08                   0.00             0          8.82
+LogCookStats: Display: Other                                          32.22                   0.05          3128        118.67
+LogPackageBuildDependencyTracker: Display: Package Accesses (355 referencing packages with a total of 2302 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (409 referencing packages with a total of 766 unique accesses). 1770 unique accesses that were not associated with a package.
+LogCook: Display: ---- Finalisation: End ----
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.000935s to verify the EDL loading graph.
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 1 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  16.77 seconds, PeakPhysMemoryMB=3729 MB, PeakVirtMemoryMB=3852 MB
+LogToolsetRegistry: Display: Unregistering Toolset ToolsetRegistry.AgentSkillToolset
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogStreaming: Display: ============ Loader Stats ============
+LogStreaming: Display: Unique Partial Flushes: 0
+LogStreaming: Display: ============ Loader Stats End ============
+LogShaderCompilers: Display: Exiting ShaderCompilingThread
+Took 25,82s to run UnrealEditor-Cmd.exe, ExitCode=0
+Cook command time: 25.91 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Patching bootstrap executable; C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Intermediate\Staging\ThatBodyGame.exe
+Begin update resource 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Intermediate\Staging\ThatBodyGame.exe' (0)
+Add resource 101, length 104 (True)
+Add resource 1, length 1996 (True)
+Add resource 2, length 2447 (True)
+Add resource 3, length 2535 (True)
+Add resource 4, length 3037 (True)
+Add resource 5, length 3244 (True)
+Add resource 6, length 3531 (True)
+Add resource 7, length 6931 (True)
+Add resource 201, length 90 (True)
+Add resource 202, length 26 (True)
+Add resource 205, length 2 (True)
+End update resource (True/0)
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Keywords.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Category.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\PortableObjectImport.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Editor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\Engine.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditorSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseSourceControlSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseLightmass.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BasePakFileRules.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\PortableObjectExport.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\RepairData.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditorKeyBindings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\PropertyNames.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\WordCount.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsEditorSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseUnrealInsightsSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Localization\ToolTips.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseDeviceProfiles.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseCompat.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Base.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\WindowsGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseMaterialExpressions.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseHardware.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseGameUserSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseInstallBundle.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseScalability.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\BaseRuntimeOptions.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Layouts\DefaultLayout.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\PluginBase.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\Layouts\UE4ClassicLayout.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\ConsoleVariables.ini
+Including config file C:\Program Files\Epic Games\UE_5.8\Engine\Config\ConfigRedirects.ini
+Including config file C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Config\DefaultGame.ini
+Including config file C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Config\DefaultInput.ini
+Including config file C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Config\DefaultEngine.ini
+Reading oplog from Zen...
+Reading oplog from http://[::1]:8558/prj/ThatBodyGame.8e2cb761/oplog/Windows/entries?trim_by_referencedset=true
+Parsed 631 package entries from oplog.
+Cleaning Stage Directory: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\StagedBuilds\Windows
+Creating pak using staging manifest.
+DumpManifest: C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_NonUFSFiles.txt, NumItems: 34
+DumpManifest: C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_NonUFSFilesDebug.txt, NumItems: 6
+DumpManifest: C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_UFSFiles.txt, NumItems: 2407
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+Using 0 pak order files:
+Running UnrealPak with arguments: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject"  -cryptokeys="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ThatBodyGame\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PakCommands.txt"
+Running: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealPak.exe "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject"  -cryptokeys="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ThatBodyGame\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\PakCommands.txt"
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogPakFile: Display: ProjectDir: ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/
+LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenStore: Display: Opening oplog ThatBodyGame.8e2cb761 / Windows
+LogIoStore: Display: Fetched 632 oplog items from Zen in 2.35 seconds
+LogIoStore: Display: Parsed 632 oplog items 0.01 seconds, 3521 chunks
+LogIoStore: Display: Loaded 667 chunk hashes from Zen in 0.03 seconds, 667 hashes updated in 0.00 seconds
+LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+LogPakFile: Display: Loading response file C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_ThatBodyGame-Windows.txt
+LogPakFile: Display: Added 1738 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1738 files in 0.01s.
+LogPakFile: Display: Creating pak C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/StagedBuilds/Windows/ThatBodyGame/Content/Paks/ThatBodyGame-Windows.pak.
+LogPakFile: Display: Created pak file: C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/StagedBuilds/Windows/ThatBodyGame/Content/Paks/ThatBodyGame-Windows.pak
+LogPakFile: Display: CompressionFormat 0 [Oodle] : 397 files, 24060843 -> 9203931 bytes
+LogPakFile: Display: CompressionFormat 2 [None] : 1341 files, 786722 -> 786722 bytes
+LogPakFile: Display: Added 1738 files, 10655984 bytes total
+LogPakFile: Display: PrimaryIndex size: 23934 bytes
+LogPakFile: Display: PathHashIndex size: 54664 bytes
+LogPakFile: Display: FullDirectoryIndex size: 57767 bytes
+LogPakFile: Display: Compression summary: 38.25% of original size. Compressed Size 9203931 bytes, Original Size 24060843 bytes.
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display:
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 2.537070 seconds
+Took 2,93s to run UnrealPak.exe, ExitCode=0
+Running UnrealPak with arguments: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject -CreateGlobalContainer="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\StagedBuilds\Windows\ThatBodyGame\Content\Paks\global.utoc" -ProjectStore="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows" -Commands="C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ThatBodyGame\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Windows 
+Running: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealPak.exe "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject -CreateGlobalContainer="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\StagedBuilds\Windows\ThatBodyGame\Content\Paks\global.utoc" -ProjectStore="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows" -Commands="C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ThatBodyGame\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Windows
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogPakFile: Display: ProjectDir: ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/
+LogIoStore: Display: ==================== IoStore Utils ====================
+LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows\ThatBodyGame\Metadata\Crypto.json'
+LogIoStore: Display: Container signing - DISABLED
+LogIoStore: Display: Directory index - ENABLED
+LogIoStore: Display: Using compression format 'Oodle'
+LogConfig: Display: Read in platform Windows ini files took 0.03 seconds
+LogIoStore: Display: Using memory mapping alignment '16384'
+LogIoStore: Display: Using compression block size '65536'
+LogIoStore: Display: Using compression block alignment '2048'
+LogIoStore: Display: Using compression min bytes saved '1024'
+LogIoStore: Display: Using compression min percent saved '5'
+LogIoStore: Display: Using max partition size '0'
+LogIoStore: Display: Not using DDC for compression
+LogIoStore: Display: Container metadata disabled
+LogIoStore: Display: Using command list file: 'C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt'
+LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenStore: Display: Opening oplog ThatBodyGame.8e2cb761 / Windows
+LogIoStore: Display: Fetched 632 oplog items from Zen in 2.35 seconds
+LogIoStore: Display: Parsed 632 oplog items 0.01 seconds, 3521 chunks
+LogIoStore: Display: Loaded 667 chunk hashes from Zen in 0.00 seconds, 667 hashes updated in 0.00 seconds
+LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Cooked\Windows'
+LogIoStore: Display: Found '4' files
+LogIoStore: Display: Creating container targets...
+LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+LogIoStore: Display: Shader library chunk override is disabled
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 382 groups (158 of them didn't need new indices), average uncompressed size 139705 bytes, min 249 bytes, max 1033651 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3929 shaders as 382 groups. Library size changed from 11812 KB (4.41 : 1 ratio) to 5256 KB (9.92 : 1 ratio), 44.50% of previous.
+LogIoStore: Display: Save IoStoreShaderCodeArchive 'Global-PCD3D_SM5-PCD3D_SM5' with ChunkId 'c3fad98e7ca0cc3100000008' for target file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/ThatBodyGame/Content/ShaderArchive-Global-PCD3D_SM5-PCD3D_SM5.ushaderbytecode'
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 178 groups (110 of them didn't need new indices), average uncompressed size 37378 bytes, min 502 bytes, max 983025 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: ThatBodyGame-PCD3D_SM5(PCD3D_SM5): Recompressed 912 shaders as 178 groups. Library size changed from 1984 KB (3.27 : 1 ratio) to 1050 KB (6.18 : 1 ratio), 52.95% of previous.
+LogIoStore: Display: Save IoStoreShaderCodeArchive 'ThatBodyGame-PCD3D_SM5-PCD3D_SM5' with ChunkId 'a29923c8ec4e927500000008' for target file 'C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Cooked/Windows/ThatBodyGame/Content/ShaderArchive-ThatBodyGame-PCD3D_SM5-PCD3D_SM5.ushaderbytecode'
+LogIoStore: Display: Shaders processed in 0.09 seconds
+LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=10 (20 cores), MaxSourceBufferMemory=3072MiB
+LogIoStore: Display: Processing redirects...
+LogIoStore: Display: Creating disk layout...
+LogIoStore: Display: Ordered 629 packages using fallback bundle order
+LogIoStore: Display: Disabled WriteRequestManager memory throttling, MaxConcurrentSourceReads=10 (20 cores)
+LogIoStore: Display: Writing container(s)...
+LogIoStore: Display: Writing and compressing took 1.20 seconds, writes to disk took 0.18 seconds for 245,077,952 bytes @ 1,325,228,499 bytes per second.
+LogIoStore: Display: global: Found perfect hashmap for 1 items.
+LogIoStore: Display: ThatBodyGame-Windows: Found perfect hashmap for 1230 items.
+LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 238,925 bytes, 61,521,522 bytes per second
+LogIoStore: Display: Writing tocs... [Physical: 618 MiB, Virtual: 3329 MiB]
+LogIoStore: Display: 667 / 1,231 hashes were loaded from the hash database, by type:
+LogIoStore: Display:     ExportBundleData           629
+LogIoStore: Display:     BulkData                   38
+LogIoStore: Display: 667 / 1,231 chunks attempted to compress, by type:
+LogIoStore: Display:     ExportBundleData           629 / 629
+LogIoStore: Display:     BulkData                   38 / 38
+LogIoStore: Display:     ScriptObjects              0 / 1
+LogIoStore: Display:     ContainerHeader            0 / 1
+LogIoStore: Display:     ShaderCodeLibrary          0 / 2
+LogIoStore: Display:     ShaderCode                 0 / 560
+LogIoStore: Display: Source bytes read:
+LogIoStore: Display:     Zen:                        719,896,928
+LogIoStore: Display:         ExportBundleData        712,102,788 bytes over 629 reads
+LogIoStore: Display:         BulkData                  7,794,140 bytes over 38 reads
+LogIoStore: Display:     Loose File:                           0
+LogIoStore: Display:     Memory:                      13,198,002
+LogIoStore: Display:         ShaderCodeLibrary           281,032 bytes over 4 reads
+LogIoStore: Display:         ShaderCode               12,916,970 bytes over 1,120 reads
+LogIoStore: Display: Calculating stats...
+LogIoStore: Display:
+LogIoStore: Display: Container Summary
+LogIoStore: Display: ==================
+LogIoStore: Display:
+LogIoStore: Display:                      Container      Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display:                         global  -/-/-/-/-               1            0.78                 3.07                 3.07 -
+LogIoStore: Display:           ThatBodyGame-Windows  C/-/-/I/-            1230          232.55               693.61               230.66 (66.75% Oodle)
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display:                          Total                       1231          233.33               696.68               233.72
+LogIoStore: Display:
+LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+LogIoStore: Display:
+LogIoStore: Display: Compression block padding:     0.75 MiB
+LogIoStore: Display:
+LogIoStore: Display: Container Directory Index
+LogIoStore: Display: ==========================
+LogIoStore: Display:
+LogIoStore: Display:                      Container      Size (KiB)
+LogIoStore: Display: ----------------------------------------------
+LogIoStore: Display:                         global            0.00
+LogIoStore: Display:           ThatBodyGame-Windows           32.49
+LogIoStore: Display:
+LogIoStore: Display: Container Patch Report
+LogIoStore: Display: ========================
+LogIoStore: Display:
+LogIoStore: Display:                      Container          Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display:                         global                1                0                0             0.00             0.00
+LogIoStore: Display:           ThatBodyGame-Windows             1230                0             1230             0.00           229.91
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display:
+LogIoStore: Display: PackageStore
+LogIoStore: Display: =============
+LogIoStore: Display:
+LogIoStore: Display:                      Container      Size (KiB)      Packages #     Localized #
+LogIoStore: Display: ------------------------------------------------------------------------------
+LogIoStore: Display:           ThatBodyGame-Windows              17             629               0
+LogIoStore: Display: ------------------------------------------------------------------------------
+LogIoStore: Display:                          Total              17             629               0
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: Input:       629 Packages
+LogIoStore: Display: Input:         0   B UExp
+LogIoStore: Display: Input:    679.11 MiB UAsset
+LogIoStore: Display: Input:      7.43 MiB UBulk
+LogIoStore: Display: Input:      5.13 MiB for 382 Global shaders
+LogIoStore: Display: Input:    267.23 KiB for 81 Shared shaders
+LogIoStore: Display: Input:         0   B for 0 Unique shaders
+LogIoStore: Display: Input:    783.57 KiB for 97 Inline shaders
+LogIoStore: Display:
+LogIoStore: Display: Output:      754 Imported package entries
+LogIoStore: Display: Output:      319 Packages without imports
+LogIoStore: Display: Output:        0 Public runtime script objects
+LogIoStore: Display: Output:     3.07 MiB InitialLoadData
+LogIoStore: Display:
+LogIoStore: Display: Success
+LogPakFile: Display: UnrealPak executed in 3.772618 seconds
+Took 4,19s to run UnrealPak.exe, ExitCode=0
+DumpManifest: C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_UFSFiles.txt, NumItems: 2408
+DumpManifest: C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFiles.txt, NumItems: 34
+DumpManifest: C:\Users\Gamescom 2023 #1\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+Copying NonUFSFiles to staging directory: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\StagedBuilds\Windows
+Stage command time: 8.39 s
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Builds/BrainGarden-C05
+Archive command time: 0.39 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 77.28 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 18s
+AutomationTool exiting with ExitCode=0 (Success)

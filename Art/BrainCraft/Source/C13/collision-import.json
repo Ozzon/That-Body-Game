@@ -1,0 +1,8 @@
+{
+  "imported_meshes": [
+    "Terrain3_0",
+    "Terrain4_2"
+  ],
+  "small_plants_excluded_from_gi_occlusion": [],
+  "art_accepted": false
+}

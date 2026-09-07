@@ -1,0 +1,5 @@
+Exception: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\review_c17.ps1:5
+Line |
+   5 |   DEN_NATIVE_READY' -Quiet)){throw 'C17 native import did not finish.'}
+     |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | C17 native import did not finish.

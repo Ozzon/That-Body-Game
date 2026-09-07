@@ -1,0 +1,845 @@
+[
+  {
+    "name": "SM_LungRight_Floor",
+    "key": "LungRight",
+    "position": [
+      2300,
+      -3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungRight_FrontRight",
+    "key": "LungRight",
+    "position": [
+      2300,
+      -3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungRight_FrontLeft",
+    "key": "LungRight",
+    "position": [
+      2300,
+      -3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungRight_BackRight",
+    "key": "LungRight",
+    "position": [
+      2300,
+      -3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungRight_BackLeft",
+    "key": "LungRight",
+    "position": [
+      2300,
+      -3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungLeft_Floor",
+    "key": "LungLeft",
+    "position": [
+      2300,
+      3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungLeft_FrontRight",
+    "key": "LungLeft",
+    "position": [
+      2300,
+      3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungLeft_FrontLeft",
+    "key": "LungLeft",
+    "position": [
+      2300,
+      3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungLeft_BackRight",
+    "key": "LungLeft",
+    "position": [
+      2300,
+      3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungLeft_BackLeft",
+    "key": "LungLeft",
+    "position": [
+      2300,
+      3050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Brain_Floor",
+    "key": "Brain",
+    "position": [
+      8050,
+      0,
+      220
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Brain_FrontRight",
+    "key": "Brain",
+    "position": [
+      8050,
+      0,
+      220
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Brain_FrontLeft",
+    "key": "Brain",
+    "position": [
+      8050,
+      0,
+      220
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Brain_BackRight",
+    "key": "Brain",
+    "position": [
+      8050,
+      0,
+      220
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Brain_BackLeft",
+    "key": "Brain",
+    "position": [
+      8050,
+      0,
+      220
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Liver_Floor",
+    "key": "Liver",
+    "position": [
+      -2900,
+      -2050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Liver_FrontRight",
+    "key": "Liver",
+    "position": [
+      -2900,
+      -2050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Liver_FrontLeft",
+    "key": "Liver",
+    "position": [
+      -2900,
+      -2050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Liver_BackRight",
+    "key": "Liver",
+    "position": [
+      -2900,
+      -2050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Liver_BackLeft",
+    "key": "Liver",
+    "position": [
+      -2900,
+      -2050,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Stomach_Floor",
+    "key": "Stomach",
+    "position": [
+      -2900,
+      2250,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Stomach_FrontRight",
+    "key": "Stomach",
+    "position": [
+      -2900,
+      2250,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Stomach_FrontLeft",
+    "key": "Stomach",
+    "position": [
+      -2900,
+      2250,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Stomach_BackRight",
+    "key": "Stomach",
+    "position": [
+      -2900,
+      2250,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Stomach_BackLeft",
+    "key": "Stomach",
+    "position": [
+      -2900,
+      2250,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyRight_Floor",
+    "key": "KidneyRight",
+    "position": [
+      -5850,
+      -3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyRight_FrontRight",
+    "key": "KidneyRight",
+    "position": [
+      -5850,
+      -3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyRight_FrontLeft",
+    "key": "KidneyRight",
+    "position": [
+      -5850,
+      -3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyRight_BackRight",
+    "key": "KidneyRight",
+    "position": [
+      -5850,
+      -3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyRight_BackLeft",
+    "key": "KidneyRight",
+    "position": [
+      -5850,
+      -3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyLeft_Floor",
+    "key": "KidneyLeft",
+    "position": [
+      -5850,
+      3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyLeft_FrontRight",
+    "key": "KidneyLeft",
+    "position": [
+      -5850,
+      3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyLeft_FrontLeft",
+    "key": "KidneyLeft",
+    "position": [
+      -5850,
+      3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyLeft_BackRight",
+    "key": "KidneyLeft",
+    "position": [
+      -5850,
+      3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_KidneyLeft_BackLeft",
+    "key": "KidneyLeft",
+    "position": [
+      -5850,
+      3400,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Intestine_Floor",
+    "key": "Intestine",
+    "position": [
+      -7700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Intestine_FrontRight",
+    "key": "Intestine",
+    "position": [
+      -7700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Intestine_FrontLeft",
+    "key": "Intestine",
+    "position": [
+      -7700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Intestine_BackRight",
+    "key": "Intestine",
+    "position": [
+      -7700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Intestine_BackLeft",
+    "key": "Intestine",
+    "position": [
+      -7700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Bladder_Floor",
+    "key": "Bladder",
+    "position": [
+      -10700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Bladder_FrontRight",
+    "key": "Bladder",
+    "position": [
+      -10700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Bladder_FrontLeft",
+    "key": "Bladder",
+    "position": [
+      -10700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Bladder_BackRight",
+    "key": "Bladder",
+    "position": [
+      -10700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Bladder_BackLeft",
+    "key": "Bladder",
+    "position": [
+      -10700,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Heart_WallFrontRight",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [],
+    "existing": "/Game/HeartModels/A/SM_Heart_WallFrontRight",
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Heart_WallFrontLeft",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [],
+    "existing": "/Game/HeartModels/A/SM_Heart_WallFrontLeft",
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Heart_WallBackRight",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [],
+    "existing": "/Game/HeartModels/A/SM_Heart_WallBackRight",
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Heart_WallBackLeft",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [],
+    "existing": "/Game/HeartModels/A/SM_Heart_WallBackLeft",
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Heart_PulseSeed",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "existing": "/Game/HeartModels/A/SM_Heart_PulseSeed",
+    "material": "Glow"
+  },
+  {
+    "name": "SM_Heart_PacingValve",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "existing": "/Game/HeartModels/A/SM_Heart_PacingValve",
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Heart_Foundation",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [],
+    "existing": "/Game/HeartModels/A/SM_Heart_Foundation",
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Heart_Aorta",
+    "key": "Heart",
+    "position": [
+      1400,
+      0,
+      0
+    ],
+    "tags": [],
+    "existing": "/Game/HeartModels/A/SM_Heart_Aorta",
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Adventure_LightBridges",
+    "key": "Bridges",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "LightBridge"
+    ],
+    "material": "Light"
+  },
+  {
+    "name": "SM_Hub_Diaphragm",
+    "key": "Diaphragm",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "LightBridge"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Hub_Throat",
+    "key": "Throat",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "LightBridge"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Hub_DigestiveCrossing",
+    "key": "DigestiveCrossing",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "LightBridge"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Adventure_Body",
+    "key": "Body",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "BodyOutline"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Adventure_BodyRim",
+    "key": "Body",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "BodyOutline"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Context_Spleen",
+    "key": "Spleen",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Context_Pancreas",
+    "key": "Pancreas",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Context_Gallbladder",
+    "key": "Gallbladder",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Context_Thymus",
+    "key": "Thymus",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Context_ThyroidRight",
+    "key": "ThyroidRight",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Context_ThyroidLeft",
+    "key": "ThyroidLeft",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungRight_WindPetals",
+    "key": "WindRight",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_LungLeft_WindPetals",
+    "key": "WindLeft",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Brain_AwarenessTree",
+    "key": "BrainTree",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Care_0",
+    "key": "Care0",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Care_3",
+    "key": "Care3",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Care_4",
+    "key": "Care4",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Care_5",
+    "key": "Care5",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_Care_6",
+    "key": "Care6",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  }
+]

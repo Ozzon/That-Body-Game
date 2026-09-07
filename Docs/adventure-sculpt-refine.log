@@ -1,0 +1,10 @@
+ADVENTURE_NAV_READY {"navigation_components": 1, "unreachable_organ_regions": [], "travel_waypoints": 483, "care_route_waypoints": [25, 58, 3, 2, 6, 1], "bridges": 18, "organs": 10, "character_width": 100, "bridge_width_min": 470, "grid_step": 30}
+ORGAN_SCULPT_READY LungRight 224268 True
+ORGAN_SCULPT_READY LungLeft 198644 True
+ORGAN_SCULPT_READY Brain 336388 True
+ORGAN_SCULPT_READY Liver 263002 True
+ORGAN_SCULPT_READY Stomach 167220 True
+ORGAN_SCULPT_READY KidneyRight 120868 True
+ORGAN_SCULPT_READY KidneyLeft 120760 True
+ORGAN_SCULPT_READY Intestine 448580 True
+ORGAN_SCULPT_READY Bladder 91500 True

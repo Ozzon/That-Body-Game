@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Reaching and picking up",
+    "file": "clip-00.mp4",
+    "frames": 11,
+    "stage": 1
+  },
+  {
+    "title": "Carrying a bright thought",
+    "file": "clip-01.mp4",
+    "frames": 80,
+    "stage": 2
+  },
+  {
+    "title": "Finding calm",
+    "file": "clip-02.mp4",
+    "frames": 49,
+    "stage": 13
+  },
+  {
+    "title": "Handling the heavy thought",
+    "file": "clip-03.mp4",
+    "frames": 100,
+    "stage": 16
+  },
+  {
+    "title": "Brushing away a wisp",
+    "file": "clip-04.mp4",
+    "frames": 10,
+    "stage": 19
+  },
+  {
+    "title": "Loosening the amber knot",
+    "file": "clip-05.mp4",
+    "frames": 46,
+    "stage": 21
+  },
+  {
+    "title": "Walking the return crossing",
+    "file": "clip-06.mp4",
+    "frames": 80,
+    "stage": 24
+  }
+]

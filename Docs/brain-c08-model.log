@@ -1,0 +1,43 @@
+00:02.750  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_Cortex-1-1.fbx'
+export finished in 0.2095 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_Cortex-11.fbx'
+export finished in 0.3030 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_Cortex1-1.fbx'
+export finished in 0.2351 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_Cortex11.fbx'
+export finished in 0.3195 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_EarthPath.fbx'
+export finished in 0.0746 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_Paving.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_RootBridge.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_RootBridgeEdges.fbx'
+export finished in 0.0129 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_PathsidePlanting.fbx'
+export finished in 0.0460 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\Export\\SM_Craft_PathsideBlossoms.fbx'
+export finished in 0.0156 sec.
+Info: Saved as "Brain_Craft_C08.blend"
+C08_SAVED
+01:04.047  render           | Saved: 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain-C08-Actual-Model.png'
+02:08.656  render           | Saved: 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain-C08-Tree-Garden.png'
+C08_DONE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

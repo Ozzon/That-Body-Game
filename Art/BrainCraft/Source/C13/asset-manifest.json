@@ -1,0 +1,3164 @@
+[
+  {
+    "name": "SM_Craft_AttentionHead",
+    "key": "AttentionHead",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Linen",
+      "Face",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionEyes",
+    "key": "AttentionEyes",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Ink"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionCape",
+    "key": "AttentionCape",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Linen",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionBody",
+    "key": "AttentionBody",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Linen",
+      "Leather",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionBootL",
+    "key": "AttentionBootL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Leather",
+      "Linen",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionBootR",
+    "key": "AttentionBootR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Leather",
+      "Linen",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionArmL",
+    "key": "AttentionArmL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionForearmL",
+    "key": "AttentionForearmL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Linen"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionHandL",
+    "key": "AttentionHandL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Linen",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionArmR",
+    "key": "AttentionArmR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionForearmR",
+    "key": "AttentionForearmR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Linen"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionHandR",
+    "key": "AttentionHandR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Linen",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cortex-1-1",
+    "key": "Cortex-1-1",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "C11_Tissue"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cortex-11",
+    "key": "Cortex-11",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "C11_Tissue"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cortex1-1",
+    "key": "Cortex1-1",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "C11_Tissue"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cortex11",
+    "key": "Cortex11",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "C11_Tissue"
+    ]
+  },
+  {
+    "name": "SM_Craft_Nest0",
+    "key": "Nest0",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_Masonry",
+      "C11_Coping",
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_NestGlow0",
+    "key": "NestGlow0",
+    "spawn": true,
+    "tags": [
+      "Interactive",
+      "Glow"
+    ],
+    "materials": [
+      "C11_PortalDawn"
+    ]
+  },
+  {
+    "name": "SM_Craft_Nest1",
+    "key": "Nest1",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_Masonry",
+      "C11_Coping",
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_NestGlow1",
+    "key": "NestGlow1",
+    "spawn": true,
+    "tags": [
+      "Interactive",
+      "Glow"
+    ],
+    "materials": [
+      "C11_PortalSpring"
+    ]
+  },
+  {
+    "name": "SM_Craft_Nest2",
+    "key": "Nest2",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_Masonry",
+      "C11_Coping",
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_NestGlow2",
+    "key": "NestGlow2",
+    "spawn": true,
+    "tags": [
+      "Interactive",
+      "Glow"
+    ],
+    "materials": [
+      "C11_PortalMemory"
+    ]
+  },
+  {
+    "name": "SM_Craft_UpperSpringBank",
+    "key": "UpperSpringBank",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_Masonry",
+      "C11_Coping"
+    ]
+  },
+  {
+    "name": "SM_Craft_UpperSpringWater",
+    "key": "UpperSpringWater",
+    "spawn": true,
+    "tags": [
+      "Water"
+    ],
+    "materials": [
+      "C11_WaterBlue"
+    ]
+  },
+  {
+    "name": "SM_Craft_MiddleSpringBank",
+    "key": "MiddleSpringBank",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_Masonry",
+      "C11_Coping"
+    ]
+  },
+  {
+    "name": "SM_Craft_MiddleSpringWater",
+    "key": "MiddleSpringWater",
+    "spawn": true,
+    "tags": [
+      "Water"
+    ],
+    "materials": [
+      "C11_WaterBlue"
+    ]
+  },
+  {
+    "name": "SM_Craft_Water",
+    "key": "Water",
+    "spawn": true,
+    "tags": [
+      "Water"
+    ],
+    "materials": [
+      "C11_WaterBlue"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cascade0",
+    "key": "Cascade0",
+    "spawn": true,
+    "tags": [
+      "Water"
+    ],
+    "materials": [
+      "C11_WaterBlue"
+    ]
+  },
+  {
+    "name": "SM_Craft_CascadeFoam0",
+    "key": "CascadeFoam0",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C11_WaterFoam"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cascade1",
+    "key": "Cascade1",
+    "spawn": true,
+    "tags": [
+      "Water"
+    ],
+    "materials": [
+      "C11_WaterBlue"
+    ]
+  },
+  {
+    "name": "SM_Craft_CascadeFoam1",
+    "key": "CascadeFoam1",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C11_WaterFoam"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPlinth",
+    "key": "LotusPlinth",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_Coping"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusSeed",
+    "key": "LotusSeed",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_ThoughtWisp"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal0",
+    "key": "LotusPetal0",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal1",
+    "key": "LotusPetal1",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal2",
+    "key": "LotusPetal2",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal3",
+    "key": "LotusPetal3",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal4",
+    "key": "LotusPetal4",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal5",
+    "key": "LotusPetal5",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal6",
+    "key": "LotusPetal6",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal7",
+    "key": "LotusPetal7",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal8",
+    "key": "LotusPetal8",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_RakedSand",
+    "key": "RakedSand",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C11_Sand"
+    ]
+  },
+  {
+    "name": "SM_Craft_SandGardenStones",
+    "key": "SandGardenStones",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C11_Masonry"
+    ]
+  },
+  {
+    "name": "SM_Craft_TreePlanter",
+    "key": "TreePlanter",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_Coping"
+    ]
+  },
+  {
+    "name": "SM_Craft_RestShelter",
+    "key": "RestShelter",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_RestShelterRoof",
+    "key": "RestShelterRoof",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "C11_RoofTeal"
+    ]
+  },
+  {
+    "name": "SM_Craft_RootBridge",
+    "key": "RootBridge",
+    "spawn": true,
+    "tags": [
+      "Ground",
+      "Shortcut"
+    ],
+    "materials": [
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_RootBridgeEdges",
+    "key": "RootBridgeEdges",
+    "spawn": true,
+    "tags": [
+      "Shortcut"
+    ],
+    "materials": [
+      "C11_BarkRidge"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtStar",
+    "key": "ThoughtStar",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_ThoughtGold"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtFaceBright",
+    "key": "ThoughtFaceBright",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_FaceInk",
+      "C11_FaceWhite",
+      "C11_FaceBlush"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionThighL",
+    "key": "AttentionThighL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionShinL",
+    "key": "AttentionShinL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionThighR",
+    "key": "AttentionThighR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionShinR",
+    "key": "AttentionShinR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage"
+    ]
+  },
+  {
+    "name": "SM_Craft_FXRipple",
+    "key": "FXRipple",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_WaterFoam"
+    ]
+  },
+  {
+    "name": "SM_Craft_FXPetal",
+    "key": "FXPetal",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_FXPollen",
+    "key": "FXPollen",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_ThoughtGold"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtCloud",
+    "key": "ThoughtCloud",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_ThoughtCloud"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtWisp",
+    "key": "ThoughtWisp",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_ThoughtCloud",
+      "C11_PortalMemory"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtKnot",
+    "key": "ThoughtKnot",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_ThoughtKnot"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtFaceCloud",
+    "key": "ThoughtFaceCloud",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PortalMemory"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtFaceWisp",
+    "key": "ThoughtFaceWisp",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_PortalMemory"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtFaceKnot",
+    "key": "ThoughtFaceKnot",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "C11_ThoughtGold"
+    ]
+  },
+  {
+    "name": "SM_Craft_TreeWood",
+    "key": "TreeWood",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_TreeLeaves",
+    "key": "TreeLeaves",
+    "spawn": true,
+    "tags": [
+      "Occluder",
+      "Foliage",
+      "Canopy",
+      "TreeLight"
+    ],
+    "materials": [
+      "C11_LeafGold"
+    ]
+  },
+  {
+    "name": "SM_Craft_SpringCherryWood",
+    "key": "SpringCherryWood",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_SpringCherryLeaves",
+    "key": "SpringCherryLeaves",
+    "spawn": true,
+    "tags": [
+      "Occluder",
+      "Foliage",
+      "Canopy"
+    ],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_MemoryWillowWood",
+    "key": "MemoryWillowWood",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_MemoryWillowLeaves",
+    "key": "MemoryWillowLeaves",
+    "spawn": true,
+    "tags": [
+      "Occluder",
+      "Foliage",
+      "Canopy"
+    ],
+    "materials": [
+      "C11_LeafGreen"
+    ]
+  },
+  {
+    "name": "SM_Craft_ArrivalCherryWood",
+    "key": "ArrivalCherryWood",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_ArrivalCherryLeaves",
+    "key": "ArrivalCherryLeaves",
+    "spawn": true,
+    "tags": [
+      "Occluder",
+      "Foliage",
+      "Canopy"
+    ],
+    "materials": [
+      "C11_PetalPink"
+    ]
+  },
+  {
+    "name": "SM_Craft_PoolWillowWood",
+    "key": "PoolWillowWood",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "C11_BarkWood"
+    ]
+  },
+  {
+    "name": "SM_Craft_PoolWillowLeaves",
+    "key": "PoolWillowLeaves",
+    "spawn": true,
+    "tags": [
+      "Occluder",
+      "Foliage",
+      "Canopy"
+    ],
+    "materials": [
+      "C11_LeafGreen"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain0_0",
+    "key": "Terrain0_0",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain0_1",
+    "key": "Terrain0_1",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain0_2",
+    "key": "Terrain0_2",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain0_3",
+    "key": "Terrain0_3",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain0_4",
+    "key": "Terrain0_4",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain0_5",
+    "key": "Terrain0_5",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain1_0",
+    "key": "Terrain1_0",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain1_1",
+    "key": "Terrain1_1",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain1_2",
+    "key": "Terrain1_2",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain1_3",
+    "key": "Terrain1_3",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain1_4",
+    "key": "Terrain1_4",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain1_5",
+    "key": "Terrain1_5",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain1_6",
+    "key": "Terrain1_6",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain2_0",
+    "key": "Terrain2_0",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain2_1",
+    "key": "Terrain2_1",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain2_2",
+    "key": "Terrain2_2",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain2_3",
+    "key": "Terrain2_3",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain2_4",
+    "key": "Terrain2_4",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain2_5",
+    "key": "Terrain2_5",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain2_6",
+    "key": "Terrain2_6",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain3_0",
+    "key": "Terrain3_0",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain3_1",
+    "key": "Terrain3_1",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain3_2",
+    "key": "Terrain3_2",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain3_3",
+    "key": "Terrain3_3",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain3_4",
+    "key": "Terrain3_4",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain3_5",
+    "key": "Terrain3_5",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain3_6",
+    "key": "Terrain3_6",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain4_0",
+    "key": "Terrain4_0",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain4_1",
+    "key": "Terrain4_1",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain4_2",
+    "key": "Terrain4_2",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain4_3",
+    "key": "Terrain4_3",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain4_4",
+    "key": "Terrain4_4",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain4_5",
+    "key": "Terrain4_5",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain4_6",
+    "key": "Terrain4_6",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain5_0",
+    "key": "Terrain5_0",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain5_1",
+    "key": "Terrain5_1",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain5_2",
+    "key": "Terrain5_2",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain5_3",
+    "key": "Terrain5_3",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain5_4",
+    "key": "Terrain5_4",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Terrain5_5",
+    "key": "Terrain5_5",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "C13_Turf",
+      "C13_Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving0_0",
+    "key": "Paving0_0",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving0_1",
+    "key": "Paving0_1",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving0_2",
+    "key": "Paving0_2",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving0_3",
+    "key": "Paving0_3",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving0_4",
+    "key": "Paving0_4",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving1_0",
+    "key": "Paving1_0",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving1_1",
+    "key": "Paving1_1",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving1_2",
+    "key": "Paving1_2",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving1_3",
+    "key": "Paving1_3",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving1_4",
+    "key": "Paving1_4",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving1_5",
+    "key": "Paving1_5",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving2_1",
+    "key": "Paving2_1",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving2_2",
+    "key": "Paving2_2",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving2_3",
+    "key": "Paving2_3",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving2_4",
+    "key": "Paving2_4",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving2_5",
+    "key": "Paving2_5",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving3_2",
+    "key": "Paving3_2",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving3_3",
+    "key": "Paving3_3",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving3_4",
+    "key": "Paving3_4",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving3_5",
+    "key": "Paving3_5",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving3_1",
+    "key": "Paving3_1",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving4_1",
+    "key": "Paving4_1",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving4_2",
+    "key": "Paving4_2",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving4_3",
+    "key": "Paving4_3",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving4_4",
+    "key": "Paving4_4",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving4_5",
+    "key": "Paving4_5",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving5_2",
+    "key": "Paving5_2",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving5_3",
+    "key": "Paving5_3",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving5_4",
+    "key": "Paving5_4",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "C13_Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass0_2",
+    "key": "BotanyGrass0_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass0_3",
+    "key": "BotanyGrass0_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover0_3",
+    "key": "BotanyClover0_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern0_3",
+    "key": "BotanyFern0_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover0_2",
+    "key": "BotanyClover0_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover0_1",
+    "key": "BotanyClover0_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass0_1",
+    "key": "BotanyGrass0_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris0_2",
+    "key": "BotanyIris0_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern0_2",
+    "key": "BotanyFern0_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass0_4",
+    "key": "BotanyGrass0_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover0_4",
+    "key": "BotanyClover0_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris0_1",
+    "key": "BotanyIris0_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern0_1",
+    "key": "BotanyFern0_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern0_4",
+    "key": "BotanyFern0_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris0_3",
+    "key": "BotanyIris0_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris0_4",
+    "key": "BotanyIris0_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern0_5",
+    "key": "BotanyFern0_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass0_5",
+    "key": "BotanyGrass0_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover0_5",
+    "key": "BotanyClover0_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover0_0",
+    "key": "BotanyClover0_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris0_5",
+    "key": "BotanyIris0_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern0_0",
+    "key": "BotanyFern0_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass0_0",
+    "key": "BotanyGrass0_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris0_0",
+    "key": "BotanyIris0_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass1_2",
+    "key": "BotanyGrass1_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover1_2",
+    "key": "BotanyClover1_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass1_1",
+    "key": "BotanyGrass1_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern1_1",
+    "key": "BotanyFern1_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover1_1",
+    "key": "BotanyClover1_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris1_1",
+    "key": "BotanyIris1_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass1_5",
+    "key": "BotanyGrass1_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass1_3",
+    "key": "BotanyGrass1_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover1_3",
+    "key": "BotanyClover1_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern1_3",
+    "key": "BotanyFern1_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern1_5",
+    "key": "BotanyFern1_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover1_5",
+    "key": "BotanyClover1_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass1_0",
+    "key": "BotanyGrass1_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover1_0",
+    "key": "BotanyClover1_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern1_0",
+    "key": "BotanyFern1_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris1_2",
+    "key": "BotanyIris1_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass1_4",
+    "key": "BotanyGrass1_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern1_2",
+    "key": "BotanyFern1_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris1_3",
+    "key": "BotanyIris1_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover1_4",
+    "key": "BotanyClover1_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris1_5",
+    "key": "BotanyIris1_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris1_0",
+    "key": "BotanyIris1_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern2_0",
+    "key": "BotanyFern2_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover2_0",
+    "key": "BotanyClover2_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris2_0",
+    "key": "BotanyIris2_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass2_0",
+    "key": "BotanyGrass2_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris2_1",
+    "key": "BotanyIris2_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover2_1",
+    "key": "BotanyClover2_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass2_1",
+    "key": "BotanyGrass2_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern2_1",
+    "key": "BotanyFern2_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass2_5",
+    "key": "BotanyGrass2_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern2_5",
+    "key": "BotanyFern2_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover2_5",
+    "key": "BotanyClover2_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass2_2",
+    "key": "BotanyGrass2_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern2_2",
+    "key": "BotanyFern2_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover2_2",
+    "key": "BotanyClover2_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass2_4",
+    "key": "BotanyGrass2_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern2_4",
+    "key": "BotanyFern2_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover2_4",
+    "key": "BotanyClover2_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris2_5",
+    "key": "BotanyIris2_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris2_4",
+    "key": "BotanyIris2_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover2_3",
+    "key": "BotanyClover2_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass2_3",
+    "key": "BotanyGrass2_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern2_3",
+    "key": "BotanyFern2_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass3_1",
+    "key": "BotanyGrass3_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris3_1",
+    "key": "BotanyIris3_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover3_1",
+    "key": "BotanyClover3_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern3_1",
+    "key": "BotanyFern3_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover3_2",
+    "key": "BotanyClover3_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass3_2",
+    "key": "BotanyGrass3_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover3_3",
+    "key": "BotanyClover3_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass3_3",
+    "key": "BotanyGrass3_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover3_4",
+    "key": "BotanyClover3_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass3_4",
+    "key": "BotanyGrass3_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern3_2",
+    "key": "BotanyFern3_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern3_3",
+    "key": "BotanyFern3_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris3_0",
+    "key": "BotanyIris3_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass3_0",
+    "key": "BotanyGrass3_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern3_4",
+    "key": "BotanyFern3_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass3_5",
+    "key": "BotanyGrass3_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover3_0",
+    "key": "BotanyClover3_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover3_5",
+    "key": "BotanyClover3_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern3_5",
+    "key": "BotanyFern3_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris3_2",
+    "key": "BotanyIris3_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris3_4",
+    "key": "BotanyIris3_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern3_0",
+    "key": "BotanyFern3_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris3_5",
+    "key": "BotanyIris3_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass4_3",
+    "key": "BotanyGrass4_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass4_5",
+    "key": "BotanyGrass4_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass4_6",
+    "key": "BotanyGrass4_6",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover4_3",
+    "key": "BotanyClover4_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern4_3",
+    "key": "BotanyFern4_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover4_5",
+    "key": "BotanyClover4_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass4_0",
+    "key": "BotanyGrass4_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern4_5",
+    "key": "BotanyFern4_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris4_5",
+    "key": "BotanyIris4_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern4_0",
+    "key": "BotanyFern4_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover4_1",
+    "key": "BotanyClover4_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris4_1",
+    "key": "BotanyIris4_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass4_1",
+    "key": "BotanyGrass4_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern4_1",
+    "key": "BotanyFern4_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover4_2",
+    "key": "BotanyClover4_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass4_2",
+    "key": "BotanyGrass4_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover4_4",
+    "key": "BotanyClover4_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover4_0",
+    "key": "BotanyClover4_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris4_4",
+    "key": "BotanyIris4_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass4_4",
+    "key": "BotanyGrass4_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern4_2",
+    "key": "BotanyFern4_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris4_3",
+    "key": "BotanyIris4_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern4_4",
+    "key": "BotanyFern4_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris4_2",
+    "key": "BotanyIris4_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris4_0",
+    "key": "BotanyIris4_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass5_0",
+    "key": "BotanyGrass5_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover5_2",
+    "key": "BotanyClover5_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass5_2",
+    "key": "BotanyGrass5_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass5_3",
+    "key": "BotanyGrass5_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern5_5",
+    "key": "BotanyFern5_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass5_5",
+    "key": "BotanyGrass5_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris5_5",
+    "key": "BotanyIris5_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern5_1",
+    "key": "BotanyFern5_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover5_3",
+    "key": "BotanyClover5_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover5_4",
+    "key": "BotanyClover5_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass5_4",
+    "key": "BotanyGrass5_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris5_4",
+    "key": "BotanyIris5_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover5_5",
+    "key": "BotanyClover5_5",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyGrass5_1",
+    "key": "BotanyGrass5_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Grass"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris5_1",
+    "key": "BotanyIris5_1",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyIris5_2",
+    "key": "BotanyIris5_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Iris"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern5_4",
+    "key": "BotanyFern5_4",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern5_0",
+    "key": "BotanyFern5_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyClover5_0",
+    "key": "BotanyClover5_0",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Clover"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern5_2",
+    "key": "BotanyFern5_2",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_BotanyFern5_3",
+    "key": "BotanyFern5_3",
+    "spawn": true,
+    "tags": [
+      "GroundCover",
+      "Foliage"
+    ],
+    "materials": [
+      "C13_Fern"
+    ]
+  }
+]

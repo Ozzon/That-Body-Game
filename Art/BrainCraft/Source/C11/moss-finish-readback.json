@@ -1,0 +1,9 @@
+{
+  "texture": "/Game/BrainCraft/Textures/T_C11_Moss_BaseColor.T_C11_Moss_BaseColor",
+  "errors": [],
+  "shader_displacement_cm": [
+    -1,
+    2
+  ],
+  "baked_terrain_relief_cm": 20
+}

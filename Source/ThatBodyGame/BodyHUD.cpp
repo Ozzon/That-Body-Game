@@ -22,6 +22,8 @@ void ABodyHUD::DrawHUD()
     Super::DrawHUD();if(!Canvas)return;
     auto P=Cast<ABodyPawn>(GetOwningPawn());if(!P||!P->Body)return;auto B=P->Body;if(B->Photo)return;
     Scale=Canvas->SizeX/1920.f;float H=Canvas->SizeY/Scale;
+    if(B->HeartStudy){DrawHeartStudy(P);return;}
+    if(B->Adventure){DrawAdventure(P);return;}
     Ring(61,64,24,Mint,1,2);Ring(61,64,11,Gold,.7,3);
     Text("THAT BODY GAME",103,36,30,Cream);
     Text("A LITTLE CARE. A LIVING WORLD.",104,77,12,Soft);

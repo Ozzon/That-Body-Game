@@ -1,0 +1,349 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/ThatBodyGame.uproject" -log="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 312b
+[2026.09.07-10.46.07:309][  0]LogInit: Display: Running engine for game: ThatBodyGame
+[2026.09.07-10.46.07:309][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.09.07-10.46.07:309][  0]LogTrace: Display: Control listening on port 36750
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-55116800"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.0-55116800+++UE5+Release-5.8"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9168] "
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i9-13900H"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/ThatBodyGame.uproject" -run=pythonscript -script="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Tools/import_brain_garden.py" -unattended -nosplash -AllowCommandletRendering -abslog="C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Docs/brain-c05-import.log"""
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : loginid="9d78b2e646a087688c573c86894f3e4b"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.09.07-10.46.07:309][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading VulkanPC ini files took 0.08 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading Mac ini files took 0.09 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading IOS ini files took 0.09 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading Android ini files took 0.10 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading Windows ini files took 0.10 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading Unix ini files took 0.11 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading TVOS ini files took 0.12 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading VisionOS ini files took 0.12 seconds
+[2026.09.07-10.46.07:309][  0]LogConfig: Display: Loading Linux ini files took 0.12 seconds
+[2026.09.07-10.46.07:309][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.07-10.46.07:309][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.07-10.46.07:309][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.07-10.46.07:309][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.09.07-10.46.07:309][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.09.07-10.46.07:309][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.09.07-10.46.07:309][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=320MiB, MaxMemoryAvailable=69331MiB
+[2026.09.07-10.46.07:309][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.09.07-10.46.07:309][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.09.07-10.46.07:309][  0]LogHAL: Display: Platform has ~ 64 GB [68403924992 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.09.07-10.46.07:309][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.09.07-10.46.07:309][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.07-10.46.07:840][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.09.07-10.46.08:655][  0]LogRHI: Display: Timeout Detection and Recovery (TDR) summary: 
+
+	- TDR settings OK - Level: Recover, Delay: 2, DdiDelay: 5
+[2026.09.07-10.46.08:974][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D11"
+[2026.09.07-10.46.08:974][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D11"
+[2026.09.07-10.46.08:974][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM5"
+[2026.09.07-10.46.08:974][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM5"
+[2026.09.07-10.46.08:974][  0]LogCsvProfiler: Display: Metadata set : gpu="NVIDIA GeForce RTX 4090 Laptop GPU"
+[2026.09.07-10.46.08:974][  0]LogCsvProfiler: Display: Metadata set : gpudriver="595.79"
+[2026.09.07-10.46.08:989][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.09.07-10.46.08:989][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.09.07-10.46.08:989][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.09.07-10.46.08:989][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.09.07-10.46.08:989][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.09.07-10.46.08:989][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.09.07-10.46.08:989][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.09.07-10.46.08:990][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.09.07-10.46.08:990][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.09.07-10.46.09:067][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.09.07-10.46.09:115][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.09.07-10.46.09:154][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.09.07-10.46.09:201][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.09.07-10.46.09:204][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.09.07-10.46.09:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.09.07-10.46.09:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.09.07-10.46.09:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.09.07-10.46.09:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.09.07-10.46.09:251][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.09.07-10.46.09:259][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.09.07-10.46.09:724][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1667 MiB)
+[2026.09.07-10.46.09:727][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.09.07-10.46.10:138][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.09.07-10.46.10:139][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.09.07-10.46.10:139][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.09.07-10.46.10:139][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.09.07-10.46.12:153][  0]LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+[2026.09.07-10.46.12:156][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.09.07-10.46.12:159][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.09.07-10.46.12:175][  0]LogDerivedDataCache: Display: C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.14ms. RandomReadSpeed=233.94MBs, RandomWriteSpeed=92.32MBs. Assigned SpeedClass 'Local'
+[2026.09.07-10.46.12:180][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.09.07-10.46.12:180][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.09.07-10.46.12:180][  0]LogShaderCompilers: Display: Using 17 local workers for shader compilation
+[2026.09.07-10.46.12:195][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.09.07-10.46.12:196][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.09.07-10.46.13:527][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.09.07-10.46.14:036][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.09.07-10.46.14:036][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.09.07-10.46.14:121][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.09.07-10.46.14:126][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.07-10.46.14:128][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.09.07-10.46.14:128][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.09.07-10.46.14:128][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.09.07-10.46.14:419][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.09.07-10.46.14:419][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.09.07-10.46.14:419][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.09.07-10.46.14:419][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.09.07-10.46.14:804][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.09.07-10.46.14:805][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.09.07-10.46.15:066][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.09.07-10.46.15:069][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 3.409 ms
+[2026.09.07-10.46.15:691][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.09.07-10.46.15:698][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.09.07-10.46.16:846][  0]LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Internal/BrushBounds.BrushBounds in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 7f3791d120df89dbf6d28e1550f736591fb7bb98), compiling. 
+[2026.09.07-10.46.16:866][  0]LogMaterial: Display: Missing cached shadermap for /Landmass/Landscape/BlueprintBrushes/Materials/Sprite/M_BrushSprite_01.M_BrushSprite_01 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 4f0c0126967ca095bc1fd01a19b696c4e4f41a81), compiling. 
+[2026.09.07-10.46.16:920][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.07-10.46.16:920][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.07-10.46.17:344][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_SelectBrushMaterial_Selected_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: a06c065353eb1516df1a4abde6345b048f087ddd), compiling. 
+[2026.09.07-10.46.17:355][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/SelectBrushMaterial_SelectedRegion.SelectBrushMaterial_SelectedRegion in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 17222364412387da10c9af2399f8b90122095a6a), compiling. 
+[2026.09.07-10.46.17:360][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_SelectBrushMaterial_SelectedRegion_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 522671b2f7f06edec6a2578932c0989460c20899), compiling. 
+[2026.09.07-10.46.17:373][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/MaskBrushMaterial.MaskBrushMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: ba3a174514e283b7e267d1c97e8bd4aa288667fb), compiling. 
+[2026.09.07-10.46.17:383][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_MaskBrushMaterial_MaskedRegion_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 01c7d36a5949aa4a8be8baaff3bfdb572c91556b), compiling. 
+[2026.09.07-10.46.17:393][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/ColorMaskBrushMaterial.ColorMaskBrushMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: df5a648c7f51cf570cd3083764bac2aab979c5e1), compiling. 
+[2026.09.07-10.46.17:399][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_ColorMaskBrushMaterial_MaskedRegion_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 9986bcdd0776f281d01c9b1cafc24ec2f6ed71fa), compiling. 
+[2026.09.07-10.46.17:409][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeDirtyMaterial.LandscapeDirtyMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: ed11e6fc518b0a60b86081d1e151e31ed2d6e084), compiling. 
+[2026.09.07-10.46.17:418][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_LandscapeDirtyMaterial_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: a4b3e060db75ab7b39fda992a6396878f6d94b4f), compiling. 
+[2026.09.07-10.46.17:439][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EditorLandscapeResources/LandscapeLayerUsageMaterial.LandscapeLayerUsageMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 1def1ad975e979bae8d2a2720250edf330705ce4), compiling. 
+[2026.09.07-10.46.17:448][  0]LogMaterial: Display: Missing cached shadermap for /Engine/Transient.LandscapeMaterialInstanceConstant_LandscapeLayerUsageMaterial_0 in PCD3D_SM5, Default, SM5, Editor (DDC key hash: cd273a1ff55fbae76fedaa3fa89d885867cc60b0), compiling. 
+[2026.09.07-10.46.17:467][  0]LogToolsetRegistry: Display: Registering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.09.07-10.46.17:483][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 76178f6fadf844edc02a10e533707a243bd76d6b), compiling. Is special engine material.
+[2026.09.07-10.46.17:567][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/LevelColorationLitMaterial.LevelColorationLitMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 7b5b78e174dd47f202e3653c7b5a9309baffef05), compiling. Is special engine material.
+[2026.09.07-10.46.17:642][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/LevelColorationUnlitMaterial.LevelColorationUnlitMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 2e0dc72344210b1a3e11611b7fcdbbce3e26dbb9), compiling. Is special engine material.
+[2026.09.07-10.46.17:732][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/ShadedLevelColorationLitMaterial.ShadedLevelColorationLitMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: d5950ca85f452a6e9ab4a44949cbd5cdafecaf61), compiling. Is special engine material.
+[2026.09.07-10.46.17:796][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineDebugMaterials/ShadedLevelColorationUnlitMateri.ShadedLevelColorationUnlitMateri in PCD3D_SM5, Default, SM5, Editor (DDC key hash: d4bbba755e9d2500d78f69da7b7bf5e2a6ae3a83), compiling. Is special engine material.
+[2026.09.07-10.46.17:939][  0]LogMaterial: Display: Missing cached shadermap for /Engine/EngineMaterials/GizmoMaterial.GizmoMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: f2354a1ea503cd56297436b002f12cf472ce3f44), compiling. 
+[2026.09.07-10.46.17:971][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2026.09.07-10.46.17:993][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2026.09.07-10.46.17:997][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.15.dll
+[2026.09.07-10.46.18:019][  0]LogTexture: Display: Waiting for textures to be ready 57/63 (/Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT) ...
+[2026.09.07-10.46.18:035][  0]LogTexture: Display: Waiting for textures to be ready 61/63 (/Engine/EngineMaterials/BaseFlattenNormalMap_VT) ...
+[2026.09.07-10.46.18:071][  0]LogAssetRegistry: Display: No AssetDiscovery cache present at ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+[2026.09.07-10.46.18:074][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 0 .ref files found, 0 referenced binaries
+[2026.09.07-10.46.18:074][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.07-10.46.18:074][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 0 via .ref, 0 via migration fallback, 0 total
+[2026.09.07-10.46.18:075][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.001s loading caches from ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Intermediate/CachedAssetRegistry.
+[2026.09.07-10.46.18:614][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.09.07-10.46.18:761][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.09.07-10.46.19:355][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.09.07-10.46.19:624][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... started...
+[2026.09.07-10.46.19:791][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... took 166.307 ms
+[2026.09.07-10.46.19:791][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.09.07-10.46.19:797][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 6.862 ms (total: 173.170 ms)
+[2026.09.07-10.46.19:797][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.09.07-10.46.19:830][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 31.158 ms (total: 204.329 ms)
+[2026.09.07-10.46.19:830][  0]LogPythonScriptCommandlet: Display: Running Python script: C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Tools/import_brain_garden.py
+[2026.09.07-10.46.19:850][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenSurface'
+[2026.09.07-10.46.19:866][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 44d4417c4a62e0ff15fb4ad39f08258ac033ce2a), compiling. 
+[2026.09.07-10.46.19:881][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 237f0ae9edee264afb466972aaa24b30e1c70485), compiling. 
+[2026.09.07-10.46.19:893][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 569171364f3cc23295a5626206d047029aeb3d9a), compiling. 
+[2026.09.07-10.46.19:901][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 3c0cc994dd41a39e78706908c82ddb510764a723), compiling. 
+[2026.09.07-10.46.19:908][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 0743312d0642aacb9d63607cff25f9ee1fd4d57c), compiling. 
+[2026.09.07-10.46.19:917][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 66dfb7acf2dbb0b5fbb15591eec19fc48964dd33), compiling. 
+[2026.09.07-10.46.19:926][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 94f808112477359d4f026b112be33c39420f5035), compiling. 
+[2026.09.07-10.46.19:934][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenSurface.M_GardenSurface in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 92e0c93eeb34272ecfb242db46cbb9ccbea165bb), compiling. 
+[2026.09.07-10.46.38:389][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.07-10.46.38:391][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenFoliage'
+[2026.09.07-10.46.38:395][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 5f65178b1d7cbafde0a7134441f4a44e66530b18), compiling. 
+[2026.09.07-10.46.38:404][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: b406921276bb57307b422760e1fcc71c6f69680b), compiling. 
+[2026.09.07-10.46.38:413][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: dde16943f22a793c907c8ecb473136e7bf9be7fc), compiling. 
+[2026.09.07-10.46.38:424][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 613ef06778143bdfdc866e936330cc8937927f34), compiling. 
+[2026.09.07-10.46.38:434][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: ee2deb6f875144da550b204e0e5e2f93e93691d8), compiling. 
+[2026.09.07-10.46.38:443][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 442e493d95c03211e18d4c594de14f63d50a2840), compiling. 
+[2026.09.07-10.46.38:452][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 959425675ed6c77cc435c9bb319afa9784eea128), compiling. 
+[2026.09.07-10.46.38:459][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 59ac6bd31ab0869a5a4a77cc9c6b366dd5713b94), compiling. 
+[2026.09.07-10.46.38:467][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenFoliage.M_GardenFoliage in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 15f1a0cc1a751557744ba539325b611b9a8a30d5), compiling. 
+[2026.09.07-10.47.08:116][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenWater'
+[2026.09.07-10.47.08:118][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 8b77f89a5d192827bc88ae0b11c421a5a7fe824b), compiling. 
+[2026.09.07-10.47.08:126][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 51104bcdbfce5b764487bb34b93c25f83ac1e22e), compiling. 
+[2026.09.07-10.47.08:134][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: bb2126201b7e24b40cb252900a3e722774ced79f), compiling. 
+[2026.09.07-10.47.08:142][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: e079d29a8855b446535c1ced46242dbf17058eae), compiling. 
+[2026.09.07-10.47.08:150][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: c97ae1cefbfa39b3db8fa80d759daa7181f5a2cc), compiling. 
+[2026.09.07-10.47.08:157][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 82090101f3141aa962648db1cb183b89708a412d), compiling. 
+[2026.09.07-10.47.08:165][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 6c066ad58568a1862d3aa456ed6a967291985d58), compiling. 
+[2026.09.07-10.47.08:173][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: e77d30ad314064d1c59fccd4a5397de4e9e10940), compiling. 
+[2026.09.07-10.47.08:182][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenWater.M_GardenWater in PCD3D_SM5, Default, SM5, Editor (DDC key hash: afeb3ef7ef1360124c7d5c550676b4fcc604544e), compiling. 
+[2026.09.07-10.47.19:744][  0]LogShaderCompilers: Display: Job FLumenTranslucencyRadianceCacheMarkPS(permutation 0, format PCD3D_SM5) compile time exceeded threshold (48.550s)
+[2026.09.07-10.47.25:586][  0]LogShaderCompilers: Display: Job TBasePassPSFNoLightMapPolicy(permutation 0, format PCD3D_SM5) compile time exceeded threshold (59.196s)
+[2026.09.07-10.47.31:080][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenGlow'
+[2026.09.07-10.47.31:084][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 1a1e5d4d09d12442a85b5cb1a967a99a7075571d), compiling. 
+[2026.09.07-10.47.31:089][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: c64c9b4feefd51d9c3f2ed154f08b586d4d52686), compiling. 
+[2026.09.07-10.47.31:095][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: c08139ccab6060b532169983f44ff1fda8c3d9b6), compiling. 
+[2026.09.07-10.47.31:105][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 81aa20992c4cd37062c0368654f711e5f47de35b), compiling. 
+[2026.09.07-10.47.31:110][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 0bd033ae2e98144c71c5f1503079fa65fb1eb263), compiling. 
+[2026.09.07-10.47.31:115][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: b7698d2baefa36ab0afe792310cbffbf10b5d03b), compiling. 
+[2026.09.07-10.47.31:120][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 4d298f2a2b0bf0c7f799563df6d6fec086efef08), compiling. 
+[2026.09.07-10.47.31:129][  0]LogMaterial: Display: Missing cached shadermap for /Game/BrainGarden/M_GardenGlow.M_GardenGlow in PCD3D_SM5, Default, SM5, Editor (DDC key hash: cec1c4eefdbf42843aef6298a613cb489e168e4e), compiling. 
+[2026.09.07-10.47.50:923][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_Ground (Required Memory Estimate: 131.431953 MB)...
+[2026.09.07-10.47.51:585][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_Ground) ...
+[2026.09.07-10.47.51:924][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_Ground) ...
+[2026.09.07-10.47.53:227][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_CortexFrontRight (Required Memory Estimate: 148.628682 MB)...
+[2026.09.07-10.47.53:957][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexFrontRight) ...
+[2026.09.07-10.47.54:250][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexFrontRight) ...
+[2026.09.07-10.47.54:683][  0]LogFbx: Warning: Skipping invalid edge on mesh SM_BrainGarden_CortexFrontLeft
+[2026.09.07-10.47.55:374][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_CortexFrontLeft (Required Memory Estimate: 151.769942 MB)...
+[2026.09.07-10.47.56:076][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexFrontLeft) ...
+[2026.09.07-10.47.56:305][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexFrontLeft) ...
+[2026.09.07-10.47.57:567][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_CortexBackRight (Required Memory Estimate: 173.527763 MB)...
+[2026.09.07-10.47.58:239][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexBackRight) ...
+[2026.09.07-10.47.58:648][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexBackRight) ...
+[2026.09.07-10.48.00:151][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_CortexBackLeft (Required Memory Estimate: 178.998963 MB)...
+[2026.09.07-10.48.02:091][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexBackLeft) ...
+[2026.09.07-10.48.02:403][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_CortexBackLeft) ...
+[2026.09.07-10.48.02:757][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_TreeTrunk
+[2026.09.07-10.48.04:434][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_TreeTrunk (Required Memory Estimate: 80.990699 MB)...
+[2026.09.07-10.48.04:818][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_TreeTrunk) ...
+[2026.09.07-10.48.04:970][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_TreeTrunk) ...
+[2026.09.07-10.48.05:117][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_BarkInlay
+[2026.09.07-10.48.05:217][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_BarkInlay (Required Memory Estimate: 6.051327 MB)...
+[2026.09.07-10.48.05:325][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_Canopy0
+[2026.09.07-10.48.05:501][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_Canopy0 (Required Memory Estimate: 8.692335 MB)...
+[2026.09.07-10.48.05:759][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_Canopy0) ...
+[2026.09.07-10.48.05:854][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_Canopy1
+[2026.09.07-10.48.06:195][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_Canopy1 (Required Memory Estimate: 16.178735 MB)...
+[2026.09.07-10.48.06:459][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_Canopy1) ...
+[2026.09.07-10.48.06:513][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_Canopy1) ...
+[2026.09.07-10.48.06:558][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_Canopy2
+[2026.09.07-10.48.06:735][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_Canopy2 (Required Memory Estimate: 8.317887 MB)...
+[2026.09.07-10.48.06:969][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_Canopy3
+[2026.09.07-10.48.07:310][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_Canopy3 (Required Memory Estimate: 15.354904 MB)...
+[2026.09.07-10.48.07:592][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_Canopy3) ...
+[2026.09.07-10.48.07:647][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_Canopy3) ...
+[2026.09.07-10.48.07:830][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_FittedMasonry (Required Memory Estimate: 29.065946 MB)...
+[2026.09.07-10.48.08:001][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_FittedMasonry) ...
+[2026.09.07-10.48.08:067][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_FittedMasonry) ...
+[2026.09.07-10.48.08:126][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_SynapsePool (Required Memory Estimate: 0.114849 MB)...
+[2026.09.07-10.48.08:212][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_CalmStream
+[2026.09.07-10.48.08:227][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_CalmStream (Required Memory Estimate: 0.830019 MB)...
+[2026.09.07-10.48.08:305][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_StoneBridges
+[2026.09.07-10.48.08:442][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_StoneBridges (Required Memory Estimate: 8.117896 MB)...
+[2026.09.07-10.48.08:579][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_TerraceWalls
+[2026.09.07-10.48.08:600][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_TerraceWalls (Required Memory Estimate: 1.2632 MB)...
+[2026.09.07-10.48.08:685][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_FocusDais
+[2026.09.07-10.48.08:742][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_FocusDais (Required Memory Estimate: 3.396293 MB)...
+[2026.09.07-10.48.08:917][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_FocusPetals
+[2026.09.07-10.48.08:933][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_FocusPetals (Required Memory Estimate: 0.681698 MB)...
+[2026.09.07-10.48.09:039][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_PlantedBed0
+[2026.09.07-10.48.09:911][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_PlantedBed0 (Required Memory Estimate: 42.288331 MB)...
+[2026.09.07-10.48.10:122][  0]LogStaticMesh: Display: SM_BrainGarden_PlantedBed0 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.10:122][  0]LogStaticMesh: Display: SM_BrainGarden_PlantedBed0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.10:126][  0]FBXImport: Warning: SM_BrainGarden_PlantedBed0 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.10:126][  0]FBXImport: Warning: SM_BrainGarden_PlantedBed0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.10:297][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed0) ...
+[2026.09.07-10.48.10:406][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed0) ...
+[2026.09.07-10.48.10:458][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed0) ...
+[2026.09.07-10.48.10:554][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_PlantedBed1
+[2026.09.07-10.48.11:365][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_PlantedBed1 (Required Memory Estimate: 39.908016 MB)...
+[2026.09.07-10.48.11:697][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed1) ...
+[2026.09.07-10.48.11:799][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed1) ...
+[2026.09.07-10.48.11:860][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed1) ...
+[2026.09.07-10.48.11:978][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_PlantedBed2
+[2026.09.07-10.48.12:859][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_PlantedBed2 (Required Memory Estimate: 42.288031 MB)...
+[2026.09.07-10.48.13:077][  0]LogStaticMesh: Display: SM_BrainGarden_PlantedBed2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.13:077][  0]LogStaticMesh: Display: SM_BrainGarden_PlantedBed2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.13:081][  0]FBXImport: Warning: SM_BrainGarden_PlantedBed2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.13:081][  0]FBXImport: Warning: SM_BrainGarden_PlantedBed2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.13:363][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed2) ...
+[2026.09.07-10.48.13:472][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed2) ...
+[2026.09.07-10.48.13:537][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BrainGarden/Models/SM_BrainGarden_PlantedBed2) ...
+[2026.09.07-10.48.13:641][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_PlantedBed3
+[2026.09.07-10.48.13:692][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_PlantedBed3 (Required Memory Estimate: 2.388553 MB)...
+[2026.09.07-10.48.13:798][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_BedStones
+[2026.09.07-10.48.14:032][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_BedStones (Required Memory Estimate: 11.716483 MB)...
+[2026.09.07-10.48.14:181][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_PathLanterns
+[2026.09.07-10.48.14:202][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_PathLanterns (Required Memory Estimate: 1.197097 MB)...
+[2026.09.07-10.48.14:276][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_LanternLight
+[2026.09.07-10.48.14:306][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_LanternLight (Required Memory Estimate: 1.452597 MB)...
+[2026.09.07-10.48.14:386][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_BrightThought0
+[2026.09.07-10.48.14:414][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_BrightThought0 (Required Memory Estimate: 1.541878 MB)...
+[2026.09.07-10.48.14:424][  0]LogStaticMesh: Display: SM_BrainGarden_BrightThought0 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:424][  0]LogStaticMesh: Display: SM_BrainGarden_BrightThought0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:427][  0]FBXImport: Warning: SM_BrainGarden_BrightThought0 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.14:427][  0]FBXImport: Warning: SM_BrainGarden_BrightThought0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.14:504][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_BrightThought1
+[2026.09.07-10.48.14:530][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_BrightThought1 (Required Memory Estimate: 1.541878 MB)...
+[2026.09.07-10.48.14:543][  0]LogStaticMesh: Display: SM_BrainGarden_BrightThought1 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:543][  0]LogStaticMesh: Display: SM_BrainGarden_BrightThought1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:547][  0]FBXImport: Warning: SM_BrainGarden_BrightThought1 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.14:547][  0]FBXImport: Warning: SM_BrainGarden_BrightThought1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.14:626][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_BrightThought2
+[2026.09.07-10.48.14:652][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_BrightThought2 (Required Memory Estimate: 1.541878 MB)...
+[2026.09.07-10.48.14:663][  0]LogStaticMesh: Display: SM_BrainGarden_BrightThought2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:663][  0]LogStaticMesh: Display: SM_BrainGarden_BrightThought2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:666][  0]FBXImport: Warning: SM_BrainGarden_BrightThought2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.14:666][  0]FBXImport: Warning: SM_BrainGarden_BrightThought2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.14:743][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_RootShortcut
+[2026.09.07-10.48.14:826][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_RootShortcut (Required Memory Estimate: 4.301994 MB)...
+[2026.09.07-10.48.14:941][  0]LogFbx: Display: Triangulating static mesh SM_BrainGarden_CarryThought
+[2026.09.07-10.48.14:974][  0]LogStaticMesh: Display: Building static mesh SM_BrainGarden_CarryThought (Required Memory Estimate: 1.541878 MB)...
+[2026.09.07-10.48.14:985][  0]LogStaticMesh: Display: SM_BrainGarden_CarryThought has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:985][  0]LogStaticMesh: Display: SM_BrainGarden_CarryThought has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.09.07-10.48.14:989][  0]FBXImport: Warning: SM_BrainGarden_CarryThought has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.14:989][  0]FBXImport: Warning: SM_BrainGarden_CarryThought has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.15:449][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 74/103 (/Game/BodyAdventure/Models/SM_Brain_Floor) ...
+[2026.09.07-10.48.15:483][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 84/103 (/Game/BodyAdventure/Models/SM_Intestine_Floor) ...
+[2026.09.07-10.48.15:582][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 102/103 (/Game/HeartModels/A/SM_Heart_Foundation) ...
+[2026.09.07-10.48.15:790][  0]LogFbx: Display: Triangulating static mesh SM_Adventure_LightBridges
+[2026.09.07-10.48.15:901][  0]LogStaticMesh: Display: Building static mesh SM_Adventure_LightBridges (Required Memory Estimate: 5.640416 MB)...
+[2026.09.07-10.48.15:934][  0]LogStaticMesh: Display: Building static mesh SM_Adventure_LightBridges (Required Memory Estimate: 5.640416 MB)...
+[2026.09.07-10.48.15:949][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/BodyAdventure/Models/SM_Adventure_LightBridges) ...
+[2026.09.07-10.48.16:395][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.09.07-10.48.16:395][  0]LogInit: Display: 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.09.07-10.48.16:395][  0]LogInit: Display: -----------------------------------
+[2026.09.07-10.48.16:395][  0]LogInit: Display: LogZenServiceInstance: Warning: Failed attach as sponsor process to executable 'C:/Users/Gamescom 2023 #1/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' on port 8558, too many sponsored processes attached already or zenserver is unresponsive
+[2026.09.07-10.48.16:395][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenSurface'
+[2026.09.07-10.48.16:395][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenFoliage'
+[2026.09.07-10.48.16:395][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenWater'
+[2026.09.07-10.48.16:395][  0]LogInit: Display: LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BrainGarden/M_GardenGlow'
+[2026.09.07-10.48.16:395][  0]LogInit: Display: LogFbx: Warning: Skipping invalid edge on mesh SM_BrainGarden_CortexFrontLeft
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_PlantedBed0 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_PlantedBed0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_PlantedBed2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_PlantedBed2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_BrightThought0 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_BrightThought0 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_BrightThought1 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_BrightThought1 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_BrightThought2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_BrightThought2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_CarryThought has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: FBXImport: Warning: SM_BrainGarden_CarryThought has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: 
+[2026.09.07-10.48.16:395][  0]LogInit: Display: Success - 0 error(s), 18 warning(s)
+[2026.09.07-10.48.16:395][  0]LogInit: Display: 
+
+Execution of commandlet took:  1m 56s (116.77 seconds), PeakPhysMemoryMB=4070 MB, PeakVirtMemoryMB=4221 MB
+[2026.09.07-10.48.16:415][  0]LogToolsetRegistry: Display: Unregistering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.09.07-10.48.16:652][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 0 .ref files found, 0 referenced binaries
+[2026.09.07-10.48.16:652][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.07-10.48.17:039][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.09.07-10.48.18:005][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/Saved/SourceControl/UncontrolledChangelists.json

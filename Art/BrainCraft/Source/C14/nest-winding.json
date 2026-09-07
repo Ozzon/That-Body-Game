@@ -1,0 +1,14 @@
+{
+  "Nest0": {
+    "outward_winding": true,
+    "closed_volume_cm3": 96364018.54309444
+  },
+  "Nest1": {
+    "outward_winding": true,
+    "closed_volume_cm3": 96211558.05756927
+  },
+  "Nest2": {
+    "outward_winding": true,
+    "closed_volume_cm3": 95670855.08500157
+  }
+}

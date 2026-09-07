@@ -1,0 +1,210 @@
+{
+  "Turf": {
+    "color": [
+      0.12,
+      0.225,
+      0.068
+    ],
+    "roughness": 0.89
+  },
+  "Paving": {
+    "color": [
+      0.43,
+      0.39,
+      0.31
+    ],
+    "roughness": 0.7
+  },
+  "Coping": {
+    "color": [
+      0.57,
+      0.49,
+      0.35
+    ],
+    "roughness": 0.57
+  },
+  "Masonry": {
+    "color": [
+      0.29,
+      0.29,
+      0.26
+    ],
+    "roughness": 0.82
+  },
+  "Tissue": {
+    "color": [
+      0.48,
+      0.17,
+      0.2
+    ],
+    "roughness": 0.43
+  },
+  "Grass": {
+    "color": [
+      0.13,
+      0.3,
+      0.055
+    ],
+    "roughness": 0.7
+  },
+  "LeafGreen": {
+    "color": [
+      0.1,
+      0.28,
+      0.075
+    ],
+    "roughness": 0.48
+  },
+  "LeafGold": {
+    "color": [
+      0.66,
+      0.42,
+      0.055
+    ],
+    "roughness": 0.4
+  },
+  "PetalPink": {
+    "color": [
+      0.55,
+      0.16,
+      0.32
+    ],
+    "roughness": 0.45
+  },
+  "PetalIvory": {
+    "color": [
+      0.74,
+      0.68,
+      0.36
+    ],
+    "roughness": 0.44
+  },
+  "BarkWood": {
+    "color": [
+      0.23,
+      0.12,
+      0.045
+    ],
+    "roughness": 0.77
+  },
+  "BarkRidge": {
+    "color": [
+      0.34,
+      0.21,
+      0.075
+    ],
+    "roughness": 0.68
+  },
+  "Sand": {
+    "color": [
+      0.54,
+      0.52,
+      0.4
+    ],
+    "roughness": 0.91
+  },
+  "WaterBlue": {
+    "color": [
+      0.016,
+      0.2,
+      0.25
+    ],
+    "roughness": 0.15
+  },
+  "WaterFoam": {
+    "color": [
+      0.33,
+      0.74,
+      0.69
+    ],
+    "roughness": 0.34
+  },
+  "PortalDawn": {
+    "color": [
+      0.78,
+      0.38,
+      0.075
+    ],
+    "roughness": 0.27
+  },
+  "PortalSpring": {
+    "color": [
+      0.06,
+      0.54,
+      0.54
+    ],
+    "roughness": 0.27
+  },
+  "PortalMemory": {
+    "color": [
+      0.34,
+      0.13,
+      0.56
+    ],
+    "roughness": 0.27
+  },
+  "RoofTeal": {
+    "color": [
+      0.035,
+      0.17,
+      0.18
+    ],
+    "roughness": 0.39
+  },
+  "ThoughtGold": {
+    "color": [
+      0.95,
+      0.6,
+      0.12
+    ],
+    "roughness": 0.34
+  },
+  "ThoughtCloud": {
+    "color": [
+      0.28,
+      0.24,
+      0.46
+    ],
+    "roughness": 0.42
+  },
+  "ThoughtWisp": {
+    "color": [
+      0.25,
+      0.58,
+      0.64
+    ],
+    "roughness": 0.25
+  },
+  "ThoughtKnot": {
+    "color": [
+      0.57,
+      0.24,
+      0.12
+    ],
+    "roughness": 0.52
+  },
+  "FaceInk": {
+    "color": [
+      0.017,
+      0.022,
+      0.035
+    ],
+    "roughness": 0.31
+  },
+  "FaceWhite": {
+    "color": [
+      0.93,
+      0.93,
+      0.78
+    ],
+    "roughness": 0.26
+  },
+  "FaceBlush": {
+    "color": [
+      0.76,
+      0.22,
+      0.13
+    ],
+    "roughness": 0.6
+  }
+}

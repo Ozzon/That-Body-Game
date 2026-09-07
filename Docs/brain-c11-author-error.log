@@ -1,0 +1,2 @@
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c11_world.py:32: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  name='C11_'+key;m=bpy.data.materials.get(name) or bpy.data.materials.new(name);m.use_nodes=True;n=m.node_tree.nodes;l=m.node_tree.links;p=n.get('Principled BSDF');p.inputs['Roughness'].default_value=rough

@@ -1,0 +1,218 @@
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_adventure_blender.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*color,1);p.inputs['Roughness'].default_value=.65
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungRight_Floor.fbx'
+export finished in 0.3182 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungRight_FrontRight.fbx'
+export finished in 0.0625 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungRight_FrontLeft.fbx'
+export finished in 0.0658 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungRight_BackRight.fbx'
+export finished in 0.1093 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungRight_BackLeft.fbx'
+export finished in 0.1453 sec.
+EXPORTED_ORGAN LungRight
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungLeft_Floor.fbx'
+export finished in 0.6460 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungLeft_FrontRight.fbx'
+export finished in 0.1710 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungLeft_FrontLeft.fbx'
+export finished in 0.1122 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungLeft_BackRight.fbx'
+export finished in 0.1138 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungLeft_BackLeft.fbx'
+export finished in 0.0672 sec.
+EXPORTED_ORGAN LungLeft
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Brain_Floor.fbx'
+export finished in 0.5585 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Brain_FrontRight.fbx'
+export finished in 0.0861 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Brain_FrontLeft.fbx'
+export finished in 0.0826 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Brain_BackRight.fbx'
+export finished in 0.1015 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Brain_BackLeft.fbx'
+export finished in 0.0978 sec.
+EXPORTED_ORGAN Brain
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Liver_Floor.fbx'
+export finished in 0.3360 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Liver_FrontRight.fbx'
+export finished in 0.0588 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Liver_FrontLeft.fbx'
+export finished in 0.0549 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Liver_BackRight.fbx'
+export finished in 0.0667 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Liver_BackLeft.fbx'
+export finished in 0.0903 sec.
+EXPORTED_ORGAN Liver
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Stomach_Floor.fbx'
+export finished in 0.2333 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Stomach_FrontRight.fbx'
+export finished in 0.0451 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Stomach_FrontLeft.fbx'
+export finished in 0.0544 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Stomach_BackRight.fbx'
+export finished in 0.0567 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Stomach_BackLeft.fbx'
+export finished in 0.0652 sec.
+EXPORTED_ORGAN Stomach
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyRight_Floor.fbx'
+export finished in 0.1776 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyRight_FrontRight.fbx'
+export finished in 0.0371 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyRight_FrontLeft.fbx'
+export finished in 0.0455 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyRight_BackRight.fbx'
+export finished in 0.0507 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyRight_BackLeft.fbx'
+export finished in 0.0368 sec.
+EXPORTED_ORGAN KidneyRight
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyLeft_Floor.fbx'
+export finished in 0.1450 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyLeft_FrontRight.fbx'
+export finished in 0.0396 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyLeft_FrontLeft.fbx'
+export finished in 0.0316 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyLeft_BackRight.fbx'
+export finished in 0.0323 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_KidneyLeft_BackLeft.fbx'
+export finished in 0.0454 sec.
+EXPORTED_ORGAN KidneyLeft
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Intestine_Floor.fbx'
+export finished in 0.4905 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Intestine_FrontRight.fbx'
+export finished in 0.1019 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Intestine_FrontLeft.fbx'
+export finished in 0.0967 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Intestine_BackRight.fbx'
+export finished in 0.1353 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Intestine_BackLeft.fbx'
+export finished in 0.1167 sec.
+EXPORTED_ORGAN Intestine
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Bladder_Floor.fbx'
+export finished in 0.1201 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Bladder_FrontRight.fbx'
+export finished in 0.0335 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Bladder_FrontLeft.fbx'
+export finished in 0.0287 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Bladder_BackRight.fbx'
+export finished in 0.0348 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Bladder_BackLeft.fbx'
+export finished in 0.0332 sec.
+EXPORTED_ORGAN Bladder
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Adventure_LightBridges.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Hub_Diaphragm.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Hub_Throat.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Hub_DigestiveCrossing.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Adventure_Body.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Adventure_BodyRim.fbx'
+export finished in 0.1225 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Context_Spleen.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Context_Pancreas.fbx'
+export finished in 0.0091 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Context_Gallbladder.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Context_Thymus.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Context_ThyroidRight.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Context_ThyroidLeft.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungRight_WindPetals.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_LungLeft_WindPetals.fbx'
+export finished in 0.0096 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Brain_AwarenessTree.fbx'
+export finished in 0.0248 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Care_0.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Care_3.fbx'
+export finished in 0.3790 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Care_4.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Care_5.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BodyAdventure\\Export\\SM_Care_6.fbx'
+export finished in 0.0105 sec.
+ADVENTURE_EXPORTS_READY 73
+Info: Saved as "Body_Adventure.blend"
+BODY_EDITABLE_WORLD_SAVED
+00:50.672  render           | Saved: 'C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BodyAdventure\Body-source-review.png'
+BODY_SOURCE_RENDERED
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

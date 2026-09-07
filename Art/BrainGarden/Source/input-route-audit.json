@@ -1,0 +1,33 @@
+{
+  "legs": 13,
+  "waypoints": [
+    2,
+    3,
+    3,
+    3,
+    14,
+    14,
+    14,
+    4,
+    2,
+    2,
+    2,
+    2,
+    8
+  ],
+  "actions": [
+    "pickup",
+    "deliver",
+    "pickup",
+    "deliver",
+    "pickup",
+    "deliver",
+    "focus",
+    "release",
+    "release",
+    "release",
+    "release",
+    "approach bridge",
+    "cross unlocked bridge"
+  ]
+}

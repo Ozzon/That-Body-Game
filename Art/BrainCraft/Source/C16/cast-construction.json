@@ -1,0 +1,14 @@
+{
+  "Cloud": {
+    "vertices": 32306,
+    "triangles": 64608,
+    "volume_cm3": 758137.6871351354,
+    "lobes": 16
+  },
+  "Wisp": {
+    "vertices": 32306,
+    "triangles": 64608,
+    "volume_cm3": 60277.25309105322,
+    "lobes": 16
+  }
+}

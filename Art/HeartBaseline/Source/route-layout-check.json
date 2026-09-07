@@ -1,0 +1,128 @@
+[
+  {
+    "from": [
+      -1700,
+      181
+    ],
+    "to": [
+      -1140,
+      270
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      -1140,
+      270
+    ],
+    "to": [
+      -645,
+      230
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      -645,
+      230
+    ],
+    "to": [
+      -645,
+      -550
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      -645,
+      -550
+    ],
+    "to": [
+      485,
+      -565
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      485,
+      -565
+    ],
+    "to": [
+      485,
+      395
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      485,
+      395
+    ],
+    "to": [
+      -196,
+      565
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      -196,
+      565
+    ],
+    "to": [
+      -715,
+      355
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      -715,
+      355
+    ],
+    "to": [
+      -1120,
+      265
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  },
+  {
+    "from": [
+      -1120,
+      265
+    ],
+    "to": [
+      -1680,
+      181
+    ],
+    "start_valid": true,
+    "end_valid": true,
+    "connected": true,
+    "straight_route_clear": true
+  }
+]

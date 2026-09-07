@@ -1,0 +1,162 @@
+{
+  "Terrain0_0": {
+    "top_faces": 330,
+    "down_faces": 0
+  },
+  "Terrain0_1": {
+    "top_faces": 1759,
+    "down_faces": 0
+  },
+  "Terrain0_2": {
+    "top_faces": 2284,
+    "down_faces": 0
+  },
+  "Terrain0_3": {
+    "top_faces": 2295,
+    "down_faces": 0
+  },
+  "Terrain0_4": {
+    "top_faces": 1821,
+    "down_faces": 0
+  },
+  "Terrain0_5": {
+    "top_faces": 621,
+    "down_faces": 0
+  },
+  "Terrain1_0": {
+    "top_faces": 2153,
+    "down_faces": 0
+  },
+  "Terrain1_1": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain1_2": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain1_3": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain1_4": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain1_5": {
+    "top_faces": 2858,
+    "down_faces": 0
+  },
+  "Terrain1_6": {
+    "top_faces": 74,
+    "down_faces": 0
+  },
+  "Terrain2_0": {
+    "top_faces": 2131,
+    "down_faces": 0
+  },
+  "Terrain2_1": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain2_2": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain2_3": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain2_4": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain2_5": {
+    "top_faces": 2914,
+    "down_faces": 0
+  },
+  "Terrain2_6": {
+    "top_faces": 80,
+    "down_faces": 0
+  },
+  "Terrain3_0": {
+    "top_faces": 2072,
+    "down_faces": 0
+  },
+  "Terrain3_1": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain3_2": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain3_3": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain3_4": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain3_5": {
+    "top_faces": 2915,
+    "down_faces": 0
+  },
+  "Terrain3_6": {
+    "top_faces": 110,
+    "down_faces": 0
+  },
+  "Terrain4_0": {
+    "top_faces": 2051,
+    "down_faces": 0
+  },
+  "Terrain4_1": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain4_2": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain4_3": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain4_4": {
+    "top_faces": 3025,
+    "down_faces": 0
+  },
+  "Terrain4_5": {
+    "top_faces": 2921,
+    "down_faces": 0
+  },
+  "Terrain4_6": {
+    "top_faces": 165,
+    "down_faces": 0
+  },
+  "Terrain5_0": {
+    "top_faces": 271,
+    "down_faces": 0
+  },
+  "Terrain5_1": {
+    "top_faces": 1685,
+    "down_faces": 0
+  },
+  "Terrain5_2": {
+    "top_faces": 2294,
+    "down_faces": 0
+  },
+  "Terrain5_3": {
+    "top_faces": 2512,
+    "down_faces": 0
+  },
+  "Terrain5_4": {
+    "top_faces": 2234,
+    "down_faces": 0
+  },
+  "Terrain5_5": {
+    "top_faces": 879,
+    "down_faces": 0
+  }
+}

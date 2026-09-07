@@ -1,0 +1,8 @@
+{
+  "method": "Baked geometric displacement; the same triangles provide collision",
+  "soil_relief_cm": 2.6,
+  "moss_relief_cm": 20,
+  "grid_cm": 14,
+  "crossing_faces": 4548,
+  "art_accepted": false
+}

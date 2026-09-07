@@ -1,0 +1,1 @@
+ADVENTURE_NAV_READY {"navigation_components": 1, "unreachable_organ_regions": [], "travel_waypoints": 85, "care_route_waypoints": [12, 11, 1, 1, 2, 1], "bridges": 18, "organs": 10, "character_width": 100, "bridge_width_min": 470, "grid_step": 30}

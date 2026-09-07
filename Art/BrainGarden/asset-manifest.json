@@ -1,0 +1,205 @@
+[
+  {
+    "name": "SM_BrainGarden_Ground",
+    "key": "Cortex",
+    "tags": [
+      "Ground"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_CortexFrontRight",
+    "key": "Cortex",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_CortexFrontLeft",
+    "key": "Cortex",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_CortexBackRight",
+    "key": "Cortex",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_CortexBackLeft",
+    "key": "Cortex",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_TreeTrunk",
+    "key": "TreeTrunk",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_BarkInlay",
+    "key": "TreeGlow",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Glow"
+  },
+  {
+    "name": "SM_BrainGarden_Canopy0",
+    "key": "Canopy",
+    "tags": [],
+    "material": "Foliage"
+  },
+  {
+    "name": "SM_BrainGarden_Canopy1",
+    "key": "Canopy",
+    "tags": [],
+    "material": "Foliage"
+  },
+  {
+    "name": "SM_BrainGarden_Canopy2",
+    "key": "Canopy",
+    "tags": [],
+    "material": "Foliage"
+  },
+  {
+    "name": "SM_BrainGarden_Canopy3",
+    "key": "Canopy",
+    "tags": [],
+    "material": "Foliage"
+  },
+  {
+    "name": "SM_BrainGarden_FittedMasonry",
+    "key": "Paths",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_SynapsePool",
+    "key": "Water",
+    "tags": [],
+    "material": "Water"
+  },
+  {
+    "name": "SM_BrainGarden_CalmStream",
+    "key": "Water",
+    "tags": [],
+    "material": "Water"
+  },
+  {
+    "name": "SM_BrainGarden_StoneBridges",
+    "key": "Bridges",
+    "tags": [
+      "LightBridge"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_TerraceWalls",
+    "key": "GardenWalls",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_FocusDais",
+    "key": "Focus",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_FocusPetals",
+    "key": "FocusPetals",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_PlantedBed0",
+    "key": "Planting",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_PlantedBed1",
+    "key": "Planting",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_PlantedBed2",
+    "key": "Planting",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_PlantedBed3",
+    "key": "Planting",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_BedStones",
+    "key": "Planting",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_PathLanterns",
+    "key": "Lanterns",
+    "tags": [],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_LanternLight",
+    "key": "LanternGlow",
+    "tags": [],
+    "material": "Glow"
+  },
+  {
+    "name": "SM_BrainGarden_BrightThought0",
+    "key": "BrightThought0",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Glow"
+  },
+  {
+    "name": "SM_BrainGarden_BrightThought1",
+    "key": "BrightThought1",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Glow"
+  },
+  {
+    "name": "SM_BrainGarden_BrightThought2",
+    "key": "BrightThought2",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Glow"
+  },
+  {
+    "name": "SM_BrainGarden_RootShortcut",
+    "key": "RootShortcut",
+    "tags": [
+      "LightBridge"
+    ],
+    "material": "Surface"
+  },
+  {
+    "name": "SM_BrainGarden_CarryThought",
+    "key": "CarryThought",
+    "tags": [
+      "Interactive"
+    ],
+    "material": "Glow",
+    "spawn": false
+  }
+]

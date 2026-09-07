@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c15_garden.py", line 55, in <module>
+    o=mesh('Stream',V,F,C,coll,bpy.data.materials['C13_WaterBlue']);uv=o.data.uv_layers.new(name='CraftUV')
+                               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "C13_WaterBlue" not found'

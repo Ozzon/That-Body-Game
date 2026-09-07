@@ -1,0 +1,37 @@
+{
+  "Cortex-1-1": [
+    21943,
+    42224
+  ],
+  "Cortex-11": [
+    23396,
+    45428
+  ],
+  "Cortex1-1": [
+    23847,
+    46178
+  ],
+  "Cortex11": [
+    23488,
+    45544
+  ],
+  "Ground": [
+    94301,
+    184472
+  ],
+  "Water": [
+    8228,
+    15210
+  ],
+  "EarthPath": [
+    44626,
+    85430
+  ],
+  "stones": 200,
+  "navigable_area_m2": 1220.32,
+  "connected_fraction": 1.0,
+  "minimum_path_width_cm": 510,
+  "character_diameter_cm": 68,
+  "reference": "Concept/Brain-Location-Key-Art.png",
+  "art_accepted": false
+}

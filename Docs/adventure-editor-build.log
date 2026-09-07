@@ -1,0 +1,513 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ThatBodyGameEditor Win64 Development "-Project=C:/Users/Gamescom 2023 #1/Documents/ChatGPT/That Body Game/ThatBodyGame.uproject" -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+  Executing up to 14 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game).
+UbaServer - Listening on 0.0.0.0:1345
+Invalidating makefile for ThatBodyGameEditor (source file added)
+UHT compiled-in object format Default
+Building ThatBodyGameEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from ThatBodyGame unity file: BodyAdventure.cpp, BodyAdventureHUD.cpp, BodyAdventureReview.cpp, BodyGeometry.cpp, BodyHUD.cpp, BodyOcclusion.cpp, BodyPlay.cpp, BodySmoke.cpp, HeartStudy.cpp, HeartStudyHUD.cpp, HeartStudySmoke.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 15 action(s)
+  CPU 14 physical cores, 20 logical cores
+  Memory 63.71 GB physical, 40.58 GB/67.71 GB committed
+  UBA Storage capacity 40 GB
+[1/15] Compile [x64] BodyHUD.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,46): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,41): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,36): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,31): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,65): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,61): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,57): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,85): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,81): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,77): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,105): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,101): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,97): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,125): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,121): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(8,117): warning C4305: 'argument': truncation from 'double' to 'float'
+static const FLinearColor Ink(.045,.063,.075,.92),Cream(.95,.91,.82,1),Soft(.58,.66,.65,1),Mint(.53,.83,.74,1),Gold(.96,.74,.39,1);
+                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(12,142): warning C4305: 'argument': truncation from 'double' to 'float'
+    Item.Scale=FVector2D(Size/FMath::Max(1.f,float(GEngine->GetLargeFont()->GetMaxCharHeight()))*Scale);Item.EnableShadow(FLinearColor(0,0,0,.35));Canvas->DrawItem(Item);
+                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(27,48): warning C4305: 'argument': truncation from 'double' to 'float'
+    Ring(61,64,24,Mint,1,2);Ring(61,64,11,Gold,.7,3);
+                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(30,43): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(39,124,248,1,FLinearColor(.53,.83,.74,.25));
+                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(30,39): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(39,124,248,1,FLinearColor(.53,.83,.74,.25));
+                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(30,35): warning C4305: 'argument': truncation from 'double' to 'float'
+    Box(39,124,248,1,FLinearColor(.53,.83,.74,.25));
+                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(62,50): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(555,31,830,55,FLinearColor(.045,.063,.075,.86*A));
+                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(62,45): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(555,31,830,55,FLinearColor(.045,.063,.075,.86*A));
+                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(62,40): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(555,31,830,55,FLinearColor(.045,.063,.075,.86*A));
+                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(63,54): warning C4305: 'argument': truncation from 'double' to 'float'
+        Text(B->Toast,577,49,14,FLinearColor(.95,.91,.82,A));
+                                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(63,50): warning C4305: 'argument': truncation from 'double' to 'float'
+        Text(B->Toast,577,49,14,FLinearColor(.95,.91,.82,A));
+                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(63,46): warning C4305: 'argument': truncation from 'double' to 'float'
+        Text(B->Toast,577,49,14,FLinearColor(.95,.91,.82,A));
+                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(76,53): warning C4305: 'argument': truncation from 'double' to 'float'
+        {Box(S.X-95,S.Y+23,190,5,FLinearColor(.1,.2,.21,1));Box(S.X-95,S.Y+23,190*B->Pull,5,Mint);}
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(76,50): warning C4305: 'argument': truncation from 'double' to 'float'
+        {Box(S.X-95,S.Y+23,190,5,FLinearColor(.1,.2,.21,1));Box(S.X-95,S.Y+23,190*B->Pull,5,Mint);}
+                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(76,47): warning C4305: 'argument': truncation from 'double' to 'float'
+        {Box(S.X-95,S.Y+23,190,5,FLinearColor(.1,.2,.21,1));Box(S.X-95,S.Y+23,190*B->Pull,5,Mint);}
+                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(86,51): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.74));Box(610,H*.5-245,700,490,Ink);
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(86,46): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.74));Box(610,H*.5-245,700,490,Ink);
+                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(86,42): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.74));Box(610,H*.5-245,700,490,Ink);
+                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyHUD.cpp(86,37): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.74));Box(610,H*.5-245,700,490,Ink);
+                                    ^
+[2/15] Compile [x64] BodyAdventureHUD.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,38): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,34): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,30): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,57): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,53): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,49): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,75): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,71): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,67): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,91): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,114): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,109): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,105): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(8,100): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.98,.93,.83),Quiet(.67,.74,.72),Mint(.56,.89,.74),Gold(1,.75,.39),Ink(.025,.04,.065,.83);
+                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(35,51): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(35,47): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(35,42): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureHUD.cpp(35,37): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.028,.04,.8));Box(480,H*.5-240,960,480,Ink);
+                                    ^
+[3/15] Compile [x64] BodyOcclusion.cpp
+[4/15] Compile [x64] BodyAdventureReview.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventureReview.cpp(74,156): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    for(FKey Key:{EKeys::W,EKeys::A,EKeys::S,EKeys::D,EKeys::E,EKeys::SpaceBar}){bool Down=Want.Contains(Key),Was=SmokeKeys.Contains(Key);if(Down!=Was)PC->InputKey(FInputKeyParams(Key,Down?IE_Pressed:IE_Released,Down?1.0:0.0));}SmokeKeys=Want;
+                                                                                                                                                           ^
+[5/15] Compile [x64] BodyGeometry.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(145,139): warning C4305: 'argument': truncation from 'double' to 'float'
+    Organs[0].Name="LUNGS";Organs[0].Center=FVector(520,0,60);Organs[0].Station=FVector(-110,-500,60);Organs[0].Color=FLinearColor(.45,.9,.85);
+                                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(145,136): warning C4305: 'argument': truncation from 'double' to 'float'
+    Organs[0].Name="LUNGS";Organs[0].Center=FVector(520,0,60);Organs[0].Station=FVector(-110,-500,60);Organs[0].Color=FLinearColor(.45,.9,.85);
+                                                                                                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(145,132): warning C4305: 'argument': truncation from 'double' to 'float'
+    Organs[0].Name="LUNGS";Organs[0].Center=FVector(520,0,60);Organs[0].Station=FVector(-110,-500,60);Organs[0].Color=FLinearColor(.45,.9,.85);
+                                                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(146,136): warning C4305: 'argument': truncation from 'double' to 'float'
+    Organs[1].Name="HEART";Organs[1].Center=FVector(440,70,60);Organs[1].Station=FVector(80,130,60);Organs[1].Color=FLinearColor(1,.46,.39);
+                                                                                                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(146,132): warning C4305: 'argument': truncation from 'double' to 'float'
+    Organs[1].Name="HEART";Organs[1].Center=FVector(440,70,60);Organs[1].Station=FVector(80,130,60);Organs[1].Color=FLinearColor(1,.46,.39);
+                                                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(147,136): warning C4305: 'argument': truncation from 'double' to 'float'
+    Organs[2].Name="BRAIN";Organs[2].Center=FVector(2040,0,224);Organs[2].Station=FVector(1690,0,230);Organs[2].Color=FLinearColor(.77,.63,1);
+                                                                                                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(147,132): warning C4305: 'argument': truncation from 'double' to 'float'
+    Organs[2].Name="BRAIN";Organs[2].Center=FVector(2040,0,224);Organs[2].Station=FVector(1690,0,230);Organs[2].Color=FLinearColor(.77,.63,1);
+                                                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(150,115): warning C4305: 'argument': truncation from 'double' to 'float'
+    Light->GetLightComponent()->SetIntensity(Adventure?2.5:3.5);Light->SetLightColor(Adventure?FLinearColor(1,.96,.92):FLinearColor(1,.88,.74));
+                                                                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(150,111): warning C4305: 'argument': truncation from 'double' to 'float'
+    Light->GetLightComponent()->SetIntensity(Adventure?2.5:3.5);Light->SetLightColor(Adventure?FLinearColor(1,.96,.92):FLinearColor(1,.88,.74));
+                                                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(150,139): warning C4305: 'argument': truncation from 'double' to 'float'
+    Light->GetLightComponent()->SetIntensity(Adventure?2.5:3.5);Light->SetLightColor(Adventure?FLinearColor(1,.96,.92):FLinearColor(1,.88,.74));
+                                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(150,135): warning C4305: 'argument': truncation from 'double' to 'float'
+    Light->GetLightComponent()->SetIntensity(Adventure?2.5:3.5);Light->SetLightColor(Adventure?FLinearColor(1,.96,.92):FLinearColor(1,.88,.74));
+                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(151,89): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto Sky=GetWorld()->SpawnActor<ASkyLight>();Sky->GetLightComponent()->SetIntensity(.65);
+                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(152,62): warning C4305: 'argument': truncation from 'double' to 'float'
+    Sky->GetLightComponent()->SetLightColor(FLinearColor(.65,.76,1));Sky->GetLightComponent()->SetRealTimeCaptureEnabled(true);
+                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(152,58): warning C4305: 'argument': truncation from 'double' to 'float'
+    Sky->GetLightComponent()->SetLightColor(FLinearColor(.65,.76,1));Sky->GetLightComponent()->SetRealTimeCaptureEnabled(true);
+                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(157,76): warning C4305: '=': truncation from 'double' to 'float'
+    PP->Settings.bOverride_BloomIntensity=true;PP->Settings.BloomIntensity=.28;
+                                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(158,82): warning C4305: '=': truncation from 'double' to 'float'
+    PP->Settings.bOverride_VignetteIntensity=true;PP->Settings.VignetteIntensity=.27;
+                                                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(231,79): warning C4305: 'argument': truncation from 'double' to 'float'
+    for(int side:{-1,1})Blob(FVector(1100,side*1030,0),FVector(160,90,35),0,0,.02);
+                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(252,40): warning C4305: 'argument': truncation from 'double' to 'float'
+        Blob(C,FVector(620,305,72),0,2,.02);
+                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(254,56): warning C4305: 'argument': truncation from 'double' to 'float'
+        Blob(C+FVector(0,0,38),FVector(554,249,25),4,2,.02);
+                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(281,141): warning C4305: 'argument': truncation from 'double' to 'float'
+                {float a=k*2*PI/4;FVector Pos=A+FVector(FMath::Cos(a)*32,FMath::Sin(a)*29,k==4?43:10);auto B=Blob(Pos,FVector(32,32,37),2,b,.025);Organs[0].Animated.Add(B);}
+                                                                                                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(296,36): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(C,FVector(375,330,65),9,3,.11);
+                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(297,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(C+FVector(-270,70,8),FVector(140,164,54),3,2,.08);
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(302,53): warning C4305: 'argument': truncation from 'double' to 'float'
+        Blob(Q,FVector(x?142:158,122,17),y?9:13,x+y,.02);
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(303,61): warning C4305: 'argument': truncation from 'double' to 'float'
+        auto R=Tube(OpenRim(Q+FVector(0,0,15),x?147:163,125,.64),24,3);Organs[1].Animated.Add(R);
+                                                            ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(305,121): warning C4305: 'argument': truncation from 'double' to 'float'
+        for(int k=0;k<3;k++){float a=k*2*PI/3;Blob(Q+FVector(FMath::Cos(a)*23,FMath::Sin(a)*23,21),FVector(29,22,9),6,k,.08);}
+                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(321,36): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(C,FVector(630,570,75),5,4,.08);
+                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(322,53): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(C+FVector(0,0,39),FVector(565,505,22),12,0,.025);
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(323,44): warning C4305: 'argument': truncation from 'double' to 'float'
+    Tube(OpenRim(C+FVector(0,0,91),596,534,.35),51,2);
+                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(342,62): warning C4305: 'argument': truncation from 'double' to 'float'
+        auto T=Blob(Q+FVector(0,0,120),FVector(49,49,43),3,i,.05);T->ComponentTags.Add(TEXT("Interactive"));Thoughts.Add(T);
+                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(350,72): warning C4305: 'argument': truncation from 'double' to 'float'
+    for(int s:{-1,1})Blob(C+FVector(0,s*32,175),FVector(22,52,14),11,s,.05);
+                                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(351,52): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(C+FVector(12,0,227),FVector(29,29,44),8,0,.06);
+                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(358,57): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-460,-610,45),FVector(320,405,109),9,1,.10);
+                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(359,56): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-370,-260,37),FVector(200,260,72),9,4,.1);
+                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(362,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-620,-410,38),FVector(73,45,55),11,3,.18);
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(364,56): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-370,695,60),FVector(226,186,127),2,3,.035);
+                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(365,56): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-545,625,60),FVector(156,184,108),2,0,.035);
+                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(366,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-570,495,60),FVector(105,139,82),2,0,.02);
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(369,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-340,960,25),FVector(157,70,68),12,1,.13);
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(371,54): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-700,210,12),FVector(70,260,52),8,1,.15);
+                                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(375,63): warning C4305: 'argument': truncation from 'double' to 'float'
+        Blob(FVector(-1000,s*858,13),FVector(183,100,76),12,s,.065);
+                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(377,59): warning C4305: 'argument': truncation from 'double' to 'float'
+        Blob(FVector(-790,s*870,32),FVector(73,96,49),8,s,.2);
+                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(382,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-1110,0,-28),FVector(360,575,37),0,0,.05);
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(390,85): warning C4305: 'argument': truncation from 'double' to 'float'
+    {FVector P=FMath::Lerp(Colon[j],Colon[j+1],k/5.f);Blob(P,FVector(69,72,63),11,k,.07);}
+                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyGeometry.cpp(392,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector(-1550,0,26),FVector(119,146,64),10,0,.08);
+                                                      ^
+[6/15] Compile [x64] BodyAdventure.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,55): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,51): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,47): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,78): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,74): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,103): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,100): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                   ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,96): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,127): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,123): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,153): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,149): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,145): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,178): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,174): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,201): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(16,197): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Colors[]={FLinearColor(.45,.85,.7),FLinearColor(1,.48,.32),FLinearColor(.73,.6,.95),FLinearColor(1,.72,.34),FLinearColor(.84,.58,.31),FLinearColor(.5,.85,.6),FLinearColor(1,.57,.4)};
+                                                                                                                                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(39,174): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto H=NewObject<UPointLightComponent>(this);H->SetupAttachment(RootComponent);H->SetRelativeLocation(Positions[1]+FVector(0,0,250));H->SetLightColor(FLinearColor(1,.53,.21));H->SetIntensity(6000);H->SetAttenuationRadius(1100);H->SetSourceRadius(90);H->SetCastShadows(false);H->RegisterComponent();
+                                                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(39,170): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto H=NewObject<UPointLightComponent>(this);H->SetupAttachment(RootComponent);H->SetRelativeLocation(Positions[1]+FVector(0,0,250));H->SetLightColor(FLinearColor(1,.53,.21));H->SetIntensity(6000);H->SetAttenuationRadius(1100);H->SetSourceRadius(90);H->SetCastShadows(false);H->RegisterComponent();
+                                                                                                                                                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(45,51): warning C4305: 'argument': truncation from 'double' to 'float'
+        Blob(FVector(0,0,0),FVector(92,74,56),5,i,.04,Root);Shape(FVector(-62,8,-20),FVector(.70,.6,.5),5,Root);Shape(FVector(61,0,-6),FVector(.8,.7,.7),5,Root);
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(48,53): warning C4305: 'argument': truncation from 'double' to 'float'
+    Blob(FVector::ZeroVector,FVector(95,76,58),12,4,.045,Cloud);Shape(FVector(58,10,0),FVector(.8,.7,.7),12,Cloud);
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(81,142): warning C4305: 'argument': truncation from 'double' to 'float'
+        if(ReleaseTime>1.5f){int i=P->Nearest;ReleaseTime=-20;Organs[i].Cared=true;BPM=FMath::Clamp(BPM+(i==5?-15:10),60.f,115.f);PlayTone(2,.35);Notify(i==5?"A soft calm pulse reaches the heart.":"A little energy stirs through the body.",5);}
+                                                                                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(95,65): warning C4305: 'argument': truncation from 'double' to 'float'
+        else if(Carry==0){BPM=FMath::Max(72.f,BPM-4);PlayTone(1,.3);Notify("A gentle pacing tap. A deep breath will help.");}
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(100,103): warning C4305: 'argument': truncation from 'double' to 'float'
+        if(Carry>0&&Carry!=4){if(Carry==2)HeartDelivered=true;Carry=0;Organs[2].Cared=true;PlayTone(2,.4);Notify("The garden brightens. Walk to each thought and tap SPACE.",7);}
+                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(103,67): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(I==3){if(Carry==0){Carry=3;Organs[3].Cared=true;PlayTone(2,.3);Notify("Warm energy. Carry it to the heart or the awareness garden.",6);}else if(Carry==2){Carry=3;Organs[3].Cared=true;PlayTone(2);Notify("The digestion hearth brightens. A little energy is ready.");}return;}
+                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyAdventure.cpp(104,77): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(I==4){if(Carry==4||Carry==0){Carry=0;Organs[4].Cared=true;PlayTone(2,.4);Notify("The recovery pool clears. A little weight lifts.",6);}else Notify("This pool receives the heavy cloud from the heart.");return;}
+                                                                            ^
+[7/15] Compile [x64] BodyPlay.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(75,136): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(BeatAge>=60/FMath::Max(BPM,45.f)){BeatAge=0;if(Pawn&&FVector::Dist2D(Pawn->GetActorLocation(),Organs[1].Center)<1000)PlayTone(1,.16);}
+                                                                                                                                       ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(104,35): warning C4305: 'argument': truncation from 'double' to 'float'
+    {HasCompleted=true;PlayTone(2,.7);Notify("The body settles. A little care changes the whole day.",12);UE_LOG(LogTemp,Display,TEXT("BODY_LOOP_COMPLETE"));}
+                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(136,65): warning C4305: 'argument': truncation from 'double' to 'float'
+        else if(Carry==0){BPM=FMath::Max(65.f,BPM-3);PlayTone(1,.4);Notify("A gentle pacing tap. Bring breath here to settle the rhythm.",4);}
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(149,43): warning C4305: '=': truncation from 'double' to 'float'
+    if(SwatCooldown>0)return;SwatCooldown=.3;
+                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(154,78): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(ThoughtCount>0){ThoughtMask&=~(1u<<Closest);ThoughtCount--;PlayTone(3,.45);if(ThoughtCount==0){ThoughtCleared=true;Notify("Quiet, at last. There is space for something bright.",6);PlayTone(2,.4);UE_LOG(LogTemp,Display,TEXT("BODY_THOUGHTS_CLEARED"));}else Notify("Let it go. One thought at a time.",2);}
+                                                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(154,199): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(ThoughtCount>0){ThoughtMask&=~(1u<<Closest);ThoughtCount--;PlayTone(3,.45);if(ThoughtCount==0){ThoughtCleared=true;Notify("Quiet, at last. There is space for something bright.",6);PlayTone(2,.4);UE_LOG(LogTemp,Display,TEXT("BODY_THOUGHTS_CLEARED"));}else Notify("Let it go. One thought at a time.",2);}
+                                                                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(163,48): warning C4305: '=': truncation from 'double' to 'float'
+    for(auto& O:Organs){O.Cared=false;O.Health=.4;}
+                                               ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(254,59): warning C4305: 'argument': truncation from 'double' to 'float'
+        Body->Blob(FVector(0,0,61),FVector(27,32,37),11,0,.025,Visual);
+                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(255,65): warning C4305: 'argument': truncation from 'double' to 'float'
+        Hood=Body->Blob(FVector(0,0,111),FVector(39,41,42),11,0,.025,Visual);
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(256,60): warning C4305: 'argument': truncation from 'double' to 'float'
+        Body->Blob(FVector(30,0,111),FVector(17,29,28),8,0,.02,Visual);
+                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(259,65): warning C4305: 'argument': truncation from 'double' to 'float'
+        Cape=Body->Blob(FVector(-22,0,74),FVector(15,38,39),4,1,.05,Visual);
+                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(263,76): warning C4305: 'argument': truncation from 'double' to 'float'
+            Limbs.Add(Body->Blob(FVector(0,s*38,63),FVector(12,12,25),11,0,.02,Visual));
+                                                                           ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(264,75): warning C4305: 'argument': truncation from 'double' to 'float'
+            Limbs.Add(Body->Blob(FVector(8,s*16,22),FVector(18,14,20),7,0,.02,Visual));
+                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodyPlay.cpp(302,104): warning C4305: 'argument': truncation from 'double' to 'float'
+    if(PC->WasInputKeyJustPressed(EKeys::SpaceBar)&&Nearest!=2&&HopAge>.65f){HopAge=0;Body->PlayTone(3,.15);}
+                                                                                                       ^
+[8/15] Compile [x64] HeartStudyHUD.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,38): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,34): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,30): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,57): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,53): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,49): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,73): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,69): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,95): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                                                              ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,91): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                                                          ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,87): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(7,82): warning C4305: 'argument': truncation from 'double' to 'float'
+    const FLinearColor Cream(.97,.90,.78),Quiet(.63,.68,.68),Gold(1,.70,.34),Ink(.025,.04,.06,.82);
+                                                                                 ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(26,51): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.72));Box(550,H*.5-220,820,440,Ink);
+                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(26,46): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.72));Box(550,H*.5-220,820,440,Ink);
+                                             ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(26,42): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.72));Box(550,H*.5-220,820,440,Ink);
+                                         ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudyHUD.cpp(26,37): warning C4305: 'argument': truncation from 'double' to 'float'
+        Box(0,0,1920,H,FLinearColor(.018,.03,.043,.72));Box(550,H*.5-220,820,440,Ink);
+                                    ^
+[9/15] Compile [x64] BodySmoke.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BodySmoke.cpp(67,26): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+        if(Down!=Was)PC->InputKey(FInputKeyParams(Key,Down?IE_Pressed:IE_Released,Down?1.0:0.0));
+                         ^
+[10/15] Compile [x64] HeartStudySmoke.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudySmoke.cpp(27,80): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    {bool Down=Want.Contains(Key),Was=SmokeKeys.Contains(Key);if(Down!=Was)PC->InputKey(FInputKeyParams(Key,Down?IE_Pressed:IE_Released,Down?1.0:0.0));}
+                                                                               ^
+[11/15] Compile [x64] HeartStudy.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudy.cpp(43,241): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto GlowLight=NewObject<UPointLightComponent>(this);GlowLight->SetupAttachment(RootComponent);GlowLight->SetRelativeLocation(Organs[1].Station+FVector(0,0,260));GlowLight->SetIntensity(8500);GlowLight->SetLightColor(FLinearColor(1,.44,.16));GlowLight->SetAttenuationRadius(1350);GlowLight->SetSourceRadius(110);GlowLight->SetCastShadows(false);GlowLight->RegisterComponent();
+                                                                                                                                                                                                                                                ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\HeartStudy.cpp(43,237): warning C4305: 'argument': truncation from 'double' to 'float'
+    auto GlowLight=NewObject<UPointLightComponent>(this);GlowLight->SetupAttachment(RootComponent);GlowLight->SetRelativeLocation(Organs[1].Station+FVector(0,0,260));GlowLight->SetIntensity(8500);GlowLight->SetLightColor(FLinearColor(1,.44,.16));GlowLight->SetAttenuationRadius(1350);GlowLight->SetSourceRadius(110);GlowLight->SetCastShadows(false);GlowLight->RegisterComponent();
+                                                                                                                                                                                                                                            ^
+[12/15] Compile [x64] Module.ThatBodyGame.gen.cpp
+[13/15] Link [x64] UnrealEditor-ThatBodyGame.lib
+[14/15] Link [x64] UnrealEditor-ThatBodyGame.dll
+[15/15] WriteMetadata ThatBodyGameEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 11.71 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 17.21 seconds
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 9.2kb

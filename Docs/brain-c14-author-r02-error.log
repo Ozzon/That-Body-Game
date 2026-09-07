@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c14_garden.py", line 52, in <module>
+    xy=np.array(orient(poly,1).exterior.coords[:-1]);ct=xy.mean(0);n=len(xy);key=(int((ct[0]+3300)//1100),int((ct[1]+3500)//1100));V,F,C=buckets.setdefault(key,([],[],[]));start=len(V)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MultiPolygon' object has no attribute 'exterior'

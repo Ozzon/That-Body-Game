@@ -1,0 +1,4 @@
+{
+  "reason": "Rendered capture skipped the one-shot E event when screenshot readback exceeded 0.2 seconds. Review harness corrected to issue the event once even on a long frame.",
+  "stopped_process": 35460
+}

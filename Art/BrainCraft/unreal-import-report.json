@@ -1,0 +1,7 @@
+{
+  "map": "/Game/Maps/BrainCraft",
+  "models": 88,
+  "spawned": 61,
+  "mode": "/Script/ThatBodyGame.BrainCraftGameMode",
+  "art_accepted": false
+}

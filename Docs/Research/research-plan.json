@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-07",
+  "question": "How should every organ become a high quality, wacky, detailed isometric adventure location while matching the owner's Figma art?",
+  "audience": "Owner and game art / level implementation",
+  "scope": "Whole-body spatial design, organ-specific adventure design, reference fidelity, authored model construction, player readability and transformation through care",
+  "assumptions": [
+    "Native Unreal Engine 5.8 remains required",
+    "Approved Heart Model A geometry is preserved",
+    "Figma references outrank external style inspiration",
+    "The presentation deadline is today; finished-game claims require actual evidence",
+    "Generated design-document metaphors are not medical authority"
+  ],
+  "source_classes": [
+    "Owner's local FigJam package and design v11",
+    "Primary developer / artist interviews and postmortems",
+    "Nintendo / studio / Epic documentation",
+    "NIH / NIDDK / NHLBI / NINDS organ anatomy"
+  ],
+  "plan_tool": "update_plan is unavailable in the callable tool catalog; this file preserves the required plan",
+  "steps": [
+    {
+      "step": "Discover references, developer evidence and anatomical signatures",
+      "status": "complete"
+    },
+    {
+      "step": "Resolve visual mismatch, spatial scale and organ interaction gaps",
+      "status": "complete"
+    },
+    {
+      "step": "Synthesize the full location designs and reference-to-model requirements",
+      "status": "complete"
+    },
+    {
+      "step": "Create and visually verify the illustrated design artifact",
+      "status": "complete"
+    },
+    {
+      "step": "Apply the design to the native playable modeling checkpoint and verify limits",
+      "status": "in_progress"
+    }
+  ]
+}

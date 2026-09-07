@@ -1,0 +1,2 @@
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c13_cortex.py:8: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  coll=collection('C13 | Sculpted cortical envelope');m=bpy.data.materials.get('C13_Tissue') or bpy.data.materials.new('C13_Tissue');m.use_nodes=True

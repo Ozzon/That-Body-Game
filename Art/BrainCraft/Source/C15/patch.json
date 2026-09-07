@@ -1,0 +1,159 @@
+{
+  "changed": [
+    {
+      "key": "Cortex11",
+      "tags": [
+        "Occluder"
+      ],
+      "material": "Tissue"
+    },
+    {
+      "key": "Cortex-11",
+      "tags": [
+        "Occluder"
+      ],
+      "material": "Tissue"
+    },
+    {
+      "key": "Cortex-1-1",
+      "tags": [
+        "Occluder"
+      ],
+      "material": "Tissue"
+    },
+    {
+      "key": "Cortex1-1",
+      "tags": [
+        "Occluder"
+      ],
+      "material": "Tissue"
+    },
+    {
+      "key": "Terrain1_2",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain1_3",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain1_4",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain2_2",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain2_3",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain3_1",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain3_2",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain4_0",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain4_1",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain4_2",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain5_1",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "Terrain5_2",
+      "tags": [
+        "Ground"
+      ],
+      "material": "Terrain",
+      "spawn": true
+    },
+    {
+      "key": "SpringCurrent",
+      "tags": [
+        "Water"
+      ],
+      "material": "Water",
+      "spawn": true
+    },
+    {
+      "key": "SpringBankStones",
+      "tags": [],
+      "material": "Stone",
+      "spawn": true
+    },
+    {
+      "key": "LotusMoat",
+      "tags": [
+        "Water"
+      ],
+      "material": "Water",
+      "spawn": true
+    },
+    {
+      "key": "ThoughtFaceKnot",
+      "tags": [],
+      "material": "ThoughtGold",
+      "spawn": false
+    }
+  ],
+  "remove": [
+    "Water"
+  ]
+}

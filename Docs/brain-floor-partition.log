@@ -1,0 +1,25 @@
+00:03.703  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainGarden\Brain_Garden.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainGarden\\Export\\SM_BrainGarden_Ground.fbx'
+export finished in 0.1316 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainGarden\\Export\\SM_BrainGarden_CortexFrontRight.fbx'
+export finished in 0.2107 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainGarden\\Export\\SM_BrainGarden_CortexFrontLeft.fbx'
+export finished in 0.2048 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainGarden\\Export\\SM_BrainGarden_CortexBackRight.fbx'
+export finished in 0.2417 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainGarden\\Export\\SM_BrainGarden_CortexBackLeft.fbx'
+export finished in 0.2976 sec.
+Info: Saved as "Brain_Garden.blend"
+GARDEN_VISIBILITY_PARTITION 74647 ground faces 428879 wall faces
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

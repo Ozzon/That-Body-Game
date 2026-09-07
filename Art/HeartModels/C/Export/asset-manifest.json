@@ -1,0 +1,15 @@
+{
+  "assets": [
+    "SM_Heart_Foundation",
+    "SM_Heart_WallFrontRight",
+    "SM_Heart_WallFrontLeft",
+    "SM_Heart_WallBackRight",
+    "SM_Heart_WallBackLeft",
+    "SM_Heart_Aorta",
+    "SM_Heart_PacingValve",
+    "SM_Heart_PulseSeed"
+  ],
+  "unit": "cm",
+  "source": "Heart_Baseline.blend",
+  "style_target": "Concept/Heart-direction-study.png"
+}

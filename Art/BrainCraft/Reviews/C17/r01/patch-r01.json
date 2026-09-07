@@ -1,0 +1,1261 @@
+{
+  "changed": [
+    {
+      "key": "TreeWood",
+      "name": "SM_Craft_C17_TreeWood",
+      "tags": [
+        "Interactive"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Bark"
+      ],
+      "vertices": 182524,
+      "triangles": 364740
+    },
+    {
+      "key": "TreeTwigs",
+      "name": "SM_Craft_C17_TreeTwigs",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Bark"
+      ],
+      "vertices": 8874,
+      "triangles": 15776
+    },
+    {
+      "key": "TreeLeaves",
+      "name": "SM_Craft_C17_TreeLeaves",
+      "tags": [
+        "Foliage",
+        "Canopy",
+        "Occluder"
+      ],
+      "collision": false,
+      "materials": [
+        "C17_Leaf"
+      ],
+      "vertices": 27115,
+      "triangles": 39440
+    },
+    {
+      "key": "TreeChannels",
+      "name": "SM_Craft_C17_TreeChannels",
+      "tags": [
+        "Interactive",
+        "TreeLight"
+      ],
+      "collision": false,
+      "materials": [
+        "C17_Glow"
+      ],
+      "vertices": 3176,
+      "triangles": 6336
+    },
+    {
+      "key": "Terrain0_0",
+      "name": "SM_Craft_C17_Terrain0_0",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 1240,
+      "triangles": 1512
+    },
+    {
+      "key": "Terrain0_1",
+      "name": "SM_Craft_C17_Terrain0_1",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 4648,
+      "triangles": 7412
+    },
+    {
+      "key": "Terrain0_2",
+      "name": "SM_Craft_C17_Terrain0_2",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5746,
+      "triangles": 9528
+    },
+    {
+      "key": "Terrain0_3",
+      "name": "SM_Craft_C17_Terrain0_3",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5768,
+      "triangles": 9572
+    },
+    {
+      "key": "Terrain0_4",
+      "name": "SM_Craft_C17_Terrain0_4",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 4772,
+      "triangles": 7660
+    },
+    {
+      "key": "Terrain0_5",
+      "name": "SM_Craft_C17_Terrain0_5",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 2026,
+      "triangles": 2744
+    },
+    {
+      "key": "Terrain1_0",
+      "name": "SM_Craft_C17_Terrain1_0",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5508,
+      "triangles": 9012
+    },
+    {
+      "key": "Terrain1_1",
+      "name": "SM_Craft_C17_Terrain1_1",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain1_2",
+      "name": "SM_Craft_C17_Terrain1_2",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain1_3",
+      "name": "SM_Craft_C17_Terrain1_3",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain1_4",
+      "name": "SM_Craft_C17_Terrain1_4",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain1_5",
+      "name": "SM_Craft_C17_Terrain1_5",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7038,
+      "triangles": 11872
+    },
+    {
+      "key": "Terrain1_6",
+      "name": "SM_Craft_C17_Terrain1_6",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 504,
+      "triangles": 412
+    },
+    {
+      "key": "Terrain2_0",
+      "name": "SM_Craft_C17_Terrain2_0",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5464,
+      "triangles": 8924
+    },
+    {
+      "key": "Terrain2_1",
+      "name": "SM_Craft_C17_Terrain2_1",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain2_2",
+      "name": "SM_Craft_C17_Terrain2_2",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain2_3",
+      "name": "SM_Craft_C17_Terrain2_3",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain2_4",
+      "name": "SM_Craft_C17_Terrain2_4",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain2_5",
+      "name": "SM_Craft_C17_Terrain2_5",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7150,
+      "triangles": 12096
+    },
+    {
+      "key": "Terrain2_6",
+      "name": "SM_Craft_C17_Terrain2_6",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 568,
+      "triangles": 452
+    },
+    {
+      "key": "Terrain3_0",
+      "name": "SM_Craft_C17_Terrain3_0",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5346,
+      "triangles": 8688
+    },
+    {
+      "key": "Terrain3_1",
+      "name": "SM_Craft_C17_Terrain3_1",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain3_2",
+      "name": "SM_Craft_C17_Terrain3_2",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain3_3",
+      "name": "SM_Craft_C17_Terrain3_3",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain3_4",
+      "name": "SM_Craft_C17_Terrain3_4",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain3_5",
+      "name": "SM_Craft_C17_Terrain3_5",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7152,
+      "triangles": 12100
+    },
+    {
+      "key": "Terrain3_6",
+      "name": "SM_Craft_C17_Terrain3_6",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 662,
+      "triangles": 584
+    },
+    {
+      "key": "Terrain4_0",
+      "name": "SM_Craft_C17_Terrain4_0",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5304,
+      "triangles": 8604
+    },
+    {
+      "key": "Terrain4_1",
+      "name": "SM_Craft_C17_Terrain4_1",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain4_2",
+      "name": "SM_Craft_C17_Terrain4_2",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain4_3",
+      "name": "SM_Craft_C17_Terrain4_3",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain4_4",
+      "name": "SM_Craft_C17_Terrain4_4",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7372,
+      "triangles": 12540
+    },
+    {
+      "key": "Terrain4_5",
+      "name": "SM_Craft_C17_Terrain4_5",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 7164,
+      "triangles": 12124
+    },
+    {
+      "key": "Terrain4_6",
+      "name": "SM_Craft_C17_Terrain4_6",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 818,
+      "triangles": 820
+    },
+    {
+      "key": "Terrain5_0",
+      "name": "SM_Craft_C17_Terrain5_0",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 1062,
+      "triangles": 1256
+    },
+    {
+      "key": "Terrain5_1",
+      "name": "SM_Craft_C17_Terrain5_1",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 4478,
+      "triangles": 7108
+    },
+    {
+      "key": "Terrain5_2",
+      "name": "SM_Craft_C17_Terrain5_2",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5790,
+      "triangles": 9576
+    },
+    {
+      "key": "Terrain5_3",
+      "name": "SM_Craft_C17_Terrain5_3",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 6238,
+      "triangles": 10452
+    },
+    {
+      "key": "Terrain5_4",
+      "name": "SM_Craft_C17_Terrain5_4",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 5670,
+      "triangles": 9336
+    },
+    {
+      "key": "Terrain5_5",
+      "name": "SM_Craft_C17_Terrain5_5",
+      "tags": [
+        "Ground"
+      ],
+      "collision": true,
+      "materials": [
+        "C17_Moss",
+        "C13_Earth"
+      ],
+      "vertices": 2686,
+      "triangles": 3824
+    },
+    {
+      "key": "Paving0_0",
+      "name": "SM_Craft_C17_Paving0_0",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 148,
+      "triangles": 276
+    },
+    {
+      "key": "Paving0_1",
+      "name": "SM_Craft_C17_Paving0_1",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 700,
+      "triangles": 1296
+    },
+    {
+      "key": "Paving0_2",
+      "name": "SM_Craft_C17_Paving0_2",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 744,
+      "triangles": 1372
+    },
+    {
+      "key": "Paving0_3",
+      "name": "SM_Craft_C17_Paving0_3",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 744,
+      "triangles": 1372
+    },
+    {
+      "key": "Paving0_4",
+      "name": "SM_Craft_C17_Paving0_4",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 516,
+      "triangles": 956
+    },
+    {
+      "key": "Paving1_0",
+      "name": "SM_Craft_C17_Paving1_0",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 360,
+      "triangles": 672
+    },
+    {
+      "key": "Paving1_1",
+      "name": "SM_Craft_C17_Paving1_1",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 3452,
+      "triangles": 6400
+    },
+    {
+      "key": "Paving1_2",
+      "name": "SM_Craft_C17_Paving1_2",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 2440,
+      "triangles": 4580
+    },
+    {
+      "key": "Paving1_3",
+      "name": "SM_Craft_C17_Paving1_3",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 1504,
+      "triangles": 2776
+    },
+    {
+      "key": "Paving1_4",
+      "name": "SM_Craft_C17_Paving1_4",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 1760,
+      "triangles": 3248
+    },
+    {
+      "key": "Paving1_5",
+      "name": "SM_Craft_C17_Paving1_5",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 2160,
+      "triangles": 4008
+    },
+    {
+      "key": "Paving2_1",
+      "name": "SM_Craft_C17_Paving2_1",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 808,
+      "triangles": 1532
+    },
+    {
+      "key": "Paving2_2",
+      "name": "SM_Craft_C17_Paving2_2",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 3512,
+      "triangles": 6672
+    },
+    {
+      "key": "Paving2_3",
+      "name": "SM_Craft_C17_Paving2_3",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 5448,
+      "triangles": 10400
+    },
+    {
+      "key": "Paving2_4",
+      "name": "SM_Craft_C17_Paving2_4",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 2096,
+      "triangles": 3920
+    },
+    {
+      "key": "Paving2_5",
+      "name": "SM_Craft_C17_Paving2_5",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 1748,
+      "triangles": 3256
+    },
+    {
+      "key": "Paving3_4",
+      "name": "SM_Craft_C17_Paving3_4",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 848,
+      "triangles": 1600
+    },
+    {
+      "key": "Paving3_5",
+      "name": "SM_Craft_C17_Paving3_5",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 2072,
+      "triangles": 3840
+    },
+    {
+      "key": "Paving3_2",
+      "name": "SM_Craft_C17_Paving3_2",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 4256,
+      "triangles": 8084
+    },
+    {
+      "key": "Paving3_1",
+      "name": "SM_Craft_C17_Paving3_1",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 256,
+      "triangles": 476
+    },
+    {
+      "key": "Paving3_3",
+      "name": "SM_Craft_C17_Paving3_3",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 4720,
+      "triangles": 9036
+    },
+    {
+      "key": "Paving4_1",
+      "name": "SM_Craft_C17_Paving4_1",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 1508,
+      "triangles": 2776
+    },
+    {
+      "key": "Paving4_2",
+      "name": "SM_Craft_C17_Paving4_2",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 2172,
+      "triangles": 4052
+    },
+    {
+      "key": "Paving4_3",
+      "name": "SM_Craft_C17_Paving4_3",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 2236,
+      "triangles": 4148
+    },
+    {
+      "key": "Paving4_4",
+      "name": "SM_Craft_C17_Paving4_4",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 2816,
+      "triangles": 5205
+    },
+    {
+      "key": "Paving4_5",
+      "name": "SM_Craft_C17_Paving4_5",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 80,
+      "triangles": 148
+    },
+    {
+      "key": "Paving5_2",
+      "name": "SM_Craft_C17_Paving5_2",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 940,
+      "triangles": 1736
+    },
+    {
+      "key": "Paving5_3",
+      "name": "SM_Craft_C17_Paving5_3",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 1296,
+      "triangles": 2388
+    },
+    {
+      "key": "Paving5_4",
+      "name": "SM_Craft_C17_Paving5_4",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Stone"
+      ],
+      "vertices": 612,
+      "triangles": 1136
+    },
+    {
+      "key": "RootBed",
+      "name": "SM_Craft_C17_RootBed",
+      "tags": [],
+      "collision": false,
+      "materials": [
+        "C17_Moss"
+      ],
+      "vertices": 4224,
+      "triangles": 8192
+    },
+    {
+      "key": "BotanyClover2_2",
+      "name": "SM_Craft_C17_BotanyClover2_2",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Clover"
+      ],
+      "vertices": 1512,
+      "triangles": 1728
+    },
+    {
+      "key": "BotanyClover2_3",
+      "name": "SM_Craft_C17_BotanyClover2_3",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Clover"
+      ],
+      "vertices": 0,
+      "triangles": 0
+    },
+    {
+      "key": "BotanyClover3_2",
+      "name": "SM_Craft_C17_BotanyClover3_2",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Clover"
+      ],
+      "vertices": 2898,
+      "triangles": 3312
+    },
+    {
+      "key": "BotanyClover3_3",
+      "name": "SM_Craft_C17_BotanyClover3_3",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Clover"
+      ],
+      "vertices": 63,
+      "triangles": 72
+    },
+    {
+      "key": "BotanyClover3_4",
+      "name": "SM_Craft_C17_BotanyClover3_4",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Clover"
+      ],
+      "vertices": 6069,
+      "triangles": 6936
+    },
+    {
+      "key": "BotanyFern2_3",
+      "name": "SM_Craft_C17_BotanyFern2_3",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Fern"
+      ],
+      "vertices": 0,
+      "triangles": 0
+    },
+    {
+      "key": "BotanyFern2_4",
+      "name": "SM_Craft_C17_BotanyFern2_4",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Fern"
+      ],
+      "vertices": 9975,
+      "triangles": 11400
+    },
+    {
+      "key": "BotanyFern3_2",
+      "name": "SM_Craft_C17_BotanyFern3_2",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Fern"
+      ],
+      "vertices": 29946,
+      "triangles": 34224
+    },
+    {
+      "key": "BotanyFern3_3",
+      "name": "SM_Craft_C17_BotanyFern3_3",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Fern"
+      ],
+      "vertices": 0,
+      "triangles": 0
+    },
+    {
+      "key": "BotanyFern3_4",
+      "name": "SM_Craft_C17_BotanyFern3_4",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Fern"
+      ],
+      "vertices": 42693,
+      "triangles": 48792
+    },
+    {
+      "key": "BotanyGrass2_2",
+      "name": "SM_Craft_C17_BotanyGrass2_2",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Grass"
+      ],
+      "vertices": 2835,
+      "triangles": 3240
+    },
+    {
+      "key": "BotanyGrass2_3",
+      "name": "SM_Craft_C17_BotanyGrass2_3",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Grass"
+      ],
+      "vertices": 0,
+      "triangles": 0
+    },
+    {
+      "key": "BotanyGrass2_4",
+      "name": "SM_Craft_C17_BotanyGrass2_4",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Grass"
+      ],
+      "vertices": 6237,
+      "triangles": 7128
+    },
+    {
+      "key": "BotanyGrass3_2",
+      "name": "SM_Craft_C17_BotanyGrass3_2",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Grass"
+      ],
+      "vertices": 7539,
+      "triangles": 8616
+    },
+    {
+      "key": "BotanyGrass3_3",
+      "name": "SM_Craft_C17_BotanyGrass3_3",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Grass"
+      ],
+      "vertices": 0,
+      "triangles": 0
+    },
+    {
+      "key": "BotanyGrass3_4",
+      "name": "SM_Craft_C17_BotanyGrass3_4",
+      "tags": [
+        "Foliage",
+        "GroundCover"
+      ],
+      "collision": false,
+      "materials": [
+        "C13_Grass"
+      ],
+      "vertices": 16926,
+      "triangles": 19344
+    }
+  ],
+  "remove": [
+    "BotanyClover2_2",
+    "BotanyClover2_3",
+    "BotanyClover3_2",
+    "BotanyClover3_3",
+    "BotanyClover3_4",
+    "BotanyFern2_3",
+    "BotanyFern2_4",
+    "BotanyFern3_2",
+    "BotanyFern3_3",
+    "BotanyFern3_4",
+    "BotanyGrass2_2",
+    "BotanyGrass2_3",
+    "BotanyGrass2_4",
+    "BotanyGrass3_2",
+    "BotanyGrass3_3",
+    "BotanyGrass3_4",
+    "Paving0_0",
+    "Paving0_1",
+    "Paving0_2",
+    "Paving0_3",
+    "Paving0_4",
+    "Paving1_0",
+    "Paving1_1",
+    "Paving1_2",
+    "Paving1_3",
+    "Paving1_4",
+    "Paving1_5",
+    "Paving2_1",
+    "Paving2_2",
+    "Paving2_3",
+    "Paving2_4",
+    "Paving2_5",
+    "Paving3_1",
+    "Paving3_2",
+    "Paving3_3",
+    "Paving3_4",
+    "Paving3_5",
+    "Paving4_1",
+    "Paving4_2",
+    "Paving4_3",
+    "Paving4_4",
+    "Paving4_5",
+    "Paving5_2",
+    "Paving5_3",
+    "Paving5_4",
+    "Terrain0_0",
+    "Terrain0_1",
+    "Terrain0_2",
+    "Terrain0_3",
+    "Terrain0_4",
+    "Terrain0_5",
+    "Terrain1_0",
+    "Terrain1_1",
+    "Terrain1_2",
+    "Terrain1_3",
+    "Terrain1_4",
+    "Terrain1_5",
+    "Terrain1_6",
+    "Terrain2_0",
+    "Terrain2_1",
+    "Terrain2_2",
+    "Terrain2_3",
+    "Terrain2_4",
+    "Terrain2_5",
+    "Terrain2_6",
+    "Terrain3_0",
+    "Terrain3_1",
+    "Terrain3_2",
+    "Terrain3_3",
+    "Terrain3_4",
+    "Terrain3_5",
+    "Terrain3_6",
+    "Terrain4_0",
+    "Terrain4_1",
+    "Terrain4_2",
+    "Terrain4_3",
+    "Terrain4_4",
+    "Terrain4_5",
+    "Terrain4_6",
+    "Terrain5_0",
+    "Terrain5_1",
+    "Terrain5_2",
+    "Terrain5_3",
+    "Terrain5_4",
+    "Terrain5_5",
+    "TreeLeaves",
+    "TreePlanter",
+    "TreeWood"
+  ]
+}

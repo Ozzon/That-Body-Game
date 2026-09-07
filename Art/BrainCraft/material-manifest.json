@@ -1,0 +1,78 @@
+{
+  "Cortex": {
+    "roughness": 0.6200000047683716,
+    "emission": 0.0
+  },
+  "Stone": {
+    "roughness": 0.7799999713897705,
+    "emission": 0.0
+  },
+  "Trim": {
+    "roughness": 0.6800000071525574,
+    "emission": 0.0
+  },
+  "Moss": {
+    "roughness": 0.9599999785423279,
+    "emission": 0.0
+  },
+  "Earth": {
+    "roughness": 0.9399999976158142,
+    "emission": 0.0
+  },
+  "Bark": {
+    "roughness": 0.6700000166893005,
+    "emission": 0.0
+  },
+  "Leaf": {
+    "roughness": 0.49000000953674316,
+    "emission": 0.11999999731779099
+  },
+  "Light": {
+    "roughness": 0.3499999940395355,
+    "emission": 3.0
+  },
+  "Water": {
+    "roughness": 0.1899999976158142,
+    "emission": 0.15000000596046448
+  },
+  "Foam": {
+    "roughness": 0.550000011920929,
+    "emission": 0.30000001192092896
+  },
+  "Violet": {
+    "roughness": 0.5600000023841858,
+    "emission": 0.14000000059604645
+  },
+  "Current": {
+    "roughness": 0.4000000059604645,
+    "emission": 2.299999952316284
+  },
+  "Sage": {
+    "roughness": 0.8899999856948853,
+    "emission": 0.0
+  },
+  "Linen": {
+    "roughness": 0.8899999856948853,
+    "emission": 0.0
+  },
+  "Leather": {
+    "roughness": 0.7599999904632568,
+    "emission": 0.0
+  },
+  "Face": {
+    "roughness": 0.5,
+    "emission": 0.6000000238418579
+  },
+  "Ink": {
+    "roughness": 0.44999998807907104,
+    "emission": 0.0
+  },
+  "Fern": {
+    "roughness": 0.699999988079071,
+    "emission": 0.0
+  },
+  "Blossom": {
+    "roughness": 0.6200000047683716,
+    "emission": 0.0
+  }
+}

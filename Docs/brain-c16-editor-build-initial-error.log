@@ -1,0 +1,71 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ThatBodyGameEditor Win64 Development "-Project=C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+  Executing up to 14 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game).
+UbaServer - Listening on 0.0.0.0:1345
+Building ThatBodyGameEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from ThatBodyGame unity file: BodyAdventure.cpp, BodyAdventureHUD.cpp, BodyAdventureReview.cpp, BodyGeometry.cpp, BodyHUD.cpp, BodyOcclusion.cpp, BodyPlay.cpp, BodySmoke.cpp, BrainCraft.cpp, BrainCraftExploration.cpp, BrainCraftReview.cpp, BrainGardenReview.cpp, HeartStudy.cpp, HeartStudyHUD.cpp, HeartStudySmoke.cpp, AttentionCape.cpp, BWBipedGait.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 14 physical cores, 20 logical cores
+  Memory 63.71 GB physical, 30.89 GB/67.71 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] BrainCraftReview.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(22,85): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+        auto Keys=[&](TSet<FKey> Want){for(FKey K:TestKeys)if(!Want.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Released,0,false));for(FKey K:Want)if(!TestKeys.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Pressed,1,false));TestKeys=Want;};
+                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,195): error C2664: 'FString FString::Printf<int32>(UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>,int32)': cannot convert argument 1 from 'const wchar_t *' to 'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>'
+        if(Age-Stage*9>6&&CaptureStage<Stage){CaptureStage=Stage;FScreenshotRequest::RequestScreenshot(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("Screenshots/"))+FString::Printf(CastPortraits?TEXT("Cast-C16-%02d.png"):TEXT("Brain-C16-%02d.png"),Stage+1),false,false);}
+                                                                                                                                                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: 'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>::TCheckedFormatStringPrivate': no overloaded function could convert all the argument types
+        if(Age-Stage*9>6&&CaptureStage<Stage){CaptureStage=Stage;FScreenshotRequest::RequestScreenshot(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("Screenshots/"))+FString::Printf(CastPortraits?TEXT("Cast-C16-%02d.png"):TEXT("Brain-C16-%02d.png"),Stage+1),false,false);}
+                                                                                                                                                                                                                      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\String\FormatStringSan.h(521,1): note: could be 'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>::TCheckedFormatStringPrivate(UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int> &&)'
+		};
+^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: 'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>::TCheckedFormatStringPrivate(UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int> &&)': cannot convert argument 1 from 'const wchar_t *' to 'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int> &&'
+        if(Age-Stage*9>6&&CaptureStage<Stage){CaptureStage=Stage;FScreenshotRequest::RequestScreenshot(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("Screenshots/"))+FString::Printf(CastPortraits?TEXT("Cast-C16-%02d.png"):TEXT("Brain-C16-%02d.png"),Stage+1),false,false);}
+                                                                                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: Reason: cannot convert from 'const wchar_t *' to 'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>'
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\String\FormatStringSan.h(521,1): note: or       'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>::TCheckedFormatStringPrivate(const UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int> &)'
+		};
+^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: 'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>::TCheckedFormatStringPrivate(const UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int> &)': cannot convert argument 1 from 'const wchar_t *' to 'const UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int> &'
+        if(Age-Stage*9>6&&CaptureStage<Stage){CaptureStage=Stage;FScreenshotRequest::RequestScreenshot(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("Screenshots/"))+FString::Printf(CastPortraits?TEXT("Cast-C16-%02d.png"):TEXT("Brain-C16-%02d.png"),Stage+1),false,false);}
+                                                                                                                                                                                                                      ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: Reason: cannot convert from 'const wchar_t *' to 'const UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>'
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\String\FormatStringSan.h(488,4): note: or       'UE::Core::Private::FormatStringSan::TCheckedFormatStringPrivate<FString::FmtCharType,int>::TCheckedFormatStringPrivate(const CharType (&)[N])'
+        with
+        [
+            CharType=FString::FmtCharType
+        ]
+			consteval TCheckedFormatStringPrivate(const CharType (&Fmt)[N])
+			^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,215): note: while trying to match the argument list '(const wchar_t *)'
+        if(Age-Stage*9>6&&CaptureStage<Stage){CaptureStage=Stage;FScreenshotRequest::RequestScreenshot(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("Screenshots/"))+FString::Printf(CastPortraits?TEXT("Cast-C16-%02d.png"):TEXT("Brain-C16-%02d.png"),Stage+1),false,false);}
+                                                                                                                                                                                                                      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Containers\UnrealString.h.inl(1376,39): note: see declaration of 'FString::Printf'
+	[[nodiscard]] static UE_STRING_CLASS Printf(UE::Core::TCheckedFormatString<FmtCharType, Types...> Fmt, Types... Args)
+	                                     ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,195): note: while trying to match the argument list '(const wchar_t *, int)'
+        if(Age-Stage*9>6&&CaptureStage<Stage){CaptureStage=Stage;FScreenshotRequest::RequestScreenshot(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("Screenshots/"))+FString::Printf(CastPortraits?TEXT("Cast-C16-%02d.png"):TEXT("Brain-C16-%02d.png"),Stage+1),false,false);}
+                                                                                                                                                                                                  ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(79,185): error C2088: built-in operator '+' cannot be applied to an operand of type 'FString'
+        if(Age-Stage*9>6&&CaptureStage<Stage){CaptureStage=Stage;FScreenshotRequest::RequestScreenshot(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()/TEXT("Screenshots/"))+FString::Printf(CastPortraits?TEXT("Cast-C16-%02d.png"):TEXT("Brain-C16-%02d.png"),Stage+1),false,false);}
+                                                                                                                                                                                        ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(83,81): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    auto Keys=[&](TSet<FKey> Want){for(FKey K:TestKeys)if(!Want.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Released,0,false));for(FKey K:Want)if(!TestKeys.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Pressed,1,false));TestKeys=Want;};
+                                                                                ^
+Total time in Unreal Build Accelerator local executor: 1.11 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 2.04 seconds
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 13.6kb

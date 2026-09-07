@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Tools\author_c14_garden.py", line 4, in <module>
+    from scipy.ndimage import map_coordinates
+ModuleNotFoundError: No module named 'scipy'

@@ -1,0 +1,546 @@
+[
+  {
+    "name": "SM_Craft_Cortex-1-1",
+    "key": "Cortex-1-1",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "Cortex"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cortex-11",
+    "key": "Cortex-11",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "Cortex"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cortex1-1",
+    "key": "Cortex1-1",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "Cortex"
+    ]
+  },
+  {
+    "name": "SM_Craft_Cortex11",
+    "key": "Cortex11",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "Cortex"
+    ]
+  },
+  {
+    "name": "SM_Craft_EarthPath",
+    "key": "EarthPath",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "Earth"
+    ]
+  },
+  {
+    "name": "SM_Craft_Ground",
+    "key": "Ground",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "Moss"
+    ]
+  },
+  {
+    "name": "SM_Craft_Water",
+    "key": "Water",
+    "spawn": true,
+    "tags": [
+      "Water"
+    ],
+    "materials": [
+      "Water"
+    ]
+  },
+  {
+    "name": "SM_Craft_Paving",
+    "key": "Paving",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_TreePlanter",
+    "key": "TreePlanter",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusCoping",
+    "key": "LotusCoping",
+    "spawn": true,
+    "tags": [
+      "Ground"
+    ],
+    "materials": [
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_RetainingWalls",
+    "key": "RetainingWalls",
+    "spawn": true,
+    "tags": [
+      "Occluder"
+    ],
+    "materials": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_TreeWood",
+    "key": "TreeWood",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Bark"
+    ]
+  },
+  {
+    "name": "SM_Craft_TreeLeaves",
+    "key": "TreeLeaves",
+    "spawn": true,
+    "tags": [
+      "Occluder",
+      "Foliage"
+    ],
+    "materials": [
+      "Leaf"
+    ]
+  },
+  {
+    "name": "SM_Craft_LeafVeins",
+    "key": "LeafVeins",
+    "spawn": true,
+    "tags": [
+      "Occluder",
+      "Foliage"
+    ],
+    "materials": [
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_TreeLight",
+    "key": "TreeLight",
+    "spawn": true,
+    "tags": [
+      "Interactive",
+      "Glow"
+    ],
+    "materials": [
+      "Light"
+    ]
+  },
+  {
+    "name": "SM_Craft_Nest0",
+    "key": "Nest0",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Violet"
+    ]
+  },
+  {
+    "name": "SM_Craft_NestGlow0",
+    "key": "NestGlow0",
+    "spawn": true,
+    "tags": [
+      "Interactive",
+      "Glow"
+    ],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_Nest1",
+    "key": "Nest1",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Violet"
+    ]
+  },
+  {
+    "name": "SM_Craft_NestGlow1",
+    "key": "NestGlow1",
+    "spawn": true,
+    "tags": [
+      "Interactive",
+      "Glow"
+    ],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_Nest2",
+    "key": "Nest2",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Violet"
+    ]
+  },
+  {
+    "name": "SM_Craft_NestGlow2",
+    "key": "NestGlow2",
+    "spawn": true,
+    "tags": [
+      "Interactive",
+      "Glow"
+    ],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal0",
+    "key": "LotusPetal0",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal1",
+    "key": "LotusPetal1",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal2",
+    "key": "LotusPetal2",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal3",
+    "key": "LotusPetal3",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal4",
+    "key": "LotusPetal4",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal5",
+    "key": "LotusPetal5",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal6",
+    "key": "LotusPetal6",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal7",
+    "key": "LotusPetal7",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPetal8",
+    "key": "LotusPetal8",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusPlinth",
+    "key": "LotusPlinth",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Stone"
+    ]
+  },
+  {
+    "name": "SM_Craft_LotusSeed",
+    "key": "LotusSeed",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Light"
+    ]
+  },
+  {
+    "name": "SM_Craft_RootBridge",
+    "key": "RootBridge",
+    "spawn": true,
+    "tags": [
+      "Shortcut",
+      "Ground"
+    ],
+    "materials": [
+      "Bark"
+    ]
+  },
+  {
+    "name": "SM_Craft_RootBridgeEdges",
+    "key": "RootBridgeEdges",
+    "spawn": true,
+    "tags": [
+      "Shortcut"
+    ],
+    "materials": [
+      "Bark"
+    ]
+  },
+  {
+    "name": "SM_Craft_GardenBeds",
+    "key": "GardenBeds",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "Moss"
+    ]
+  },
+  {
+    "name": "SM_Craft_Flowers",
+    "key": "Flowers",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_FernBeds",
+    "key": "FernBeds",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "Fern"
+    ]
+  },
+  {
+    "name": "SM_Craft_GardenBlossoms",
+    "key": "GardenBlossoms",
+    "spawn": true,
+    "tags": [],
+    "materials": [
+      "Blossom"
+    ]
+  },
+  {
+    "name": "SM_Craft_ArrivalGate",
+    "key": "ArrivalGate",
+    "spawn": true,
+    "tags": [
+      "Interactive"
+    ],
+    "materials": [
+      "Stone",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtStar",
+    "key": "ThoughtStar",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Light"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtFaceBright",
+    "key": "ThoughtFaceBright",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Ink"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtFaceCloud",
+    "key": "ThoughtFaceCloud",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Ink"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtCloud",
+    "key": "ThoughtCloud",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Violet"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtKnot",
+    "key": "ThoughtKnot",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_ThoughtWisp",
+    "key": "ThoughtWisp",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Current"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionHead",
+    "key": "AttentionHead",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Linen",
+      "Face"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionEyes",
+    "key": "AttentionEyes",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Ink"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionCape",
+    "key": "AttentionCape",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Trim"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionBody",
+    "key": "AttentionBody",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Linen"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionArmL",
+    "key": "AttentionArmL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Linen"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionBootL",
+    "key": "AttentionBootL",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Leather",
+      "Linen"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionArmR",
+    "key": "AttentionArmR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Sage",
+      "Linen"
+    ]
+  },
+  {
+    "name": "SM_Craft_AttentionBootR",
+    "key": "AttentionBootR",
+    "spawn": false,
+    "tags": [],
+    "materials": [
+      "Leather",
+      "Linen"
+    ]
+  }
+]

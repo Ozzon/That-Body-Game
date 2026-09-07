@@ -8,3 +8,10 @@ Builds/
 *.suo
 *.VC.db
 *.pdb
+
+# Rebuildable Python caches.
+__pycache__/
+*.py[cod]
+
+# Downloaded Figma session page; reference exports are kept in Docs/References.
+/figma-public.html

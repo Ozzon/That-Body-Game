@@ -1,0 +1,51 @@
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16ThoughtStar.fbx'
+export finished in 0.0211 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16ThoughtCloud.fbx'
+export finished in 0.0647 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16ThoughtWisp.fbx'
+export finished in 0.0584 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16ThoughtKnot.fbx'
+export finished in 0.0211 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16EyeBright.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16EyeCloud.fbx'
+export finished in 0.0077 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16EyeWisp.fbx'
+export finished in 0.0100 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16FaceBright.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16FaceCloud.fbx'
+export finished in 0.0082 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16FaceWisp.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16FaceKnot.fbx'
+export finished in 0.0051 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16WispThread0.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16WispThread1.fbx'
+export finished in 0.0064 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC16\\SM_Craft_C16WispThread2.fbx'
+export finished in 0.0080 sec.
+Info: Saved as "Thought_Cast_C16.blend"
+C16_EDITABLE_CAST_READY {"Bright": [[24.179092407226562, -13, 3], [24.179092407226562, 13, 3]], "Cloud": [[38.114410400390625, -19, 1], [39.625457763671875, 19, 1]], "Wisp": [[16.826095581054688, -9, 1], [17.985153198242188, 9, 1]]}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

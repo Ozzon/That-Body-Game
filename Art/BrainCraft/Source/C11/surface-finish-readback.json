@@ -1,0 +1,11 @@
+{
+  "texture": "/Game/BrainCraft/Textures/T_C11_Limestone_BaseColor.T_C11_Limestone_BaseColor",
+  "errors": {
+    "Paving": [],
+    "Coping": [],
+    "Masonry": [],
+    "BarkWood": [],
+    "BarkRidge": []
+  },
+  "shading": "Default Lit with painted triplanar pigment and derivative normal"
+}

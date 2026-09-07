@@ -1,0 +1,35 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ThatBodyGameEditor Win64 Development "-Project=C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+  Executing up to 14 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game).
+UbaServer - Listening on 0.0.0.0:1345
+Building ThatBodyGameEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from ThatBodyGame unity file: BodyAdventure.cpp, BodyAdventureHUD.cpp, BodyAdventureReview.cpp, BodyGeometry.cpp, BodyHUD.cpp, BodyOcclusion.cpp, BodyPlay.cpp, BodySmoke.cpp, BrainCraft.cpp, BrainCraftExploration.cpp, BrainCraftReview.cpp, BrainGardenReview.cpp, HeartStudy.cpp, HeartStudyHUD.cpp, HeartStudySmoke.cpp, AttentionCape.cpp, BWBipedGait.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 14 physical cores, 20 logical cores
+  Memory 63.71 GB physical, 31.22 GB/67.71 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] BrainCraftReview.cpp
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(22,85): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+        auto Keys=[&](TSet<FKey> Want){for(FKey K:TestKeys)if(!Want.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Released,0,false));for(FKey K:Want)if(!TestKeys.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Pressed,1,false));TestKeys=Want;};
+                                                                                    ^
+C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Source\ThatBodyGame\BrainCraftReview.cpp(83,81): warning C4996: 'APlayerController::InputKey': Use the version which takes a FInputKeyEventArgs instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    auto Keys=[&](TSet<FKey> Want){for(FKey K:TestKeys)if(!Want.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Released,0,false));for(FKey K:Want)if(!TestKeys.Contains(K))PC->InputKey(FInputKeyParams(K,IE_Pressed,1,false));TestKeys=Want;};
+                                                                                ^
+[2/4] Link [x64] UnrealEditor-ThatBodyGame.lib
+[3/4] Link [x64] UnrealEditor-ThatBodyGame.dll
+[4/4] WriteMetadata ThatBodyGameEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 4.44 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 5.37 seconds
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 5.6kb

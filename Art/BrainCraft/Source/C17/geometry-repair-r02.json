@@ -1,0 +1,19 @@
+{
+  "removed_voxel_tip_fragments": 76,
+  "removed_vertices": 788,
+  "TreeWood": {
+    "vertices": 181736,
+    "down_faces": 39086
+  },
+  "RootBed": {
+    "vertices": 4097,
+    "down_faces": 0
+  },
+  "empty_foliage_removed": [
+    "SM_Craft_C17_BotanyClover2_3",
+    "SM_Craft_C17_BotanyFern2_3",
+    "SM_Craft_C17_BotanyFern3_3",
+    "SM_Craft_C17_BotanyGrass2_3",
+    "SM_Craft_C17_BotanyGrass3_3"
+  ]
+}

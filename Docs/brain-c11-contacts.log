@@ -1,0 +1,43 @@
+00:02.562  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C11.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_AttentionThighL.fbx'
+export finished in 0.0046 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_AttentionShinL.fbx'
+export finished in 0.0038 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_AttentionThighR.fbx'
+export finished in 0.0035 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_AttentionShinR.fbx'
+export finished in 0.0040 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass0.fbx'
+export finished in 0.3737 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass1.fbx'
+export finished in 0.2648 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass2.fbx'
+export finished in 0.3693 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_GardenGrass3.fbx'
+export finished in 0.5930 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_FXRipple.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_FXPetal.fbx'
+export finished in 0.0073 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_FXPollen.fbx'
+export finished in 0.0051 sec.
+Info: Saved as "Brain_Craft_C11.blend"
+C11_CONTACT_PATCH_READY ['AttentionThighL', 'AttentionShinL', 'AttentionThighR', 'AttentionShinR', 'GardenGrass0', 'GardenGrass1', 'GardenGrass2', 'GardenGrass3', 'FXRipple', 'FXPetal', 'FXPollen']
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

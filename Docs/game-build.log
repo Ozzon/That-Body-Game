@@ -1,0 +1,41 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ThatBodyGame Win64 Development "-Project=C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\ThatBodyGame.uproject" -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (14 physical cores, 20 logical cores)
+  Executing up to 14 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game).
+Creating makefile for ThatBodyGame (no existing makefile)
+UbaServer - Listening on 0.0.0.0:1345
+UHT compiled-in object format Default
+Building ThatBodyGame...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35228 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 15 action(s)
+  CPU 14 physical cores, 20 logical cores
+  Memory 63.71 GB physical, 46 GB/67.71 GB committed
+  UBA Storage capacity 40 GB
+[1/15] Copy ThatBodyGame-Default.rc2
+[2/15] Copy tbbmalloc.dll
+[3/15] Copy d3d12SDKLayers.dll
+[4/15] Copy tbb12.dll
+[5/15] Copy D3D12Core.dll
+[6/15] Copy DirectML.dll
+[7/15] Compile Resource [x64] ThatBodyGame-Default.rc2
+[8/15] Compile [x64] SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.cpp
+[9/15] Compile [x64] ThatBodyGame.cpp
+[10/15] Compile [x64] Module.ThatBodyGame.gen.cpp
+[11/15] Compile [x64] BodyHUD.cpp
+[12/15] Compile [x64] BodyPlay.cpp
+[13/15] Compile [x64] BodyGeometry.cpp
+[14/15] Link [x64] ThatBodyGame.exe
+[15/15] WriteMetadata ThatBodyGame.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 75.24 seconds
+Output binary: C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Binaries\Win64\ThatBodyGame.exe
+
+Result: Succeeded
+Total execution time: 80.09 seconds
+Trace written to file C:\Users\Gamescom 2023 #1\AppData\Local\UnrealBuildTool\Trace.uba with size 12.9kb

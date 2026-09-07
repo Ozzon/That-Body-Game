@@ -1,0 +1,18 @@
+{
+  "tree_vertices": 182524,
+  "leaves": 493,
+  "stones": 1636,
+  "terrain_chunks": 40,
+  "root_radius_cm": 323,
+  "clear_walking_ring_cm": [
+    345,
+    990
+  ],
+  "tree_care_position": [
+    0,
+    -365,
+    520
+  ],
+  "max_ground_relief_cm": 4.8,
+  "art_accepted": false
+}

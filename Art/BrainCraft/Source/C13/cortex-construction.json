@@ -1,0 +1,13 @@
+{
+  "keys": [
+    "Cortex11",
+    "Cortex-11",
+    "Cortex-1-1",
+    "Cortex1-1"
+  ],
+  "closed_quadrants": true,
+  "inner_boundary": "C13 terrain / authored brain outline",
+  "fold_strokes": 49,
+  "walking_intrusion_cm": 0,
+  "art_accepted": false
+}

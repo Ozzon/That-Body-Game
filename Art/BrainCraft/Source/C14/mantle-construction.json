@@ -1,0 +1,13 @@
+{
+  "keys": [
+    "Cortex11",
+    "Cortex-11",
+    "Cortex-1-1",
+    "Cortex1-1"
+  ],
+  "fold_lines": 86,
+  "branch_folds": 258,
+  "nominal_crown_rise_cm": 820,
+  "nominal_belly_depth_cm": 1120,
+  "art_accepted": false
+}

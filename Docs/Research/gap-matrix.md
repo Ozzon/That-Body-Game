@@ -1,0 +1,15 @@
+# Research reconciliation — 7 September 2026
+
+| Decision / claim | Evidence | Confidence / conflict | Resolution |
+|---|---|---|---|
+| Figma requires actual places embedded in recognizable organs | Local refs 358, 384, 275, 307, 354, 330, 356, 368; user rejects generic shapes | High; Figma contains several alternative art families | Use the approved heart's sculptural material baseline; refs 358/384 for brain geography, 275/307 for the tree/thought system, 354 for lung branching. Other images supply specific details, not competing silhouettes. |
+| More detail alone will not solve fidelity | Nintendo Link's Awakening art director; Tunic designer interview; direct model/reference comparison | High; no universal ideal asset count | Review silhouette, landform, hero asset, path connections and materials in that order. Current C03 brain is still an unapproved study. |
+| A location needs meaningful traversal and restoration | Hob lead designer; Cocoon creators; Double Fine first-playable account | High | Arrival, need, choice, action, physical response, shortcut, revisit. Every organ gets these beats. |
+| Scale should follow player movement | Double Fine Episode 2 | High; sources provide no transferable dimensions | Use existing Attention width/height and speed; proposed dimensions are design targets and require measured walking tests. |
+| Full locations and rapid repeated care can coexist | Hob return shortcuts + owner design-v11 daily events | Design inference | First-visit exploration loops plus unlocked express returns; no arbitrary compulsory re-traversal during timed events. |
+| Body must remain recognizable without literal microscopic scale | NIH organ structure + supplied visual metaphors | High anatomy, artistic scale inferred | Preserve position, silhouette, subdivision and connection roles; consciously enlarge microstructure into architecture. |
+| All paths are anatomically real | NIH air/blood/food/urine routes contradict a shared open walkway | False if literal | Light bridges are the fantasy Attention network. Anatomical flows remain distinct subordinate animated systems. |
+| Adrenals produce vagal hormones; theta permanently dissolves thoughts | SEER adrenal anatomy; NCCIH meditation evidence | Unsupported / incorrect source-document assertions | Use fictional calm signals and clarity ripples. Do not describe gameplay effects as established physiology. |
+| Existing source model matches Figma | Direct visual comparison of C01–C03 | False | Retain as rejected study/evidence; do not use a successful export or navigation report as visual acceptance. |
+
+Two independent research lanes completed two waves each: primary game-development practice, and primary anatomical structure/function. Coordinator checked highest-impact developer and NIH claims directly and reviewed the local reference package at full resolution. Search gaps now concern the actual implementation, not a shortage of inspirational games. Additional broad searches would not change the central decisions; stop discovery and synthesize.

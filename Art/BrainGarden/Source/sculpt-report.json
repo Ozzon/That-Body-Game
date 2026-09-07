@@ -1,0 +1,16 @@
+{
+  "vertices": 261642,
+  "triangles": 523310,
+  "watertight": false,
+  "navigation_components": 1,
+  "folds": 73,
+  "tree": [
+    0,
+    0
+  ],
+  "sources": [
+    358,
+    384,
+    307
+  ]
+}

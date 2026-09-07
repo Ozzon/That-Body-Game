@@ -1,0 +1,40 @@
+00:02.156  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C11.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_Understory.fbx'
+export finished in 0.1111 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_UnderstoryLeaves.fbx'
+export finished in 0.1691 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_UnderstoryFlowers.fbx'
+export finished in 0.0207 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ThoughtCloud.fbx'
+export finished in 0.0362 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ThoughtWisp.fbx'
+export finished in 0.0335 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ThoughtWisp.fbx'
+export finished in 0.0507 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ThoughtKnot.fbx'
+export finished in 0.0096 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ThoughtFaceCloud.fbx'
+export finished in 0.0038 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ThoughtFaceWisp.fbx'
+export finished in 0.0043 sec.
+
+FBX export starting... 'C:\\Users\\Gamescom 2023 #1\\Documents\\ChatGPT\\That Body Game\\Art\\BrainCraft\\ExportC11\\SM_Craft_ThoughtFaceKnot.fbx'
+export finished in 0.0060 sec.
+Info: Saved as "Brain_Craft_C11.blend"
+C11_ECOLOGY_AND_REFERENCE_THOUGHTS_READY ['Understory', 'UnderstoryLeaves', 'UnderstoryFlowers', 'ThoughtCloud', 'ThoughtWisp', 'ThoughtWisp', 'ThoughtKnot', 'ThoughtFaceCloud', 'ThoughtFaceWisp', 'ThoughtFaceKnot']
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

@@ -1,0 +1,9 @@
+00:02.172  blend            | Read blend: "C:\Users\Gamescom 2023 #1\Documents\ChatGPT\That Body Game\Art\BrainCraft\Brain_Craft_C15.blend"
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+C16_COSTUME_INSPECTION {"AttentionCape": {"bounds": [[-56.899993896484375, -50.899688720703125, 37.24193572998047], [39.49176025390625, 50.899688720703125, 111.0]], "source_vertices": 3758, "evaluated_triangles": 14596, "coincident_triangles": 0, "materials": ["Sage", "Linen", "Trim"], "modifiers": ["SOLIDIFY"]}, "AttentionBody": {"bounds": [[-36.43013381958008, -40.394649505615234, 34.0], [37.7400016784668, 40.394649505615234, 119.0]], "source_vertices": 6663, "evaluated_triangles": 26544, "coincident_triangles": 0, "materials": ["Linen", "Leather", "Trim"], "modifiers": ["SOLIDIFY"]}, "AttentionHead": {"bounds": [[-53.0, -50.48507308959961, 80.0423812866211], [41.99964904785156, 50.94235610961914, 190.72157287597656]], "source_vertices": 7360, "evaluated_triangles": 14148, "coincident_triangles": 0, "materials": ["Sage", "Linen", "Face", "Trim"], "modifiers": []}, "AttentionEyes": {"bounds": [[41.56867599487305, -15.264300346374512, 128.11279296875], [44.43132400512695, 14.954510688781738, 139.88720703125]], "source_vertices": 680, "evaluated_triangles": 1280, "coincident_triangles": 0, "materials": ["Ink"], "modifiers": []}}
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

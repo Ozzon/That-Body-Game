@@ -1,0 +1,18 @@
+import unreal
+lib=unreal.MaterialEditingLibrary
+mat=unreal.load_asset('/Game/Materials/M_LightBridge')
+if not mat:mat=unreal.AssetToolsHelpers.get_asset_tools().create_asset('M_LightBridge','/Game/Materials',unreal.Material,unreal.MaterialFactoryNew())
+lib.delete_all_material_expressions(mat)
+mat.set_editor_property('blend_mode',unreal.BlendMode.BLEND_TRANSLUCENT)
+mat.set_editor_property('shading_model',unreal.MaterialShadingModel.MSM_UNLIT)
+mat.set_editor_property('two_sided',True)
+c=lib.create_material_expression(mat,unreal.MaterialExpressionConstant3Vector,-400,0);c.set_editor_property('constant',unreal.LinearColor(.48,1.15,1.05,1))
+lib.connect_material_property(c,'',unreal.MaterialProperty.MP_EMISSIVE_COLOR)
+uv=lib.create_material_expression(mat,unreal.MaterialExpressionTextureCoordinate,-600,250)
+opacity=lib.create_material_expression(mat,unreal.MaterialExpressionCustom,-200,250)
+opacity.set_editor_property('output_type',unreal.CustomMaterialOutputType.CMOT_FLOAT1)
+i=unreal.CustomInput();i.set_editor_property('input_name','UV');opacity.set_editor_property('inputs',[i])
+opacity.set_editor_property('code','return smoothstep(0.0,0.20,min(UV.x,1.0-UV.x))*0.48;')
+lib.connect_material_expressions(uv,'',opacity,'UV');lib.connect_material_property(opacity,'',unreal.MaterialProperty.MP_OPACITY)
+lib.recompile_material(mat);unreal.EditorAssetLibrary.save_loaded_asset(mat)
+unreal.log('BODY_LIGHT_BRIDGES_READY')

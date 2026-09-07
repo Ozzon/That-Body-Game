@@ -1,0 +1,44 @@
+{
+  "Cortex-1-1": [
+    38307,
+    75985
+  ],
+  "Cortex-11": [
+    52052,
+    103374
+  ],
+  "Cortex1-1": [
+    43990,
+    87481
+  ],
+  "Cortex11": [
+    55442,
+    110264
+  ],
+  "Ground": [
+    105427,
+    206566
+  ],
+  "Water": [
+    8413,
+    15546
+  ],
+  "EarthPath": [
+    53181,
+    102230
+  ],
+  "stones": 215,
+  "navigable_area_m2": 1297.76,
+  "connected_fraction": 1.0,
+  "designed_path_width_cm": 510,
+  "character_diameter_cm": 68,
+  "terrain_elevation_cm": [
+    140,
+    520,
+    950,
+    1100
+  ],
+  "maximum_navigable_slope_degrees": 38.99075308569438,
+  "reference": "Concept/Brain-Location-Key-Art.png",
+  "art_accepted": false
+}

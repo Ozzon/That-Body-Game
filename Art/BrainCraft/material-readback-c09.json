@@ -1,0 +1,263 @@
+{
+  "SM_Craft_Cortex-1-1": [
+    "/Game/BrainCraft/Materials/M_Craft_Cortex.M_Craft_Cortex"
+  ],
+  "SM_Craft_Cortex-11": [
+    "/Game/BrainCraft/Materials/M_Craft_Cortex.M_Craft_Cortex"
+  ],
+  "SM_Craft_Cortex1-1": [
+    "/Game/BrainCraft/Materials/M_Craft_Cortex.M_Craft_Cortex"
+  ],
+  "SM_Craft_Cortex11": [
+    "/Game/BrainCraft/Materials/M_Craft_Cortex.M_Craft_Cortex"
+  ],
+  "SM_Craft_EarthPath": [
+    "/Game/BrainCraft/Materials/M_Craft_Earth.M_Craft_Earth"
+  ],
+  "SM_Craft_Ground": [
+    "/Game/BrainCraft/Materials/M_Craft_Moss.M_Craft_Moss",
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone"
+  ],
+  "SM_Craft_Water": [
+    "/Game/BrainCraft/Materials/M_Craft_Water.M_Craft_Water"
+  ],
+  "SM_Craft_Paving": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone"
+  ],
+  "SM_Craft_TreePlanter": [
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_LotusCoping": [
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_RetainingWalls": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone"
+  ],
+  "SM_Craft_UpperSpringBank": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_UpperSpringWater": [
+    "/Game/BrainCraft/Materials/M_Craft_Water.M_Craft_Water"
+  ],
+  "SM_Craft_MiddleSpringBank": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_MiddleSpringWater": [
+    "/Game/BrainCraft/Materials/M_Craft_Water.M_Craft_Water"
+  ],
+  "SM_Craft_UpperCascade": [
+    "/Game/BrainCraft/Materials/M_Craft_Water.M_Craft_Water"
+  ],
+  "SM_Craft_UpperCascadeFoam": [
+    "/Game/BrainCraft/Materials/M_Craft_Foam.M_Craft_Foam"
+  ],
+  "SM_Craft_LowerCascade": [
+    "/Game/BrainCraft/Materials/M_Craft_Water.M_Craft_Water"
+  ],
+  "SM_Craft_LowerCascadeFoam": [
+    "/Game/BrainCraft/Materials/M_Craft_Foam.M_Craft_Foam"
+  ],
+  "SM_Craft_SpringLantern": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone",
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_StreamBanks": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone"
+  ],
+  "SM_Craft_BankMoss": [
+    "/Game/BrainCraft/Materials/M_Craft_Moss.M_Craft_Moss"
+  ],
+  "SM_Craft_RakedSand": [
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen"
+  ],
+  "SM_Craft_SandGrooves": [
+    "/Game/BrainCraft/Materials/M_Craft_Earth.M_Craft_Earth"
+  ],
+  "SM_Craft_TreeWood": [
+    "/Game/BrainCraft/Materials/M_Craft_Bark.M_Craft_Bark"
+  ],
+  "SM_Craft_TreeLeaves": [
+    "/Game/BrainCraft/Materials/M_Craft_Leaf.M_Craft_Leaf"
+  ],
+  "SM_Craft_LeafVeins": [
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_TreeLight": [
+    "/Game/BrainCraft/Materials/M_Craft_Light.M_Craft_Light"
+  ],
+  "SM_Craft_Nest0": [
+    "/Game/BrainCraft/Materials/M_Craft_Violet.M_Craft_Violet"
+  ],
+  "SM_Craft_NestGlow0": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_Nest1": [
+    "/Game/BrainCraft/Materials/M_Craft_Violet.M_Craft_Violet"
+  ],
+  "SM_Craft_NestGlow1": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_Nest2": [
+    "/Game/BrainCraft/Materials/M_Craft_Violet.M_Craft_Violet"
+  ],
+  "SM_Craft_NestGlow2": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal0": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal1": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal2": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal3": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal4": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal5": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal6": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal7": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPetal8": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_LotusPlinth": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone"
+  ],
+  "SM_Craft_LotusSeed": [
+    "/Game/BrainCraft/Materials/M_Craft_Light.M_Craft_Light"
+  ],
+  "SM_Craft_RootBridge": [
+    "/Game/BrainCraft/Materials/M_Craft_Bark.M_Craft_Bark"
+  ],
+  "SM_Craft_RootBridgeEdges": [
+    "/Game/BrainCraft/Materials/M_Craft_Bark.M_Craft_Bark"
+  ],
+  "SM_Craft_GardenBeds": [
+    "/Game/BrainCraft/Materials/M_Craft_Moss.M_Craft_Moss"
+  ],
+  "SM_Craft_Flowers": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_FernBeds": [
+    "/Game/BrainCraft/Materials/M_Craft_Fern.M_Craft_Fern"
+  ],
+  "SM_Craft_GardenBlossoms": [
+    "/Game/BrainCraft/Materials/M_Craft_Blossom.M_Craft_Blossom"
+  ],
+  "SM_Craft_ArrivalGate": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_ThoughtStar": [
+    "/Game/BrainCraft/Materials/M_Craft_Light.M_Craft_Light"
+  ],
+  "SM_Craft_ThoughtFaceBright": [
+    "/Game/BrainCraft/Materials/M_Craft_Ink.M_Craft_Ink",
+    "/Game/BrainCraft/Materials/M_Craft_Foam.M_Craft_Foam"
+  ],
+  "SM_Craft_ThoughtFaceCloud": [
+    "/Game/BrainCraft/Materials/M_Craft_Ink.M_Craft_Ink",
+    "/Game/BrainCraft/Materials/M_Craft_Foam.M_Craft_Foam"
+  ],
+  "SM_Craft_ThoughtCloud": [
+    "/Game/BrainCraft/Materials/M_Craft_Violet.M_Craft_Violet"
+  ],
+  "SM_Craft_ThoughtKnot": [
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_ThoughtWisp": [
+    "/Game/BrainCraft/Materials/M_Craft_Current.M_Craft_Current"
+  ],
+  "SM_Craft_SpringTreeWood": [
+    "/Game/BrainCraft/Materials/M_Craft_Bark.M_Craft_Bark"
+  ],
+  "SM_Craft_SpringBlossomCanopy": [
+    "/Game/BrainCraft/Materials/M_Craft_Blossom.M_Craft_Blossom",
+    "/Game/BrainCraft/Materials/M_Craft_Fern.M_Craft_Fern"
+  ],
+  "SM_Craft_NestSurround0": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_NestRoots0": [
+    "/Game/BrainCraft/Materials/M_Craft_Violet.M_Craft_Violet"
+  ],
+  "SM_Craft_NestSurround1": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_NestRoots1": [
+    "/Game/BrainCraft/Materials/M_Craft_Violet.M_Craft_Violet"
+  ],
+  "SM_Craft_NestSurround2": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_NestRoots2": [
+    "/Game/BrainCraft/Materials/M_Craft_Violet.M_Craft_Violet"
+  ],
+  "SM_Craft_AttentionHead": [
+    "/Game/BrainCraft/Materials/M_Craft_Sage.M_Craft_Sage",
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen",
+    "/Game/BrainCraft/Materials/M_Craft_Face.M_Craft_Face",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_AttentionEyes": [
+    "/Game/BrainCraft/Materials/M_Craft_Ink.M_Craft_Ink"
+  ],
+  "SM_Craft_AttentionCape": [
+    "/Game/BrainCraft/Materials/M_Craft_Sage.M_Craft_Sage",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim",
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen"
+  ],
+  "SM_Craft_AttentionBody": [
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen",
+    "/Game/BrainCraft/Materials/M_Craft_Leather.M_Craft_Leather",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_AttentionArmL": [
+    "/Game/BrainCraft/Materials/M_Craft_Sage.M_Craft_Sage",
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_AttentionBootL": [
+    "/Game/BrainCraft/Materials/M_Craft_Leather.M_Craft_Leather",
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_AttentionArmR": [
+    "/Game/BrainCraft/Materials/M_Craft_Sage.M_Craft_Sage",
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_AttentionBootR": [
+    "/Game/BrainCraft/Materials/M_Craft_Leather.M_Craft_Leather",
+    "/Game/BrainCraft/Materials/M_Craft_Linen.M_Craft_Linen",
+    "/Game/BrainCraft/Materials/M_Craft_Trim.M_Craft_Trim"
+  ],
+  "SM_Craft_CrossingBeds": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone"
+  ],
+  "SM_Craft_GardenPocketLeaves": [
+    "/Game/BrainCraft/Materials/M_Craft_Fern.M_Craft_Fern"
+  ],
+  "SM_Craft_GardenPocketFlowers": [
+    "/Game/BrainCraft/Materials/M_Craft_Blossom.M_Craft_Blossom"
+  ],
+  "SM_Craft_GardenPocketStones": [
+    "/Game/BrainCraft/Materials/M_Craft_Stone.M_Craft_Stone"
+  ]
+}

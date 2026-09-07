@@ -1,0 +1,58 @@
+import unreal,json
+from pathlib import Path
+root=Path(unreal.Paths.project_dir())
+folder='/Game/HeartBaseline';unreal.EditorAssetLibrary.make_directory(folder)
+lib=unreal.MaterialEditingLibrary
+mat=unreal.load_asset(folder+'/M_HeartAuthored')
+if not mat:mat=unreal.AssetToolsHelpers.get_asset_tools().create_asset('M_HeartAuthored',folder,unreal.Material,unreal.MaterialFactoryNew())
+lib.delete_all_material_expressions(mat)
+mat.set_editor_property('blend_mode',unreal.BlendMode.BLEND_MASKED)
+mat.set_editor_property('two_sided',False)
+color=lib.create_material_expression(mat,unreal.MaterialExpressionVertexColor,-600,0)
+assert lib.connect_material_property(color,'',unreal.MaterialProperty.MP_BASE_COLOR),'Vertex color must reach base color'
+rough=lib.create_material_expression(mat,unreal.MaterialExpressionConstant,-200,200);rough.set_editor_property('r',.53)
+lib.connect_material_property(rough,'',unreal.MaterialProperty.MP_ROUGHNESS)
+ambient=lib.create_material_expression(mat,unreal.MaterialExpressionMultiply,-200,350)
+assert lib.connect_material_expressions(color,'',ambient,'A'),'Vertex color must reach ambient fill'
+ambient.set_editor_property('const_b',.20)
+lib.connect_material_property(ambient,'',unreal.MaterialProperty.MP_EMISSIVE_COLOR)
+vis=lib.create_material_expression(mat,unreal.MaterialExpressionScalarParameter,-500,600);vis.set_editor_property('parameter_name','Visibility');vis.set_editor_property('default_value',1.)
+dither=lib.create_material_expression(mat,unreal.MaterialExpressionMaterialFunctionCall,-200,600)
+dither.set_editor_property('material_function',unreal.load_asset('/Engine/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA'))
+lib.connect_material_expressions(vis,'',dither,'Alpha Threshold');lib.connect_material_property(dither,'Result',unreal.MaterialProperty.MP_OPACITY_MASK)
+lib.recompile_material(mat);unreal.EditorAssetLibrary.save_loaded_asset(mat)
+unreal.SystemLibrary.execute_console_command(None,'Interchange.FeatureFlags.Import.FBX 0')
+manifest=json.loads((root/'Art/HeartBaseline/Export/asset-manifest.json').read_text())
+for name in manifest['assets']:
+    src=root/'Art/HeartBaseline/Export'/(name+'.fbx')
+    ui=unreal.FbxImportUI();ui.set_editor_property('import_mesh',True);ui.set_editor_property('import_materials',False);ui.set_editor_property('import_textures',False)
+    ui.set_editor_property('import_as_skeletal',False);ui.set_editor_property('mesh_type_to_import',unreal.FBXImportType.FBXIT_STATIC_MESH)
+    ui.static_mesh_import_data.set_editor_property('combine_meshes',True)
+    ui.static_mesh_import_data.set_editor_property('vertex_color_import_option',unreal.VertexColorImportOption.REPLACE)
+    ui.static_mesh_import_data.set_editor_property('normal_import_method',unreal.FBXNormalImportMethod.FBXNIM_IMPORT_NORMALS_AND_TANGENTS)
+    ui.static_mesh_import_data.set_editor_property('auto_generate_collision',False)
+    ui.static_mesh_import_data.set_editor_property('generate_lightmap_u_vs',False)
+    task=unreal.AssetImportTask();task.set_editor_property('filename',str(src));task.set_editor_property('destination_path',folder);task.set_editor_property('destination_name',src.stem)
+    task.set_editor_property('automated',True);task.set_editor_property('replace_existing',True);task.set_editor_property('save',True);task.set_editor_property('options',ui)
+    unreal.AssetToolsHelpers.get_asset_tools().import_asset_tasks([task])
+    mesh=unreal.load_asset(folder+'/'+src.stem)
+    if not mesh:raise RuntimeError('Missing imported '+src.stem)
+    for i in range(mesh.get_num_sections(0)):mesh.set_material(i,mat)
+    setup=mesh.get_editor_property('body_setup');setup.set_editor_property('collision_trace_flag',unreal.CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE)
+    unreal.EditorAssetLibrary.save_loaded_asset(mesh)
+    unreal.log('HEART_IMPORTED '+src.stem+' '+str(mesh.get_bounds()))
+if not unreal.EditorAssetLibrary.does_asset_exist('/Game/Maps/HeartStudy'):
+    unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).new_level('/Game/Maps/HeartStudy')
+else:unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).load_level('/Game/Maps/HeartStudy')
+actors=unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
+for actor in actors.get_all_level_actors():
+    if 'HeartPart' in [str(t) for t in actor.tags] or 'HeartPreview' in [str(t) for t in actor.tags]:actors.destroy_actor(actor)
+for name in manifest['assets']:
+    actor=actors.spawn_actor_from_class(unreal.StaticMeshActor,unreal.Vector())
+    actor.set_actor_label(name.removeprefix('SM_Heart_'));actor.tags=['HeartPart']
+    comp=actor.static_mesh_component;comp.set_mobility(unreal.ComponentMobility.MOVABLE);comp.set_static_mesh(unreal.load_asset(folder+'/'+name))
+    actor.set_actor_scale3d(unreal.Vector(1,-1,1))
+light=actors.spawn_actor_from_class(unreal.DirectionalLight,unreal.Vector(0,0,2500),unreal.Rotator(-52,-38,0));light.tags=['HeartPreview'];light.light_component.set_intensity(3.5)
+fill=actors.spawn_actor_from_class(unreal.DirectionalLight,unreal.Vector(0,0,2500),unreal.Rotator(-48,135,0));fill.tags=['HeartPreview'];fill.light_component.set_intensity(.65)
+unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).save_current_level()
+unreal.log('HEART_IMPORT_READY')

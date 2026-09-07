@@ -11,13 +11,15 @@ void ABodyPawn::RunSmoke(float Dt)
     SmokeTime+=Dt;auto PC=Cast<APlayerController>(GetController());
     TSet<FKey> Want;
     auto Step=[&](){SmokeStage++;SmokeTime=0;UE_LOG(LogTemp,Display,TEXT("BODY_SMOKE_STAGE %d LOCATION %s"),SmokeStage,*GetActorLocation().ToString());};
-    auto Walk=[&](FVector Goal)
+    auto Steer=[&](FVector Goal)
     {
         FVector D=Goal-GetActorLocation();
-        if(D.Size2D()<65){Step();return;}
+        if(D.Size2D()<65)return true;
         if(D.X>30)Want.Add(EKeys::W);if(D.X<-30)Want.Add(EKeys::S);
         if(D.Y>30)Want.Add(EKeys::D);if(D.Y<-30)Want.Add(EKeys::A);
+        return false;
     };
+    auto Walk=[&](FVector Goal){if(Steer(Goal))Step();};
     if(SmokeTime>20)
     {
         FString Error=FString::Printf(TEXT("BODY_SMOKE_FAILED stage=%d location=%s nearest=%d carry=%d"),SmokeStage,*GetActorLocation().ToString(),Nearest,Body->Carry);
@@ -33,7 +35,11 @@ void ABodyPawn::RunSmoke(float Dt)
     case 5:Walk(FVector(1240,0,62));break;
     case 6:Walk(Body->Organs[2].Station);break;
     case 7:if(Body->HeartDelivered){Step();}else if(FMath::Fmod(SmokeTime,1.f)<.2f)Want.Add(EKeys::E);break;
-    case 8:if(Body->HasCompleted){Step();}else if(FMath::Fmod(SmokeTime,.7f)<.15f)Want.Add(EKeys::SpaceBar);break;
+    case 8:
+        if(Body->HasCompleted){Step();}
+        else for(int i=0;i<Body->Thoughts.Num();i++)if(Body->ThoughtMask&(1u<<i))
+        {FVector Goal=Body->Thoughts[i]->GetComponentLocation();if(FVector::Dist2D(Goal,GetActorLocation())<255){if(FMath::Fmod(SmokeTime,.7f)<.15f)Want.Add(EKeys::SpaceBar);}else Steer(Goal);break;}
+        break;
     case 9:Walk(FVector(2100,235,66));break;
     case 10:Walk(FVector(2450,-180,66));break;
     case 11:Walk(FVector(1640,0,66));break;
